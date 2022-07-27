@@ -1,0 +1,19 @@
+{
+	"files.trimTrailingWhitespace": true,
+	"javascript.preferences.importModuleSpecifierEnding": "js",
+	"html.format.enable": false,
+	"vetur.format.defaultFormatter.html": "none",
+	"vetur.format.defaultFormatter.js": "vscode-typescript",
+	"vetur.format.defaultFormatter.less": "none",
+	"vetur.format.defaultFormatter.pug": "none",
+	"vetur.format.defaultFormatter.sass": "none",
+	"vetur.format.defaultFormatter.scss": "none",
+	"vetur.format.defaultFormatter.stylus": "none",
+	"vetur.format.defaultFormatter.ts": "none",
+	"vetur.format.options.tabSize": 4,
+	"vetur.format.options.useTabs": true,
+	"vetur.format.scriptInitialIndent": true,
+	"vetur.validation.script": false,
+	"vetur.validation.style": false,
+	"vetur.validation.template": false
+}
