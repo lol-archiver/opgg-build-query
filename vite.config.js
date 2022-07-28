@@ -26,7 +26,7 @@ export default defineConfig({
 		emptyOutDir: true,
 		chunkSizeWarningLimit: 1024
 	},
-	publicDir: resolve(dirPackage, 'src', 'public'),
+	publicDir: resolve(dirPackage, 'public'),
 	clearScreen: false,
 	server: {
 		port: 4754,

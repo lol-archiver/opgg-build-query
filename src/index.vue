@@ -103,7 +103,7 @@ p-main
 	@apply block relative
 
 	module
-		@apply block relative
+		@apply relative
 </style>
 
 

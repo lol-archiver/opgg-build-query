@@ -71,12 +71,12 @@ meta.seriesStatMod = {
 };
 
 
-writeFileSync('./src/public/@meta.json', JSON.stringify(meta, null, '\t'));
+writeFileSync('./public/@meta.json', JSON.stringify(meta, null, '\t'));
 
 
-ensureDirSync(resolve('src', 'public', 'image', 'champion'));
+ensureDirSync(resolve('public', 'image', 'champion'));
 for(const champion of dataMain.props.pageProps.championRankingList) {
-	const file = resolve('src', 'public', 'image', 'champion', `${champion.id}.png`);
+	const file = resolve('public', 'image', 'champion', `${champion.id}.png`);
 
 	if(!existsSync(file)) {
 		const { data: buffer } = await Axios.get(champion.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
@@ -87,9 +87,9 @@ for(const champion of dataMain.props.pageProps.championRankingList) {
 	}
 }
 
-ensureDirSync(resolve('src', 'public', 'image', 'rune'));
+ensureDirSync(resolve('public', 'image', 'rune'));
 for(const rune of metaRaw.runes) {
-	const file = resolve('src', 'public', 'image', 'rune', `${rune.id}.png`);
+	const file = resolve('public', 'image', 'rune', `${rune.id}.png`);
 
 	if(!existsSync(file)) {
 		const { data: buffer } = await Axios.get(rune.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
@@ -100,9 +100,9 @@ for(const rune of metaRaw.runes) {
 	}
 }
 
-ensureDirSync(resolve('src', 'public', 'image', 'statMod'));
+ensureDirSync(resolve('public', 'image', 'statMod'));
 for(const statMod of metaRaw.statMods) {
-	const file = resolve('src', 'public', 'image', 'statMod', `${statMod.id}.png`);
+	const file = resolve('public', 'image', 'statMod', `${statMod.id}.png`);
 
 	if(!existsSync(file)) {
 		const { data: buffer } = await Axios.get(statMod.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
@@ -113,9 +113,9 @@ for(const statMod of metaRaw.statMods) {
 	}
 }
 
-ensureDirSync(resolve('src', 'public', 'image', 'spell'));
+ensureDirSync(resolve('public', 'image', 'spell'));
 for(const spell of metaRaw.spells) {
-	const file = resolve('src', 'public', 'image', 'spell', `${spell.id}.png`);
+	const file = resolve('public', 'image', 'spell', `${spell.id}.png`);
 
 	if(!existsSync(file)) {
 		const { data: buffer } = await Axios.get(spell.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
@@ -126,9 +126,9 @@ for(const spell of metaRaw.spells) {
 	}
 }
 
-ensureDirSync(resolve('src', 'public', 'image', 'item'));
+ensureDirSync(resolve('public', 'image', 'item'));
 for(const item of metaRaw.items) {
-	const file = resolve('src', 'public', 'image', 'item', `${item.id}.png`);
+	const file = resolve('public', 'image', 'item', `${item.id}.png`);
 
 	if(!existsSync(file)) {
 		const { data: buffer } = await Axios.get(item.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
