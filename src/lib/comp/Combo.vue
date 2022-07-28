@@ -24,13 +24,13 @@
 		<p-drop ref="domDrop" tabindex="0" :style="{ width: widthDrop, minWidth: widthDropMin }">
 			<p-filter v-show="filter_">
 				<p-tip>搜索</p-tip>
-				<Texter v-model="textFilter" filter />
+				<Texter v-model="textFilter" filter :focus-switch="switchFocus" />
 			</p-filter>
 			<p-options v-if="optionsSelected.length" selected>
 				<p-tip>已选</p-tip>
 				<p-option v-for="(option, oid) of optionsSelected" :key="`combo-option-${oid}`"
 					:selected="brop(option.selected)"
-					:title="option.data?.[props.keyValue]"
+					:title="option.data?.[props.keyValue] ?? renderShow(option.data)"
 					:style="{ textAlign: align }"
 					@click="atClickSelect(option)"
 				>
@@ -42,7 +42,7 @@
 				<p-option v-if="!options.length" :style="{ textAlign: align }" disabled>无可用选项</p-option>
 				<p-option v-for="(option, oid) of optionsUnselected" :key="`combo-option-${oid}`"
 					:selected="brop(option.selected)"
-					:title="option.data?.[props.keyValue]"
+					:title="option.data?.[props.keyValue] ?? renderShow(option.data)"
 					:style="{ textAlign: align }"
 					@click="atClickSelect(option)"
 				>
@@ -65,7 +65,7 @@
 
 	const props = defineProps({
 		// update主值
-		modelValue: { type: [String, Number, Boolean, Array], default: '' },
+		modelValue: { type: [String, Number, Boolean, Array, Object], default: '' },
 		// update是否禁用
 		disable: { type: Boolean, default: false },
 		// update综合主值
@@ -173,20 +173,18 @@
 
 
 	// 计算是否被选中
-	const isSelect_ = (valueNow, valueOption) =>
+	const isEqual = (valueNow, valueOption) =>
 		(valueOption === null || typeof valueOption == 'undefined' || typeof valueOption == 'boolean')
 			? valueNow === valueOption
 			: valueNow == valueOption;
 
 	const isSelect = option => {
 		const values = values_.value;
+		const target = props.keyValue == '$$' ? option : option[props.keyValue];
 
-		if(multiSelect_.value) {
-			return !!~values.findIndex(value => isSelect_(value, option[props.keyValue]));
-		}
-		else {
-			return isSelect_(values[0], option[props.keyValue]);
-		}
+		return multiSelect_.value
+			? !!~values.findIndex(value => isEqual(value, target))
+			: isEqual(values[0], target);
 	};
 
 
@@ -232,7 +230,11 @@
 
 		return data?.[keyShow] ?? '';
 	};
-	const textShow = computed(() => values_.value.map(v => renderShow(listRaw.value.find(data => data?.[props.keyValue] === v), 1)).join('、'));
+	const textShow = computed(() =>
+		values_.value
+			.map(v => renderShow(listRaw.value.find(data => isEqual(props.keyValue == '$$' ? data : data?.[props.keyValue], v)), 1))
+			.join('、')
+	);
 
 
 	const domValue = ref(null);
@@ -246,6 +248,8 @@
 	const atShowDrop = () => { isShowDrop.value = true; };
 	const atHideDrop = () => { isShowDrop.value = false; };
 
+	const switchFocus = ref(false);
+
 	const atClickDrop = () => {
 		if(tippyDrop.value.state.isShown) {
 			tippyDrop.value.hide();
@@ -255,6 +259,9 @@
 			widthDropMin.value = window.getComputedStyle(domValue.value).width;
 
 			tippyDrop.value.show();
+
+
+			switchFocus.value = !switchFocus.value;
 		}
 	};
 
@@ -262,7 +269,7 @@
 		if(multiSelect_.value) {
 			option.selected = !!option.selected;
 
-			const valueNow = option.data?.[props.keyValue];
+			const valueNow = props.keyValue == '$$' ? option.data : option.data?.[props.keyValue];
 
 			const setValues = new Set(values_.value);
 			if(setValues.has(valueNow)) {
@@ -282,7 +289,7 @@
 		}
 		else {
 			option.selected = true;
-			value_.value = option.data?.[props.keyValue];
+			value_.value = props.keyValue == '$$' ? option.data : option.data?.[props.keyValue];
 		}
 	};
 
@@ -396,5 +403,4 @@ p-drop
 		&[disabled]
 			@apply select-none cursor-auto
 			color: var(--colorDisable)
-
 </style>

@@ -9,13 +9,13 @@
 					@click="tabs.change(tab)" @keydown.enter.space="tabs.change(tab)"
 				>
 					<!-- v-menu="{ params: tab, ...menuTab }" -->
-					<template v-if="tab.typeTab == 'icon' && tab.icon">
+					<!-- <template v-if="tab.typeTab == 'icon' && tab.icon">
 						<Fas :icon="tab.icon" />
 					</template>
 					<template v-if="tab.typeTab == 'header' && tab.icon">
 						<Fas corn :icon="tab.icon" />
 						<p-header :style="{ backgroundImage: `url(${tab.header})` }" />
-					</template>
+					</template> -->
 				</p-button>
 			</template>
 		</template>

@@ -1,8 +1,8 @@
 {
 	"name": "opgg-build-query",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "",
-	"author": "",
+	"author": "Nuogz",
 	"license": "LGPL-3.0-or-later",
 	"main": "index.js",
 	"type": "module",
@@ -11,7 +11,8 @@
 	},
 	"scripts": {
 		"develop": "vite",
-		"build": "vite build"
+		"build": "vite build",
+		"serve": "http-server dist -a 127.0.0.1 -p 14754"
 	},
 	"dependencies": {
 		"@nuogz/pangu": "^1.4.6",
@@ -27,6 +28,8 @@
 		"autoprefixer": "^10.4.7",
 		"eslint": "^8.20.0",
 		"eslint-plugin-vue": "^9.3.0",
+		"http-server": "^14.1.1",
+		"moment": "^2.29.4",
 		"pinyin-pro": "^3.11.0",
 		"postcss": "^8.4.14",
 		"sass": "^1.54.0",

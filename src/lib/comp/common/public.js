@@ -1,5 +1,5 @@
 // 非标准HTML布尔属性: undefined|null|"false"|false为false, 其他任意值为true
-export const parseBoolAttr = function(value) {
+export const parseBoolAttr = value => {
 	return (
 		value === undefined ||
 		value === null ||
@@ -11,7 +11,7 @@ export const parseBoolAttr = function(value) {
 };
 
 
-export const parseSwitch = function(value, name) {
+export const parseSwitch = (value, name) => {
 	if(
 		value === '' ||
 		value === 'true' ||
@@ -25,7 +25,7 @@ export const parseSwitch = function(value, name) {
 };
 
 
-export const toCssLen=((value) =>{
+export const toCSSLength = value => {
 	let rawTrim = String(value).trim();
 
 	if(/^[1-9]\d*(\.\d+)?$/.test(rawTrim)) {
@@ -37,4 +37,4 @@ export const toCssLen=((value) =>{
 	else {
 		return rawTrim;
 	}
-});
+};

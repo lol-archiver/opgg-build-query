@@ -9,6 +9,7 @@
 		<!-- 输入框 -->
 		<p-value class="inblock">
 			<input
+				ref="domInput"
 				v-model="value_"
 				:style="{ textAlign: align }"
 				:placeholder="place"
@@ -63,6 +64,8 @@
 		min: { type: [Number, String], default: null },
 		// 数字最大
 		max: { type: [Number, String], default: null },
+
+		focusSwitch: { type: Boolean, default: false },
 	});
 	const emit = defineEmits(['update:modelValue', 'update:disable', 'update:value']);
 
@@ -126,6 +129,10 @@
 
 
 	const atMouseWheel = event => emit('update:value', value_.value += event.deltaY > 0 ? -1 : 1);
+
+
+	const domInput = ref(null);
+	watch(() => props.focusSwitch, () => domInput.value.focus());
 </script>
 
 <style lang="sass" scoped>

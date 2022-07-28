@@ -20,7 +20,7 @@
 
 
 
-	document.title = 'OP.GG 大乱斗速查';
+	document.title = 'OP.GG 大乱斗推荐速查';
 
 
 	CV.setAll({

@@ -22,12 +22,12 @@
 		<!-- 下拉列表 -->
 		<p-drop ref="domDrop" tabindex="0">
 			<p-drop-values>
-				<p-drop-value><span>{{momentValueSafe.format('YYYY')}}</span>年</p-drop-value>
-				<p-drop-value><span>{{momentValueSafe.format('MM')}}</span>月</p-drop-value>
-				<p-drop-value><span>{{momentValueSafe.format('DD')}}</span>日</p-drop-value>
-				<p-drop-value><span>{{momentValueSafe.format('HH')}}</span>时</p-drop-value>
-				<p-drop-value><span>{{momentValueSafe.format('mm')}}</span>分</p-drop-value>
-				<p-drop-value><span>{{momentValueSafe.format('SS')}}</span>秒</p-drop-value>
+				<p-drop-value v-if="isShowOptionsYear"><span>{{momentValueSafe.format('YYYY')}}</span>年</p-drop-value>
+				<p-drop-value v-if="isShowOptionsMonth"><span>{{momentValueSafe.format('MM')}}</span>月</p-drop-value>
+				<p-drop-value v-if="isShowOptionsDate"><span>{{momentValueSafe.format('DD')}}</span>日</p-drop-value>
+				<p-drop-value v-if="isShowOptionsHour"><span>{{momentValueSafe.format('HH')}}</span>时</p-drop-value>
+				<p-drop-value v-if="isShowOptionsMinute"><span>{{momentValueSafe.format('mm')}}</span>分</p-drop-value>
+				<p-drop-value v-if="isShowOptionsSecond"><span>{{momentValueSafe.format('SS')}}</span>秒</p-drop-value>
 			</p-drop-values>
 			<p-drop-options-box>
 				<p-drop-options v-if="isShowOptionsYear">
@@ -593,6 +593,4 @@ p-drop
 			[selected]
 				@apply font-bold text-[snow] cursor-default
 				background-color: var(--colorMain)
-
-
 </style>

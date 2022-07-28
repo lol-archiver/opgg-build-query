@@ -9,12 +9,13 @@ import { ensureDirSync } from 'fs-extra';
 const championsID = Object.values(JSON.parse(readFileSync('./data/zh_cn.json')));
 const { data: htmlMode } = await Axios.get('https://www.op.gg/modes/aram', { headers: { 'accept-language': 'zh-CN' } });
 const dataMain = JSON.parse(htmlMode.match(/<script id="__NEXT_DATA__" type="application\/json">(.*?)<\/script/)[1]);
-writeFileSync('./src/public/dataMain.json', JSON.stringify(dataMain.props, null, '\t'));
 
 
+const metaRaw = dataMain.props.pageProps.data.meta;
 
 const champions = dataMain.props.pageProps.championRankingList.map(champion => {
 	const championID = championsID.find(championID => championID.slot.toLowerCase() == champion.key.toLowerCase());
+
 	return {
 		id: championID.id,
 		slot: champion.key,
@@ -22,16 +23,34 @@ const champions = dataMain.props.pageProps.championRankingList.map(champion => {
 		title: champion.name,
 		rateWin: champion.positionWinRate,
 		ratePick: champion.positionPickRate,
+		roles: champion.roles,
 		tier: champion.positionTier,
 		rank: champion.positionRank,
 		kda: champion.kda,
 	};
 });
+const spells = metaRaw.spells.map(spell => {
+	return {
+		id: spell.id,
+		key: spell.key,
+		name: spell.name,
+		description: spell.description,
+	};
+});
+const items = metaRaw.items.map(item => {
+	return {
+		id: item.id,
+		name: item.name,
+		description: item.description,
+	};
+});
 
-const metaRaw = dataMain.props.pageProps.data.meta;
+
 
 const meta = {
 	champions,
+	spells,
+	items
 };
 
 meta.seriesRune = metaRaw.runePages.reduce((seriesRune, series) => {
@@ -54,6 +73,19 @@ meta.seriesStatMod = {
 
 writeFileSync('./src/public/@meta.json', JSON.stringify(meta, null, '\t'));
 
+
+ensureDirSync(resolve('src', 'public', 'image', 'champion'));
+for(const champion of dataMain.props.pageProps.championRankingList) {
+	const file = resolve('src', 'public', 'image', 'champion', `${champion.id}.png`);
+
+	if(!existsSync(file)) {
+		const { data: buffer } = await Axios.get(champion.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
+
+		writeFileSync(file, buffer);
+
+		console.log('已下载', '英雄图片', champion.id, champion.name);
+	}
+}
 
 ensureDirSync(resolve('src', 'public', 'image', 'rune'));
 for(const rune of metaRaw.runes) {
@@ -81,14 +113,45 @@ for(const statMod of metaRaw.statMods) {
 	}
 }
 
+ensureDirSync(resolve('src', 'public', 'image', 'spell'));
+for(const spell of metaRaw.spells) {
+	const file = resolve('src', 'public', 'image', 'spell', `${spell.id}.png`);
+
+	if(!existsSync(file)) {
+		const { data: buffer } = await Axios.get(spell.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
+
+		writeFileSync(file, buffer);
+
+		console.log('已下载', '召唤师技能图片', spell.id, spell.name);
+	}
+}
+
+ensureDirSync(resolve('src', 'public', 'image', 'item'));
+for(const item of metaRaw.items) {
+	const file = resolve('src', 'public', 'image', 'item', `${item.id}.png`);
+
+	if(!existsSync(file)) {
+		const { data: buffer } = await Axios.get(item.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
+
+		writeFileSync(file, buffer);
+
+		console.log('已下载', '装备图片', item.id, item.name);
+	}
+}
+
 
 
 const idBuild = dataMain.buildId;
-for(const champion of champions.slice(0, 0)) {
+for(const champion of champions) {
 	const { data: build } = await Axios.get(`https://www.op.gg/_next/data/${idBuild}/modes/aram/${champion.slot}/build.json?champion=${champion.slot}`, { headers: { 'accept-language': 'zh-CN' } });
 
-	writeFileSync(`./src/public/${champion.slot}.json`, JSON.stringify({
-		pagesRune: build.pageProps.data.rune_pages
+	writeFileSync(`./src/public/champion/${champion.slot}.json`, JSON.stringify({
+		pagesRune: build.pageProps.data.rune_pages,
+		spells: build.pageProps.data.summoner_spells,
+		skills: build.pageProps.data.skill_masteries,
+		itemsStart: build.pageProps.data.starter_items,
+		boots: build.pageProps.data.boots,
+		itemsCore: build.pageProps.data.core_items,
 	}, null, '\t'));
 
 	console.log(champion.name);
