@@ -6,7 +6,7 @@
 			<p-champion-info>
 				<img v-tip="`${championNow.id} ${championNow.slot}`" :src="`./image/champion/${championNow.id}.png`" />
 				<p-champion-name>{{championNow.title}} {{championNow.name}}</p-champion-name>
-				<p-data-date>{{meta.date}} <a :href="`https://www.op.gg/modes/aram/${championNow.slot}/build`" target="_blank">数据来源</a></p-data-date>
+				<p-data-date>{{meta.date}} <a :href="`https://www.op.gg/modes/aram/${championNow.slot}/build`" target="_blank">OP.GG</a></p-data-date>
 			</p-champion-info>
 			<p-data-box>
 				<p-box-title>● 推荐符文</p-box-title>
@@ -194,7 +194,7 @@ module
 	height: 100vh
 
 [champion-now]
-	@apply relative block w-72 mb-16 h-8 leading-8 text-lg
+	@apply relative block w-96 mb-16 h-8 leading-8 text-lg
 
 p-champion
 	@apply relative m-auto
@@ -215,7 +215,7 @@ p-champion-info
 		@apply inblock mr-2 h-10 leading-10 float-right
 
 		a
-			@apply font-bold underline underline-offset-4
+			@apply underline underline-offset-4
 
 			&:hover
 				@apply text-emerald-600

@@ -24,7 +24,7 @@
 		<p-drop ref="domDrop" tabindex="0" :style="{ width: widthDrop, minWidth: widthDropMin }">
 			<p-filter v-show="filter_">
 				<p-tip>搜索</p-tip>
-				<Texter v-model="textFilter" filter :focus-switch="switchFocus" />
+				<Texter v-model="textFilter" filter :focus-switch="switchFocus" @keypress.enter="enter" />
 			</p-filter>
 			<p-options v-if="optionsSelected.length" selected>
 				<p-tip>已选</p-tip>
@@ -265,6 +265,12 @@
 		}
 	};
 
+
+	const select = option => {
+		option.selected = true;
+		value_.value = props.keyValue == '$$' ? option.data : option.data?.[props.keyValue];
+		tippyDrop.value.hide();
+	};
 	const atClickSelect = option => {
 		if(multiSelect_.value) {
 			option.selected = !!option.selected;
@@ -288,8 +294,7 @@
 			}
 		}
 		else {
-			option.selected = true;
-			value_.value = props.keyValue == '$$' ? option.data : option.data?.[props.keyValue];
+			select(option);
 		}
 	};
 
@@ -308,6 +313,8 @@
 			onHide: atHideDrop,
 		});
 	});
+
+	const enter = () => optionsUnselected.value.length == 1 && !multiSelect_.value ? select(optionsUnselected.value[0]) : void 0;
 </script>
 
 <style lang="sass" scoped>
