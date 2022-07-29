@@ -1,7 +1,10 @@
-import { writeFileSync, readFileSync, existsSync } from 'fs';
+import './index.env.js';
 
-import Axios from 'axios';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
+
+import { Moment } from '@nuogz/pangu';
+import Axios from 'axios';
 import { ensureDirSync } from 'fs-extra';
 
 
@@ -50,7 +53,8 @@ const items = metaRaw.items.map(item => {
 const meta = {
 	champions,
 	spells,
-	items
+	items,
+	date: Moment().add(-1, 'day').format('YYYY-MM-DD')
 };
 
 meta.seriesRune = metaRaw.runePages.reduce((seriesRune, series) => {
@@ -145,7 +149,7 @@ const idBuild = dataMain.buildId;
 for(const champion of champions) {
 	const { data: build } = await Axios.get(`https://www.op.gg/_next/data/${idBuild}/modes/aram/${champion.slot}/build.json?champion=${champion.slot}`, { headers: { 'accept-language': 'zh-CN' } });
 
-	writeFileSync(`./src/public/champion/${champion.slot}.json`, JSON.stringify({
+	writeFileSync(`./public/champion/${champion.slot}.json`, JSON.stringify({
 		pagesRune: build.pageProps.data.rune_pages,
 		spells: build.pageProps.data.summoner_spells,
 		skills: build.pageProps.data.skill_masteries,
@@ -156,3 +160,5 @@ for(const champion of champions) {
 
 	console.log(champion.name);
 }
+
+console.log('done');

@@ -4,8 +4,9 @@
 
 		<p-champion v-if="dataNow">
 			<p-champion-info>
-				<p-champion-name class="inblock mr-2">{{championNow.title}} {{championNow.name}}</p-champion-name>
-				<img v-tip="`${championNow.id} ${championNow.slot}`" class="inblock mr-2" :src="`./image/champion/${championNow.id}.png`" />
+				<img v-tip="`${championNow.id} ${championNow.slot}`" :src="`./image/champion/${championNow.id}.png`" />
+				<p-champion-name>{{championNow.title}} {{championNow.name}}</p-champion-name>
+				<p-data-date>{{meta.date}} <a :href="`https://www.op.gg/modes/aram/${championNow.slot}/build`" target="_blank">数据来源</a></p-data-date>
 			</p-champion-info>
 			<p-data-box>
 				<p-box-title>● 推荐符文</p-box-title>
@@ -80,6 +81,19 @@
 			</p-data-box>
 
 			<p-data-box>
+				<p-box-title>● 召唤师技能</p-box-title>
+				<p-item-box v-for="(items, iid) of dataNow.spells.slice(0, 2)" :key="`spells-${iid}`">
+					<p-items>
+						<template v-for="(item, sid) of items.ids.map(id=> meta.spells.find(s => s.id == id))" :key="`spell-${iid}-${sid}`">
+							<img v-tip="item.name" :src="`./image/spell/${item.id}.png`" />
+						</template>
+					</p-items>
+					<p-info>
+						<p-rate>{{(100 * items.win / items.play).toFixed(2)}}% 胜</p-rate>
+						<p-rate>{{(100 * items.pick_rate).toFixed(2)}}% 用</p-rate>
+					</p-info>
+				</p-item-box>
+
 				<p-box-title>● 技能加点</p-box-title>
 				<p-skill-box v-for="(skills, iid) of dataNow.skills.slice(0, 2)" :key="`skills-${iid}`">
 					<p-skills>
@@ -93,19 +107,6 @@
 						<p-rate>{{(100 * skills.pick_rate).toFixed(2)}}% 用</p-rate>
 					</p-info>
 				</p-skill-box>
-
-				<p-box-title>● 召唤师技能</p-box-title>
-				<p-item-box v-for="(items, iid) of dataNow.spells.slice(0, 2)" :key="`spells-${iid}`">
-					<p-items>
-						<template v-for="(item, sid) of items.ids.map(id=> meta.spells.find(s => s.id == id))" :key="`spell-${iid}-${sid}`">
-							<img v-tip="item.name" :src="`./image/spell/${item.id}.png`" />
-						</template>
-					</p-items>
-					<p-info>
-						<p-rate>{{(100 * items.win / items.play).toFixed(2)}}% 胜</p-rate>
-						<p-rate>{{(100 * items.pick_rate).toFixed(2)}}% 用</p-rate>
-					</p-info>
-				</p-item-box>
 
 				<p-box-title>● 出门装备</p-box-title>
 				<p-item-box v-for="(items, iid) of dataNow.itemsStart.slice(0, 2)" :key="`items-start-${iid}`">
@@ -140,7 +141,6 @@
 					<p-items>
 						<template v-for="(item, sid) of items.ids.map(id=> meta.items.find(s => s.id == id))" :key="`item-core-${iid}-${sid}`">
 							<img v-tip="item.name" :src="`./image/item/${item.id}.png`" />
-							<p-split v-if="sid < items.ids.length - 1">&gt;</p-split>
 						</template>
 					</p-items>
 					<p-info>
@@ -189,24 +189,36 @@
 
 <style lang="sass" scoped>
 module
-	@apply block p-2
+	@apply block p-4
 	width: 100vw
 	height: 100vh
 
 [champion-now]
-	@apply relative block w-72 mb-4 h-8 leading-8 text-lg
+	@apply relative block w-72 mb-16 h-8 leading-8 text-lg
 
 p-champion
 	@apply relative m-auto
 	@apply block border border-gray-400 rounded-md bg-blue-100
-	width: calc( theme("spacing.120") * 3 + 1px * 2 )
+	width: calc( theme("spacing.115") * 3 + 1px * 2 )
 
 
 p-champion-info
-	@apply block leading-10 text-xl font-bold p-2
+	@apply block h-14 leading-10 p-2
 
 	img
-		@apply inblock w-10 h-10
+		@apply inblock w-10 h-10 mr-2 rounded-md
+
+	p-champion-name
+		@apply inblock h-10 leading-10 text-2xl font-bold
+
+	p-data-date
+		@apply inblock mr-2 h-10 leading-10 float-right
+
+		a
+			@apply font-bold underline underline-offset-4
+
+			&:hover
+				@apply text-emerald-600
 
 
 p-data-box
@@ -259,7 +271,7 @@ p-rune-box
 
 
 p-skill-box
-	@apply block p-2 w-120 flex justify-between
+	@apply block p-2 w-115 flex justify-between
 
 	p-skill
 		@apply inblock mx-1 font-bold h-10 leading-10
@@ -274,7 +286,7 @@ p-skill-box
 			@apply text-purple-500
 
 p-item-box
-	@apply block p-2 w-120 flex justify-between
+	@apply block p-2 w-115 flex justify-between
 
 	img
 		@apply inblock w-10 h-10 opacity-100 mx-1 mb-2 rounded-md
