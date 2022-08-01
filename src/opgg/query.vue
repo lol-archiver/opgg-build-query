@@ -1,6 +1,8 @@
 <template>
 	<module>
-		<Combo v-model="championNow" champion-now label="英雄" align="center" :list="champions" key-value="$$" :key-show="[renderChampion, 'name']" :filter="filterChampion" @update:model-value="changeChampion" />
+		<Combo v-model="championNow" champion-now label="英雄" align="center" :list="champions" key-value="$$" :key-show="[renderChampion, 'name']"
+			:filter="filterChampion" :open-switch="openSwitch" @update:model-value="changeChampion"
+		/>
 
 		<p-champion v-if="dataNow">
 			<p-champion-info>
@@ -163,12 +165,17 @@
 
 	const dataNow = ref(null);
 	const championNow = ref(null);
-	const changeChampion = async champion => dataNow.value = await (await fetch(`./champion/${champion.slot}.json`)).json();
+	const changeChampion = async champion => {
+
+		const a = (await import(`../../data/champion/${champion.slot}.json`)).default;
+
+		dataNow.value = a;
+	};
 
 
 	const meta = ref([]);
 	onMounted(async () => {
-		meta.value = await (await fetch('./@meta.json')).json();
+		meta.value = (await import('../../data/@meta.json')).default;
 
 		changeChampion(championNow.value = champions.value.find(champion => champion.slot == 'morgana'));
 	});
@@ -185,6 +192,16 @@
 		|| champion.id == textSearch;
 
 
+	const openSwitch = ref(false);
+	onMounted(() => {
+		window.addEventListener('keydown', event => {
+			if(event.key == 'f' && event.ctrlKey) {
+				openSwitch.value = !openSwitch.value;
+
+				event.preventDefault();
+			}
+		});
+	});
 </script>
 
 <style lang="sass" scoped>

@@ -7,7 +7,7 @@
 		<p-label v-if="label_" :style="styleLabel" @click="disabling_ && (disable_ = ! disable_)">{{ label_ }}</p-label>
 
 		<!-- 输入框 -->
-		<p-value ref="domValue" :hide-outline="brop(isShowDrop)" :only="brop(!disabling_ && !label_)" @click="!disable_ && !readonly_ && atClickDrop()">
+		<p-value ref="domValue" :hide-outline="brop(isShowDrop)" :only="brop(!disabling_ && !label_)" @click="!disable_ && !readonly_ && atClickDrop($event)">
 			<input
 				ref="domValue"
 				:value="textShow"
@@ -24,7 +24,7 @@
 		<p-drop ref="domDrop" tabindex="0" :style="{ width: widthDrop, minWidth: widthDropMin }">
 			<p-filter v-show="filter_">
 				<p-tip>搜索</p-tip>
-				<Texter v-model="textFilter" filter :focus-switch="switchFocus" @keypress.enter="enter" />
+				<Texter v-model="textFilter" filter :focus-switch="switchFocus" @keypress.enter="selectFocus" @keyup.up="focusPrev" @keydown.down="focusNext" />
 			</p-filter>
 			<p-options v-if="optionsSelected.length" selected>
 				<p-tip>已选</p-tip>
@@ -44,6 +44,7 @@
 					:selected="brop(option.selected)"
 					:title="option.data?.[props.keyValue] ?? renderShow(option.data)"
 					:style="{ textAlign: align }"
+					:focus-now="brop(indexFocus == oid)"
 					@click="atClickSelect(option)"
 				>
 					{{renderShow(option.data)}}
@@ -54,7 +55,7 @@
 </template>
 
 <script setup>
-	import { computed, onMounted, ref, watch } from 'vue';
+	import { computed, nextTick, onMounted, ref, watch } from 'vue';
 	import Tippy from 'tippy.js';
 
 	import { props as propsLabel, setup as setupLabel } from './common/label.js';
@@ -100,6 +101,8 @@
 		keyShow: { type: [String, Function, Array], default: 'text' },
 		// 数据键值
 		keyValue: { type: String, default: 'value' },
+
+		openSwitch: { type: Boolean, default: false },
 	});
 	const emit = defineEmits(['update:modelValue', 'update:disable', 'update:value']);
 
@@ -251,14 +254,16 @@
 	const switchFocus = ref(false);
 
 	const atClickDrop = () => {
-		if(tippyDrop.value.state.isShown) {
-			tippyDrop.value.hide();
+		const tippy = tippyDrop.value;
+
+		if(document.querySelector(`#tippy-${tippy.id}`)) {
+			tippy.hide();
 		}
 		else {
 			widthDrop.value = 'auto';
 			widthDropMin.value = window.getComputedStyle(domValue.value).width;
 
-			tippyDrop.value.show();
+			tippy.show();
 
 
 			switchFocus.value = !switchFocus.value;
@@ -314,7 +319,30 @@
 		});
 	});
 
-	const enter = () => optionsUnselected.value.length == 1 && !multiSelect_.value ? select(optionsUnselected.value[0]) : void 0;
+
+	const indexFocus = ref(0);
+	const focusPrev = () => {
+		const length = optionsUnselected.value.length;
+		indexFocus.value = (length + (indexFocus.value - 1) % length) % length;
+
+		nextTick(() => document.querySelector('p-option[focus-now]')?.scrollIntoView({ behavior: 'auto', block: 'center' }));
+	};
+	const focusNext = () => {
+		const length = optionsUnselected.value.length;
+		indexFocus.value = (length + (indexFocus.value + 1) % length) % length;
+
+		nextTick(() => document.querySelector('p-option[focus-now]')?.scrollIntoView({ behavior: 'auto', block: 'center' }));
+	};
+	watch(optionsUnselected, () => indexFocus.value = 0);
+
+	const selectFocus = () => {
+		const option = optionsUnselected.value[indexFocus.value];
+
+		if(option) { select(option); }
+	};
+
+
+	watch(() => props.openSwitch, () => atClickDrop());
 </script>
 
 <style lang="sass" scoped>
@@ -395,7 +423,7 @@ p-drop
 	p-option
 		@apply trans block px-2 cursor-pointer py-1
 
-		&:not([disabled]):hover
+		&:not([disabled]):hover, &[focus-now]
 			background-color: var(--colorMain)
 			color: var(--colorTextMain)
 

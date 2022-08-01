@@ -132,7 +132,7 @@
 
 
 	const domInput = ref(null);
-	watch(() => props.focusSwitch, () => domInput.value.focus());
+	watch(() => props.focusSwitch, () => (domInput.value.focus(), domInput.value.select()));
 </script>
 
 <style lang="sass" scoped>

@@ -27,6 +27,9 @@ export default defineConfig({
 		chunkSizeWarningLimit: 1024
 	},
 	publicDir: resolve(dirPackage, 'public'),
+	json: {
+		stringify: true
+	},
 	clearScreen: false,
 	server: {
 		port: 4754,
