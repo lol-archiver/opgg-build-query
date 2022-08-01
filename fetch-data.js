@@ -2,8 +2,10 @@ import './index.env.js';
 
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
+import { createHash } from 'crypto';
 
 import { Moment } from '@nuogz/pangu';
+
 import Axios from 'axios';
 import { ensureDirSync } from 'fs-extra';
 
@@ -78,69 +80,60 @@ meta.seriesStatMod = {
 writeFileSync('./public/@meta.json', JSON.stringify(meta, null, '\t'));
 
 
+
+const fetchDirect = async (url, file, ...datasLog) => {
+	const { data: buffer } = await Axios.get(url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
+
+	writeFileSync(file, buffer);
+
+	console.log('已下载', ...datasLog);
+
+};
+const fetch = async (url, file, ...datasLog) => {
+	if(!existsSync(file)) { return fetchDirect(url, file, ...datasLog); }
+
+
+	const response = await Axios.head(url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
+	const etag = JSON.parse(response.headers.etag).toLowerCase();
+
+	const md5 = createHash('md5').update(readFileSync(file)).digest('hex').toLowerCase();
+
+	if(md5 != etag) { return fetchDirect(url, file, ...datasLog); }
+};
+
 ensureDirSync(resolve('public', 'image', 'champion'));
 for(const champion of dataMain.props.pageProps.championRankingList) {
 	const file = resolve('public', 'image', 'champion', `${champion.id}.png`);
 
-	if(!existsSync(file)) {
-		const { data: buffer } = await Axios.get(champion.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
-
-		writeFileSync(file, buffer);
-
-		console.log('已下载', '英雄图片', champion.id, champion.name);
-	}
+	await fetch(champion.image_url, file, '英雄图片', champion.id, champion.name);
 }
 
 ensureDirSync(resolve('public', 'image', 'rune'));
 for(const rune of metaRaw.runes) {
 	const file = resolve('public', 'image', 'rune', `${rune.id}.png`);
 
-	if(!existsSync(file)) {
-		const { data: buffer } = await Axios.get(rune.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
-
-		writeFileSync(file, buffer);
-
-		console.log('已下载', '符文图片', rune.id, rune.name);
-	}
+	await fetch(rune.image_url, file, '符文图片', rune.id, rune.name);
 }
 
 ensureDirSync(resolve('public', 'image', 'statMod'));
 for(const statMod of metaRaw.statMods) {
 	const file = resolve('public', 'image', 'statMod', `${statMod.id}.png`);
 
-	if(!existsSync(file)) {
-		const { data: buffer } = await Axios.get(statMod.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
-
-		writeFileSync(file, buffer);
-
-		console.log('已下载', '符文属性图片', statMod.id, statMod.name);
-	}
+	await fetch(statMod.image_url, file, '属性符文图片', statMod.id, statMod.name);
 }
 
 ensureDirSync(resolve('public', 'image', 'spell'));
 for(const spell of metaRaw.spells) {
 	const file = resolve('public', 'image', 'spell', `${spell.id}.png`);
 
-	if(!existsSync(file)) {
-		const { data: buffer } = await Axios.get(spell.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
-
-		writeFileSync(file, buffer);
-
-		console.log('已下载', '召唤师技能图片', spell.id, spell.name);
-	}
+	await fetch(spell.image_url, file, '召唤师技能图片', spell.id, spell.name);
 }
 
 ensureDirSync(resolve('public', 'image', 'item'));
 for(const item of metaRaw.items) {
 	const file = resolve('public', 'image', 'item', `${item.id}.png`);
 
-	if(!existsSync(file)) {
-		const { data: buffer } = await Axios.get(item.image_url, { headers: { 'accept-language': 'zh-CN' }, responseType: 'arraybuffer' });
-
-		writeFileSync(file, buffer);
-
-		console.log('已下载', '装备图片', item.id, item.name);
-	}
+	await fetch(item.image_url, file, '装备图片', item.id, item.name);
 }
 
 
