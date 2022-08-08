@@ -4,9 +4,9 @@
 			"id": 8128,
 			"primary_page_id": 8100,
 			"secondary_page_id": 8000,
-			"play": 2811,
-			"win": 1311,
-			"pick_rate": 0.8609,
+			"play": 7010,
+			"win": 3316,
+			"pick_rate": 0.8552,
 			"builds": [
 				{
 					"id": 8128,
@@ -27,9 +27,9 @@
 						5008,
 						5002
 					],
-					"play": 2048,
-					"win": 935,
-					"pick_rate": 0.7286
+					"play": 5141,
+					"win": 2401,
+					"pick_rate": 0.7334
 				},
 				{
 					"id": 8128,
@@ -50,9 +50,9 @@
 						5008,
 						5002
 					],
-					"play": 296,
-					"win": 153,
-					"pick_rate": 0.1053
+					"play": 672,
+					"win": 351,
+					"pick_rate": 0.0959
 				},
 				{
 					"id": 8128,
@@ -73,9 +73,9 @@
 						5008,
 						5002
 					],
-					"play": 174,
-					"win": 71,
-					"pick_rate": 0.0619
+					"play": 463,
+					"win": 202,
+					"pick_rate": 0.066
 				},
 				{
 					"id": 8128,
@@ -96,9 +96,9 @@
 						5008,
 						5002
 					],
-					"play": 140,
-					"win": 73,
-					"pick_rate": 0.0498
+					"play": 431,
+					"win": 209,
+					"pick_rate": 0.0615
 				},
 				{
 					"id": 8128,
@@ -119,9 +119,9 @@
 						5008,
 						5002
 					],
-					"play": 110,
-					"win": 49,
-					"pick_rate": 0.0391
+					"play": 254,
+					"win": 119,
+					"pick_rate": 0.0362
 				}
 			]
 		},
@@ -129,9 +129,9 @@
 			"id": 8128,
 			"primary_page_id": 8100,
 			"secondary_page_id": 8200,
-			"play": 260,
-			"win": 138,
-			"pick_rate": 0.0796,
+			"play": 681,
+			"win": 364,
+			"pick_rate": 0.0831,
 			"builds": [
 				{
 					"id": 8128,
@@ -152,9 +152,9 @@
 						5008,
 						5002
 					],
-					"play": 123,
-					"win": 65,
-					"pick_rate": 0.4731
+					"play": 332,
+					"win": 183,
+					"pick_rate": 0.4875
 				},
 				{
 					"id": 8128,
@@ -175,9 +175,9 @@
 						5008,
 						5002
 					],
-					"play": 33,
-					"win": 15,
-					"pick_rate": 0.1269
+					"play": 85,
+					"win": 43,
+					"pick_rate": 0.1248
 				},
 				{
 					"id": 8128,
@@ -198,9 +198,9 @@
 						5008,
 						5002
 					],
-					"play": 31,
-					"win": 21,
-					"pick_rate": 0.1192
+					"play": 82,
+					"win": 51,
+					"pick_rate": 0.1204
 				},
 				{
 					"id": 8128,
@@ -221,9 +221,9 @@
 						5008,
 						5002
 					],
-					"play": 18,
-					"win": 9,
-					"pick_rate": 0.0692
+					"play": 59,
+					"win": 24,
+					"pick_rate": 0.0866
 				},
 				{
 					"id": 8128,
@@ -237,16 +237,16 @@
 					"secondary_page_id": 8200,
 					"secondary_rune_ids": [
 						8210,
-						8236
+						8226
 					],
 					"stat_mod_ids": [
 						5008,
 						5008,
 						5002
 					],
-					"play": 16,
-					"win": 6,
-					"pick_rate": 0.0615
+					"play": 57,
+					"win": 30,
+					"pick_rate": 0.0837
 				}
 			]
 		},
@@ -254,9 +254,9 @@
 			"id": 8369,
 			"primary_page_id": 8300,
 			"secondary_page_id": 8100,
-			"play": 73,
-			"win": 37,
-			"pick_rate": 0.0224,
+			"play": 205,
+			"win": 106,
+			"pick_rate": 0.025,
 			"builds": [
 				{
 					"id": 8369,
@@ -277,9 +277,9 @@
 						5008,
 						5002
 					],
-					"play": 35,
-					"win": 17,
-					"pick_rate": 0.4795
+					"play": 99,
+					"win": 51,
+					"pick_rate": 0.4829
 				},
 				{
 					"id": 8369,
@@ -300,9 +300,9 @@
 						5008,
 						5002
 					],
-					"play": 10,
-					"win": 3,
-					"pick_rate": 0.137
+					"play": 34,
+					"win": 20,
+					"pick_rate": 0.1659
 				},
 				{
 					"id": 8369,
@@ -316,39 +316,16 @@
 					"secondary_page_id": 8100,
 					"secondary_rune_ids": [
 						8135,
-						8143
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5001
-					],
-					"play": 7,
-					"win": 3,
-					"pick_rate": 0.0959
-				},
-				{
-					"id": 8369,
-					"primary_page_id": 8300,
-					"primary_rune_ids": [
-						8369,
-						8304,
-						8321,
-						8347
-					],
-					"secondary_page_id": 8100,
-					"secondary_rune_ids": [
-						8106,
-						8143
+						8139
 					],
 					"stat_mod_ids": [
 						5008,
 						5008,
 						5002
 					],
-					"play": 6,
-					"win": 4,
-					"pick_rate": 0.0822
+					"play": 19,
+					"win": 12,
+					"pick_rate": 0.0927
 				},
 				{
 					"id": 8369,
@@ -369,9 +346,32 @@
 						5008,
 						5002
 					],
-					"play": 5,
-					"win": 3,
-					"pick_rate": 0.0685
+					"play": 15,
+					"win": 7,
+					"pick_rate": 0.0732
+				},
+				{
+					"id": 8369,
+					"primary_page_id": 8300,
+					"primary_rune_ids": [
+						8369,
+						8304,
+						8321,
+						8347
+					],
+					"secondary_page_id": 8100,
+					"secondary_rune_ids": [
+						8135,
+						8143
+					],
+					"stat_mod_ids": [
+						5008,
+						5008,
+						5001
+					],
+					"play": 15,
+					"win": 4,
+					"pick_rate": 0.0732
 				}
 			]
 		},
@@ -379,10 +379,33 @@
 			"id": 8112,
 			"primary_page_id": 8100,
 			"secondary_page_id": 8000,
-			"play": 54,
-			"win": 27,
-			"pick_rate": 0.0165,
+			"play": 136,
+			"win": 61,
+			"pick_rate": 0.0166,
 			"builds": [
+				{
+					"id": 8112,
+					"primary_page_id": 8100,
+					"primary_rune_ids": [
+						8112,
+						8143,
+						8138,
+						8135
+					],
+					"secondary_page_id": 8000,
+					"secondary_rune_ids": [
+						8009,
+						8014
+					],
+					"stat_mod_ids": [
+						5008,
+						5008,
+						5002
+					],
+					"play": 37,
+					"win": 15,
+					"pick_rate": 0.2721
+				},
 				{
 					"id": 8112,
 					"primary_page_id": 8100,
@@ -402,9 +425,9 @@
 						5008,
 						5002
 					],
-					"play": 15,
-					"win": 11,
-					"pick_rate": 0.2778
+					"play": 30,
+					"win": 16,
+					"pick_rate": 0.2206
 				},
 				{
 					"id": 8112,
@@ -413,12 +436,114 @@
 						8112,
 						8143,
 						8138,
-						8135
+						8106
 					],
 					"secondary_page_id": 8000,
 					"secondary_rune_ids": [
 						8009,
 						8014
+					],
+					"stat_mod_ids": [
+						5008,
+						5008,
+						5002
+					],
+					"play": 29,
+					"win": 13,
+					"pick_rate": 0.2132
+				},
+				{
+					"id": 8112,
+					"primary_page_id": 8100,
+					"primary_rune_ids": [
+						8112,
+						8143,
+						8138,
+						8106
+					],
+					"secondary_page_id": 8000,
+					"secondary_rune_ids": [
+						8014,
+						9111
+					],
+					"stat_mod_ids": [
+						5008,
+						5008,
+						5002
+					],
+					"play": 17,
+					"win": 6,
+					"pick_rate": 0.125
+				},
+				{
+					"id": 8112,
+					"primary_page_id": 8100,
+					"primary_rune_ids": [
+						8112,
+						8139,
+						8138,
+						8135
+					],
+					"secondary_page_id": 8000,
+					"secondary_rune_ids": [
+						8014,
+						9111
+					],
+					"stat_mod_ids": [
+						5005,
+						5008,
+						5002
+					],
+					"play": 13,
+					"win": 6,
+					"pick_rate": 0.0956
+				}
+			]
+		},
+		{
+			"id": 8010,
+			"primary_page_id": 8000,
+			"secondary_page_id": 8100,
+			"play": 74,
+			"win": 44,
+			"pick_rate": 0.009,
+			"builds": [
+				{
+					"id": 8010,
+					"primary_page_id": 8000,
+					"primary_rune_ids": [
+						8010,
+						9111,
+						9105,
+						8014
+					],
+					"secondary_page_id": 8100,
+					"secondary_rune_ids": [
+						8135,
+						8143
+					],
+					"stat_mod_ids": [
+						5008,
+						5008,
+						5002
+					],
+					"play": 14,
+					"win": 5,
+					"pick_rate": 0.1892
+				},
+				{
+					"id": 8010,
+					"primary_page_id": 8000,
+					"primary_rune_ids": [
+						8010,
+						9111,
+						9105,
+						8299
+					],
+					"secondary_page_id": 8100,
+					"secondary_rune_ids": [
+						8135,
+						8143
 					],
 					"stat_mod_ids": [
 						5008,
@@ -426,22 +551,22 @@
 						5002
 					],
 					"play": 12,
-					"win": 5,
-					"pick_rate": 0.2222
+					"win": 6,
+					"pick_rate": 0.1622
 				},
 				{
-					"id": 8112,
-					"primary_page_id": 8100,
+					"id": 8010,
+					"primary_page_id": 8000,
 					"primary_rune_ids": [
-						8112,
-						8143,
-						8138,
-						8106
-					],
-					"secondary_page_id": 8000,
-					"secondary_rune_ids": [
+						8010,
 						8009,
+						9105,
 						8014
+					],
+					"secondary_page_id": 8100,
+					"secondary_rune_ids": [
+						8135,
+						8143
 					],
 					"stat_mod_ids": [
 						5008,
@@ -449,78 +574,22 @@
 						5002
 					],
 					"play": 10,
-					"win": 6,
-					"pick_rate": 0.1852
+					"win": 4,
+					"pick_rate": 0.1351
 				},
 				{
-					"id": 8112,
-					"primary_page_id": 8100,
+					"id": 8010,
+					"primary_page_id": 8000,
 					"primary_rune_ids": [
-						8112,
-						8143,
-						8138,
-						8106
+						8010,
+						9111,
+						9105,
+						8299
 					],
-					"secondary_page_id": 8000,
+					"secondary_page_id": 8100,
 					"secondary_rune_ids": [
-						8014,
-						9111
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5002
-					],
-					"play": 7,
-					"win": 2,
-					"pick_rate": 0.1296
-				},
-				{
-					"id": 8112,
-					"primary_page_id": 8100,
-					"primary_rune_ids": [
-						8112,
-						8143,
-						8138,
-						8106
-					],
-					"secondary_page_id": 8000,
-					"secondary_rune_ids": [
-						8014,
-						9111
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5001
-					],
-					"play": 6,
-					"win": 2,
-					"pick_rate": 0.1111
-				}
-			]
-		},
-		{
-			"id": 8128,
-			"primary_page_id": 8100,
-			"secondary_page_id": 8300,
-			"play": 29,
-			"win": 8,
-			"pick_rate": 0.0089,
-			"builds": [
-				{
-					"id": 8128,
-					"primary_page_id": 8100,
-					"primary_rune_ids": [
-						8128,
-						8139,
-						8138,
-						8135
-					],
-					"secondary_page_id": 8300,
-					"secondary_rune_ids": [
-						8321,
-						8347
+						8106,
+						8138
 					],
 					"stat_mod_ids": [
 						5008,
@@ -528,100 +597,31 @@
 						5002
 					],
 					"play": 8,
-					"win": 2,
-					"pick_rate": 0.2759
+					"win": 7,
+					"pick_rate": 0.1081
 				},
 				{
-					"id": 8128,
-					"primary_page_id": 8100,
+					"id": 8010,
+					"primary_page_id": 8000,
 					"primary_rune_ids": [
-						8128,
-						8143,
-						8138,
-						8135
+						8010,
+						8009,
+						9105,
+						8014
 					],
-					"secondary_page_id": 8300,
+					"secondary_page_id": 8100,
 					"secondary_rune_ids": [
-						8304,
-						8347
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5002
-					],
-					"play": 6,
-					"win": 1,
-					"pick_rate": 0.2069
-				},
-				{
-					"id": 8128,
-					"primary_page_id": 8100,
-					"primary_rune_ids": [
-						8128,
-						8143,
-						8138,
-						8135
-					],
-					"secondary_page_id": 8300,
-					"secondary_rune_ids": [
-						8321,
-						8347
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5002
-					],
-					"play": 4,
-					"win": 1,
-					"pick_rate": 0.1379
-				},
-				{
-					"id": 8128,
-					"primary_page_id": 8100,
-					"primary_rune_ids": [
-						8128,
-						8139,
-						8138,
-						8135
-					],
-					"secondary_page_id": 8300,
-					"secondary_rune_ids": [
-						8304,
-						8321
-					],
-					"stat_mod_ids": [
-						5008,
-						5008,
-						5002
-					],
-					"play": 3,
-					"win": 0,
-					"pick_rate": 0.1034
-				},
-				{
-					"id": 8128,
-					"primary_page_id": 8100,
-					"primary_rune_ids": [
-						8128,
 						8126,
-						8138,
 						8135
-					],
-					"secondary_page_id": 8300,
-					"secondary_rune_ids": [
-						8304,
-						8347
 					],
 					"stat_mod_ids": [
 						5008,
 						5008,
 						5002
 					],
-					"play": 2,
-					"win": 1,
-					"pick_rate": 0.069
+					"play": 5,
+					"win": 3,
+					"pick_rate": 0.0676
 				}
 			]
 		}
@@ -632,45 +632,45 @@
 				4,
 				32
 			],
-			"win": 2329,
-			"play": 4864,
-			"pick_rate": 0.8475
+			"win": 5954,
+			"play": 12311,
+			"pick_rate": 0.8443
 		},
 		{
 			"ids": [
 				4,
 				6
 			],
-			"win": 212,
-			"play": 449,
-			"pick_rate": 0.0782
+			"win": 573,
+			"play": 1180,
+			"pick_rate": 0.0809
 		},
 		{
 			"ids": [
 				1,
 				4
 			],
-			"win": 60,
-			"play": 125,
-			"pick_rate": 0.0218
+			"win": 148,
+			"play": 301,
+			"pick_rate": 0.0206
 		},
 		{
 			"ids": [
 				4,
 				14
 			],
-			"win": 51,
-			"play": 118,
-			"pick_rate": 0.0206
+			"win": 134,
+			"play": 294,
+			"pick_rate": 0.0202
 		},
 		{
 			"ids": [
 				3,
 				4
 			],
-			"win": 39,
-			"play": 71,
-			"pick_rate": 0.0124
+			"win": 101,
+			"play": 190,
+			"pick_rate": 0.013
 		}
 	],
 	"skills": [
@@ -680,9 +680,9 @@
 				"Q",
 				"E"
 			],
-			"play": 1827,
-			"win": 945,
-			"pick_rate": 0.6799,
+			"play": 4804,
+			"win": 2502,
+			"pick_rate": 0.6987,
 			"builds": [
 				{
 					"order": [
@@ -702,9 +702,9 @@
 						"E",
 						"E"
 					],
-					"play": 1030,
-					"win": 510,
-					"pick_rate": 0.5638
+					"play": 2610,
+					"win": 1349,
+					"pick_rate": 0.5433
 				},
 				{
 					"order": [
@@ -724,9 +724,9 @@
 						"E",
 						"E"
 					],
-					"play": 495,
-					"win": 270,
-					"pick_rate": 0.2709
+					"play": 1283,
+					"win": 669,
+					"pick_rate": 0.2671
 				},
 				{
 					"order": [
@@ -746,9 +746,9 @@
 						"E",
 						"E"
 					],
-					"play": 146,
-					"win": 78,
-					"pick_rate": 0.0799
+					"play": 366,
+					"win": 197,
+					"pick_rate": 0.0762
 				},
 				{
 					"order": [
@@ -768,9 +768,9 @@
 						"E",
 						"E"
 					],
-					"play": 72,
-					"win": 39,
-					"pick_rate": 0.0394
+					"play": 203,
+					"win": 103,
+					"pick_rate": 0.0423
 				},
 				{
 					"order": [
@@ -790,9 +790,9 @@
 						"E",
 						"E"
 					],
-					"play": 66,
-					"win": 38,
-					"pick_rate": 0.0361
+					"play": 161,
+					"win": 85,
+					"pick_rate": 0.0335
 				}
 			]
 		},
@@ -802,9 +802,9 @@
 				"W",
 				"E"
 			],
-			"play": 675,
-			"win": 325,
-			"pick_rate": 0.2512,
+			"play": 1602,
+			"win": 775,
+			"pick_rate": 0.233,
 			"builds": [
 				{
 					"order": [
@@ -824,9 +824,9 @@
 						"E",
 						"E"
 					],
-					"play": 174,
-					"win": 86,
-					"pick_rate": 0.2578
+					"play": 456,
+					"win": 222,
+					"pick_rate": 0.2846
 				},
 				{
 					"order": [
@@ -846,9 +846,9 @@
 						"E",
 						"E"
 					],
-					"play": 148,
-					"win": 83,
-					"pick_rate": 0.2193
+					"play": 337,
+					"win": 181,
+					"pick_rate": 0.2104
 				},
 				{
 					"order": [
@@ -868,9 +868,9 @@
 						"E",
 						"E"
 					],
-					"play": 116,
-					"win": 52,
-					"pick_rate": 0.1719
+					"play": 272,
+					"win": 135,
+					"pick_rate": 0.1698
 				},
 				{
 					"order": [
@@ -890,9 +890,9 @@
 						"E",
 						"E"
 					],
-					"play": 114,
-					"win": 50,
-					"pick_rate": 0.1689
+					"play": 262,
+					"win": 107,
+					"pick_rate": 0.1635
 				},
 				{
 					"order": [
@@ -912,9 +912,9 @@
 						"E",
 						"E"
 					],
-					"play": 113,
-					"win": 50,
-					"pick_rate": 0.1674
+					"play": 259,
+					"win": 123,
+					"pick_rate": 0.1617
 				}
 			]
 		},
@@ -924,9 +924,9 @@
 				"E",
 				"W"
 			],
-			"play": 105,
-			"win": 39,
-			"pick_rate": 0.0391,
+			"play": 271,
+			"win": 109,
+			"pick_rate": 0.0394,
 			"builds": [
 				{
 					"order": [
@@ -946,9 +946,9 @@
 						"W",
 						"W"
 					],
-					"play": 59,
-					"win": 19,
-					"pick_rate": 0.5619
+					"play": 133,
+					"win": 47,
+					"pick_rate": 0.4908
 				},
 				{
 					"order": [
@@ -968,9 +968,9 @@
 						"W",
 						"W"
 					],
-					"play": 26,
-					"win": 9,
-					"pick_rate": 0.2476
+					"play": 83,
+					"win": 34,
+					"pick_rate": 0.3063
 				},
 				{
 					"order": [
@@ -990,31 +990,9 @@
 						"E",
 						"W"
 					],
-					"play": 5,
-					"win": 3,
-					"pick_rate": 0.0476
-				},
-				{
-					"order": [
-						"W",
-						"Q",
-						"E",
-						"Q",
-						"Q",
-						"R-E",
-						"Q",
-						"E",
-						"Q",
-						"E",
-						"R-Q",
-						"E",
-						"E",
-						"W",
-						"W"
-					],
-					"play": 5,
-					"win": 3,
-					"pick_rate": 0.0476
+					"play": 13,
+					"win": 7,
+					"pick_rate": 0.048
 				},
 				{
 					"order": [
@@ -1034,9 +1012,31 @@
 						"E",
 						"E"
 					],
-					"play": 4,
+					"play": 9,
+					"win": 6,
+					"pick_rate": 0.0332
+				},
+				{
+					"order": [
+						"Q",
+						"W",
+						"E",
+						"Q",
+						"Q",
+						"R-Q",
+						"Q",
+						"E",
+						"Q",
+						"W",
+						"R-E",
+						"E",
+						"E",
+						"E",
+						"W"
+					],
+					"play": 8,
 					"win": 2,
-					"pick_rate": 0.0381
+					"pick_rate": 0.0295
 				}
 			]
 		},
@@ -1046,9 +1046,9 @@
 				"E",
 				"Q"
 			],
-			"play": 80,
-			"win": 43,
-			"pick_rate": 0.0298,
+			"play": 199,
+			"win": 94,
+			"pick_rate": 0.0289,
 			"builds": [
 				{
 					"order": [
@@ -1068,31 +1068,9 @@
 						"Q",
 						"Q"
 					],
-					"play": 34,
-					"win": 19,
-					"pick_rate": 0.425
-				},
-				{
-					"order": [
-						"W",
-						"W",
-						"E",
-						"Q",
-						"W",
-						"R-W",
-						"W",
-						"E",
-						"W",
-						"E",
-						"R-E",
-						"E",
-						"E",
-						"Q",
-						"Q"
-					],
-					"play": 11,
-					"win": 5,
-					"pick_rate": 0.1375
+					"play": 113,
+					"win": 53,
+					"pick_rate": 0.5678
 				},
 				{
 					"order": [
@@ -1112,9 +1090,53 @@
 						"E",
 						"Q"
 					],
-					"play": 10,
-					"win": 5,
-					"pick_rate": 0.125
+					"play": 22,
+					"win": 7,
+					"pick_rate": 0.1106
+				},
+				{
+					"order": [
+						"W",
+						"W",
+						"E",
+						"Q",
+						"W",
+						"R-W",
+						"W",
+						"E",
+						"W",
+						"E",
+						"R-E",
+						"E",
+						"E",
+						"Q",
+						"Q"
+					],
+					"play": 20,
+					"win": 8,
+					"pick_rate": 0.1005
+				},
+				{
+					"order": [
+						"Q",
+						"W",
+						"E",
+						"W",
+						"W",
+						"R-W",
+						"W",
+						"Q",
+						"W",
+						"Q",
+						"R-E",
+						"E",
+						"E",
+						"E",
+						"E"
+					],
+					"play": 15,
+					"win": 9,
+					"pick_rate": 0.0754
 				},
 				{
 					"order": [
@@ -1134,31 +1156,9 @@
 						"Q",
 						"Q"
 					],
-					"play": 7,
-					"win": 4,
-					"pick_rate": 0.0875
-				},
-				{
-					"order": [
-						"Q",
-						"W",
-						"E",
-						"W",
-						"W",
-						"R-W",
-						"W",
-						"Q",
-						"W",
-						"Q",
-						"R-E",
-						"E",
-						"E",
-						"E",
-						"E"
-					],
-					"play": 6,
-					"win": 3,
-					"pick_rate": 0.075
+					"play": 12,
+					"win": 7,
+					"pick_rate": 0.0603
 				}
 			]
 		}
@@ -1171,9 +1171,9 @@
 				1036,
 				3070
 			],
-			"play": 2457,
-			"win": 1200,
-			"pick_rate": 0.4388
+			"play": 6214,
+			"win": 3009,
+			"pick_rate": 0.4344
 		},
 		{
 			"ids": [
@@ -1181,18 +1181,18 @@
 				3070,
 				3177
 			],
-			"play": 816,
-			"win": 443,
-			"pick_rate": 0.1457
+			"play": 2052,
+			"win": 1114,
+			"pick_rate": 0.1434
 		},
 		{
 			"ids": [
 				1001,
 				3134
 			],
-			"play": 426,
-			"win": 179,
-			"pick_rate": 0.0761
+			"play": 1070,
+			"win": 484,
+			"pick_rate": 0.0748
 		},
 		{
 			"ids": [
@@ -1201,18 +1201,18 @@
 				2031,
 				3070
 			],
-			"play": 362,
-			"win": 171,
-			"pick_rate": 0.0646
+			"play": 897,
+			"win": 432,
+			"pick_rate": 0.0627
 		},
 		{
 			"ids": [
 				3070,
 				3177
 			],
-			"play": 279,
-			"win": 138,
-			"pick_rate": 0.0498
+			"play": 716,
+			"win": 382,
+			"pick_rate": 0.0501
 		},
 		{
 			"ids": [
@@ -1220,9 +1220,9 @@
 				1036,
 				3070
 			],
-			"play": 160,
-			"win": 70,
-			"pick_rate": 0.0286
+			"play": 414,
+			"win": 209,
+			"pick_rate": 0.0289
 		},
 		{
 			"ids": [
@@ -1235,9 +1235,18 @@
 				2003,
 				3070
 			],
-			"play": 142,
-			"win": 48,
-			"pick_rate": 0.0254
+			"play": 358,
+			"win": 134,
+			"pick_rate": 0.025
+		},
+		{
+			"ids": [
+				2031,
+				3134
+			],
+			"play": 236,
+			"win": 112,
+			"pick_rate": 0.0165
 		},
 		{
 			"ids": [
@@ -1247,18 +1256,9 @@
 				3070,
 				3134
 			],
-			"play": 92,
-			"win": 44,
-			"pick_rate": 0.0164
-		},
-		{
-			"ids": [
-				2031,
-				3134
-			],
-			"play": 91,
-			"win": 37,
-			"pick_rate": 0.0163
+			"play": 208,
+			"win": 97,
+			"pick_rate": 0.0145
 		},
 		{
 			"ids": [
@@ -1267,48 +1267,36 @@
 				1036,
 				1036
 			],
-			"play": 72,
-			"win": 26,
-			"pick_rate": 0.0129
-		},
-		{
-			"ids": [
-				3134
-			],
-			"play": 36,
-			"win": 15,
-			"pick_rate": 0.0064
+			"play": 196,
+			"win": 74,
+			"pick_rate": 0.0137
 		},
 		{
 			"ids": [
 				3070,
 				3158
 			],
-			"play": 36,
-			"win": 18,
-			"pick_rate": 0.0064
+			"play": 104,
+			"win": 47,
+			"pick_rate": 0.0073
 		},
 		{
 			"ids": [
-				1036,
-				1036,
-				3070,
 				3134
 			],
-			"play": 27,
-			"win": 10,
-			"pick_rate": 0.0048
+			"play": 85,
+			"win": 39,
+			"pick_rate": 0.0059
 		},
 		{
 			"ids": [
+				1001,
 				1036,
-				1036,
-				1036,
-				3070
+				3134
 			],
-			"play": 25,
-			"win": 13,
-			"pick_rate": 0.0045
+			"play": 67,
+			"win": 27,
+			"pick_rate": 0.0047
 		},
 		{
 			"ids": [
@@ -1318,8 +1306,19 @@
 				1036,
 				3070
 			],
-			"play": 25,
-			"win": 16,
+			"play": 67,
+			"win": 30,
+			"pick_rate": 0.0047
+		},
+		{
+			"ids": [
+				1036,
+				1036,
+				1036,
+				3070
+			],
+			"play": 65,
+			"win": 30,
 			"pick_rate": 0.0045
 		}
 	],
@@ -1328,41 +1327,41 @@
 			"ids": [
 				3158
 			],
-			"play": 3853,
-			"win": 1825,
-			"pick_rate": 0.7331
+			"play": 9821,
+			"win": 4784,
+			"pick_rate": 0.7379
 		},
 		{
 			"ids": [
 				3111
 			],
-			"play": 1117,
-			"win": 530,
-			"pick_rate": 0.2125
+			"play": 2776,
+			"win": 1295,
+			"pick_rate": 0.2086
 		},
 		{
 			"ids": [
 				3047
 			],
-			"play": 229,
-			"win": 105,
-			"pick_rate": 0.0436
+			"play": 574,
+			"win": 274,
+			"pick_rate": 0.0431
 		},
 		{
 			"ids": [
 				3009
 			],
-			"play": 42,
-			"win": 27,
-			"pick_rate": 0.008
+			"play": 91,
+			"win": 48,
+			"pick_rate": 0.0068
 		},
 		{
 			"ids": [
 				3117
 			],
-			"play": 15,
-			"win": 8,
-			"pick_rate": 0.0029
+			"play": 41,
+			"win": 20,
+			"pick_rate": 0.0031
 		}
 	],
 	"itemsCore": [
@@ -1373,9 +1372,9 @@
 				3042,
 				6676
 			],
-			"play": 1060,
-			"win": 502,
-			"pick_rate": 0.2366
+			"play": 2718,
+			"win": 1273,
+			"pick_rate": 0.235
 		},
 		{
 			"ids": [
@@ -1384,9 +1383,9 @@
 				3042,
 				6694
 			],
-			"play": 714,
-			"win": 341,
-			"pick_rate": 0.1594
+			"play": 1798,
+			"win": 903,
+			"pick_rate": 0.1554
 		},
 		{
 			"ids": [
@@ -1395,9 +1394,9 @@
 				3042,
 				6694
 			],
-			"play": 299,
-			"win": 174,
-			"pick_rate": 0.0667
+			"play": 745,
+			"win": 416,
+			"pick_rate": 0.0644
 		},
 		{
 			"ids": [
@@ -1406,9 +1405,9 @@
 				3042,
 				3142
 			],
-			"play": 205,
-			"win": 99,
-			"pick_rate": 0.0458
+			"play": 516,
+			"win": 238,
+			"pick_rate": 0.0446
 		},
 		{
 			"ids": [
@@ -1416,9 +1415,9 @@
 				6691,
 				6694
 			],
-			"play": 143,
-			"win": 74,
-			"pick_rate": 0.0319
+			"play": 364,
+			"win": 195,
+			"pick_rate": 0.0315
 		},
 		{
 			"ids": [
@@ -1426,9 +1425,9 @@
 				6691,
 				6676
 			],
-			"play": 116,
-			"win": 62,
-			"pick_rate": 0.0259
+			"play": 283,
+			"win": 146,
+			"pick_rate": 0.0245
 		},
 		{
 			"ids": [
@@ -1437,9 +1436,9 @@
 				3042,
 				3156
 			],
-			"play": 115,
-			"win": 61,
-			"pick_rate": 0.0257
+			"play": 278,
+			"win": 153,
+			"pick_rate": 0.024
 		},
 		{
 			"ids": [
@@ -1448,9 +1447,9 @@
 				3042,
 				6676
 			],
-			"play": 106,
-			"win": 55,
-			"pick_rate": 0.0237
+			"play": 278,
+			"win": 141,
+			"pick_rate": 0.024
 		},
 		{
 			"ids": [
@@ -1459,9 +1458,9 @@
 				6676,
 				3042
 			],
-			"play": 105,
-			"win": 45,
-			"pick_rate": 0.0234
+			"play": 250,
+			"win": 103,
+			"pick_rate": 0.0216
 		},
 		{
 			"ids": [
@@ -1469,20 +1468,9 @@
 				6692,
 				6694
 			],
-			"play": 79,
-			"win": 40,
-			"pick_rate": 0.0176
-		},
-		{
-			"ids": [
-				3070,
-				6691,
-				3042,
-				3814
-			],
-			"play": 69,
-			"win": 31,
-			"pick_rate": 0.0154
+			"play": 212,
+			"win": 101,
+			"pick_rate": 0.0183
 		},
 		{
 			"ids": [
@@ -1491,9 +1479,20 @@
 				3042,
 				6695
 			],
-			"play": 68,
-			"win": 30,
-			"pick_rate": 0.0152
+			"play": 190,
+			"win": 72,
+			"pick_rate": 0.0164
+		},
+		{
+			"ids": [
+				3070,
+				6691,
+				3042,
+				3814
+			],
+			"play": 183,
+			"win": 95,
+			"pick_rate": 0.0158
 		},
 		{
 			"ids": [
@@ -1501,9 +1500,9 @@
 				3042,
 				6676
 			],
-			"play": 55,
-			"win": 23,
-			"pick_rate": 0.0123
+			"play": 154,
+			"win": 69,
+			"pick_rate": 0.0133
 		},
 		{
 			"ids": [
@@ -1511,19 +1510,20 @@
 				6676,
 				6694
 			],
-			"play": 52,
-			"win": 21,
-			"pick_rate": 0.0116
+			"play": 142,
+			"win": 59,
+			"pick_rate": 0.0123
 		},
 		{
 			"ids": [
+				3070,
 				6691,
 				3042,
-				6694
+				3074
 			],
-			"play": 48,
-			"win": 23,
-			"pick_rate": 0.0107
+			"play": 137,
+			"win": 72,
+			"pick_rate": 0.0118
 		}
 	]
 }
