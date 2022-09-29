@@ -166,7 +166,6 @@
 	const dataNow = ref(null);
 	const championNow = ref(null);
 	const changeChampion = async champion => {
-
 		const a = (await import(`../../data/champion/${champion.slot}.json`)).default;
 
 		dataNow.value = a;

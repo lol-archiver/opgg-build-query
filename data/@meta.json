@@ -1,5806 +1,5824 @@
 {
-	"date": "2022-08-26",
+	"date": "2022-09-28",
 	"champions": [
 		{
 			"id": 518,
 			"slot": "neeko",
 			"name": "妮蔻",
 			"title": "万花通灵",
-			"rateWin": 0.501149,
-			"ratePick": 0.0339435,
+			"rateWin": 0.505843,
+			"ratePick": 0.0345925,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.496284,
-						"role_rate": 0.901042,
-						"play": 1211,
-						"win": 601
+						"win_rate": 0.506425,
+						"role_rate": 0.915269,
+						"play": 4202,
+						"win": 2128
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.513514,
-						"role_rate": 0.0825893,
-						"play": 111,
-						"win": 57
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.666667,
-						"role_rate": 0.0111607,
-						"play": 15,
-						"win": 10
+						"win_rate": 0.501548,
+						"role_rate": 0.070355,
+						"play": 323,
+						"win": 162
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 94,
-			"kda": 3.19928
+			"rank": 86,
+			"kda": 3.180602
 		},
 		{
 			"id": 80,
 			"slot": "pantheon",
 			"name": "潘森",
 			"title": "不屈之枪",
-			"rateWin": 0.532632,
-			"ratePick": 0.0494197,
+			"rateWin": 0.526278,
+			"ratePick": 0.0534105,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.537996,
-						"role_rate": 0.760225,
-						"play": 1487,
-						"win": 800
+						"win_rate": 0.525306,
+						"role_rate": 0.751024,
+						"play": 5315,
+						"win": 2792
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.524934,
-						"role_rate": 0.194785,
-						"play": 381,
-						"win": 200
+						"win_rate": 0.535045,
+						"role_rate": 0.203617,
+						"play": 1441,
+						"win": 771
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.531915,
-						"role_rate": 0.0240286,
-						"play": 47,
-						"win": 25
+						"win_rate": 0.528736,
+						"role_rate": 0.0245867,
+						"play": 174,
+						"win": 92
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.575758,
-						"role_rate": 0.0168712,
-						"play": 33,
-						"win": 19
+						"win_rate": 0.495413,
+						"role_rate": 0.015402,
+						"play": 109,
+						"win": 54
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 41,
-			"kda": 3.030775
+			"tier": 3,
+			"rank": 44,
+			"kda": 2.987643
 		},
 		{
 			"id": 106,
 			"slot": "volibear",
 			"name": "沃利贝尔",
 			"title": "不灭狂雷",
-			"rateWin": 0.448322,
-			"ratePick": 0.0193777,
+			"rateWin": 0.463229,
+			"ratePick": 0.019085,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.47619,
-						"role_rate": 0.777778,
-						"play": 588,
-						"win": 280
+						"win_rate": 0.486642,
+						"role_rate": 0.754247,
+						"play": 1909,
+						"win": 929
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.362963,
-						"role_rate": 0.178571,
-						"play": 135,
-						"win": 49
+						"win_rate": 0.384314,
+						"role_rate": 0.201501,
+						"play": 510,
+						"win": 196
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.347826,
-						"role_rate": 0.0304233,
-						"play": 23,
-						"win": 8
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.25,
-						"role_rate": 0.010582,
-						"play": 8,
-						"win": 2
+						"win_rate": 0.444444,
+						"role_rate": 0.0213354,
+						"play": 54,
+						"win": 24
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 124,
-			"kda": 2.863162
+			"tier": 4,
+			"rank": 127,
+			"kda": 2.890757
 		},
 		{
 			"id": 55,
 			"slot": "katarina",
 			"name": "卡特琳娜",
 			"title": "不祥之刃",
-			"rateWin": 0.528614,
-			"ratePick": 0.105446,
+			"rateWin": 0.524233,
+			"ratePick": 0.109697,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.51578,
-						"role_rate": 0.510582,
-						"play": 2123,
-						"win": 1095
+						"win_rate": 0.512974,
+						"role_rate": 0.527659,
+						"play": 7669,
+						"win": 3934
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.544171,
-						"role_rate": 0.460077,
-						"play": 1913,
-						"win": 1041
+						"win_rate": 0.540524,
+						"role_rate": 0.443993,
+						"play": 6453,
+						"win": 3488
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.6,
-						"role_rate": 0.012025,
-						"play": 50,
-						"win": 30
+						"win_rate": 0.452229,
+						"role_rate": 0.0108023,
+						"play": 157,
+						"win": 71
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 25,
-			"kda": 3.073763
+			"rank": 28,
+			"kda": 3.045479
 		},
 		{
 			"id": 895,
 			"slot": "nilah",
 			"name": "尼菈",
 			"title": "不羁之悦",
-			"rateWin": 0.512821,
-			"ratePick": 0.0486914,
+			"rateWin": 0.541271,
+			"ratePick": 0.0417703,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.514967,
-						"role_rate": 0.939094,
-						"play": 1804,
-						"win": 929
+						"win_rate": 0.549301,
+						"role_rate": 0.94295,
+						"play": 5223,
+						"win": 2869
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.438776,
-						"role_rate": 0.0510151,
-						"play": 98,
-						"win": 43
+						"win_rate": 0.40796,
+						"role_rate": 0.0362881,
+						"play": 201,
+						"win": 82
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.439394,
+						"role_rate": 0.0119155,
+						"play": 66,
+						"win": 29
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 69,
-			"kda": 2.919819
+			"rank": 43,
+			"kda": 2.958698
 		},
 		{
 			"id": 103,
 			"slot": "ahri",
 			"name": "阿狸",
 			"title": "九尾妖狐",
-			"rateWin": 0.474585,
-			"ratePick": 0.100296,
+			"rateWin": 0.480115,
+			"ratePick": 0.0928314,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.474846,
-						"role_rate": 0.985082,
-						"play": 3896,
-						"win": 1850
+						"win_rate": 0.479768,
+						"role_rate": 0.982121,
+						"play": 12085,
+						"win": 5798
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 153,
-			"kda": 3.401733
+			"tier": 5,
+			"rank": 149,
+			"kda": 3.358403
 		},
 		{
 			"id": 14,
 			"slot": "sion",
 			"name": "赛恩",
 			"title": "亡灵战神",
-			"rateWin": 0.548878,
-			"ratePick": 0.0324609,
+			"rateWin": 0.489048,
+			"ratePick": 0.0330821,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.575872,
-						"role_rate": 0.830854,
-						"play": 1061,
-						"win": 611
+						"win_rate": 0.52495,
+						"role_rate": 0.80215,
+						"play": 3507,
+						"win": 1841
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.390374,
-						"role_rate": 0.146437,
-						"play": 187,
-						"win": 73
+						"win_rate": 0.345157,
+						"role_rate": 0.167658,
+						"play": 733,
+						"win": 253
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.4,
-						"role_rate": 0.0117463,
-						"play": 15,
-						"win": 6
+						"win_rate": 0.414286,
+						"role_rate": 0.016011,
+						"play": 70,
+						"win": 29
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 42,
-			"kda": 2.684113
+			"tier": 3,
+			"rank": 112,
+			"kda": 2.606172
 		},
 		{
 			"id": 117,
 			"slot": "lulu",
 			"name": "璐璐",
 			"title": "仙灵女巫",
-			"rateWin": 0.511672,
-			"ratePick": 0.0545958,
+			"rateWin": 0.51612,
+			"ratePick": 0.0570185,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.535,
-						"role_rate": 0.83877,
-						"play": 1800,
-						"win": 963
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.439759,
-						"role_rate": 0.0773532,
-						"play": 166,
-						"win": 73
+						"win_rate": 0.5313,
+						"role_rate": 0.825384,
+						"play": 6230,
+						"win": 3310
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.384106,
-						"role_rate": 0.0703635,
-						"play": 151,
-						"win": 58
+						"win_rate": 0.40694,
+						"role_rate": 0.0839958,
+						"play": 634,
+						"win": 258
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.46589,
+						"role_rate": 0.0796237,
+						"play": 601,
+						"win": 280
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 67,
-			"kda": 5.326291
+			"rank": 59,
+			"kda": 5.279462
 		},
 		{
 			"id": 16,
 			"slot": "soraka",
 			"name": "索拉卡",
 			"title": "众星之子",
-			"rateWin": 0.470441,
-			"ratePick": 0.0519167,
+			"rateWin": 0.488441,
+			"ratePick": 0.0544402,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.479179,
-						"role_rate": 0.859314,
-						"play": 1753,
-						"win": 840
+						"win_rate": 0.49422,
+						"role_rate": 0.861173,
+						"play": 6228,
+						"win": 3078
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.444444,
-						"role_rate": 0.075,
-						"play": 153,
-						"win": 68
+						"win_rate": 0.477876,
+						"role_rate": 0.078125,
+						"play": 565,
+						"win": 270
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.418182,
-						"role_rate": 0.0539216,
-						"play": 110,
-						"win": 46
+						"win_rate": 0.421512,
+						"role_rate": 0.0475664,
+						"play": 344,
+						"win": 145
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.282051,
+						"role_rate": 0.0107854,
+						"play": 78,
+						"win": 22
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 136,
-			"kda": 5.105689
+			"rank": 123,
+			"kda": 5.126054
 		},
 		{
 			"id": 107,
 			"slot": "rengar",
 			"name": "雷恩加尔",
 			"title": "傲之追猎者",
-			"rateWin": 0.552912,
-			"ratePick": 0.0415386,
+			"rateWin": 0.523213,
+			"ratePick": 0.043212,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.523179,
-						"role_rate": 0.462906,
-						"play": 755,
-						"win": 395
+						"win_rate": 0.504828,
+						"role_rate": 0.452464,
+						"play": 2589,
+						"win": 1307
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.608018,
-						"role_rate": 0.275291,
-						"play": 449,
-						"win": 273
+						"win_rate": 0.562152,
+						"role_rate": 0.282593,
+						"play": 1617,
+						"win": 909
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.558376,
-						"role_rate": 0.120785,
-						"play": 197,
-						"win": 110
+						"win_rate": 0.497908,
+						"role_rate": 0.125306,
+						"play": 717,
+						"win": 357
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.552,
-						"role_rate": 0.0766401,
-						"play": 125,
-						"win": 69
+						"win_rate": 0.52,
+						"role_rate": 0.0742747,
+						"play": 425,
+						"win": 221
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.55,
-						"role_rate": 0.0613121,
-						"play": 100,
-						"win": 55
+						"win_rate": 0.555241,
+						"role_rate": 0.0616917,
+						"play": 353,
+						"win": 196
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 34,
-			"kda": 2.590104
+			"tier": 3,
+			"rank": 56,
+			"kda": 2.595103
 		},
 		{
 			"id": 246,
 			"slot": "qiyana",
 			"name": "奇亚娜",
 			"title": "元素女皇",
-			"rateWin": 0.460904,
-			"ratePick": 0.0598759,
+			"rateWin": 0.471158,
+			"ratePick": 0.0394057,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.461171,
-						"role_rate": 0.976695,
-						"play": 2305,
-						"win": 1063
+						"win_rate": 0.470266,
+						"role_rate": 0.978186,
+						"play": 5112,
+						"win": 2404
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.447368,
-						"role_rate": 0.0161017,
-						"play": 38,
-						"win": 17
+						"win_rate": 0.52,
+						"role_rate": 0.0143513,
+						"play": 75,
+						"win": 39
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 149,
-			"kda": 2.713984
+			"rank": 139,
+			"kda": 2.836359
 		},
 		{
 			"id": 99,
 			"slot": "lux",
 			"name": "拉克丝",
 			"title": "光辉女郎",
-			"rateWin": 0.495547,
-			"ratePick": 0.0963684,
+			"rateWin": 0.494962,
+			"ratePick": 0.0946239,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.497456,
-						"role_rate": 0.98419,
-						"play": 3735,
-						"win": 1858
+						"win_rate": 0.495161,
+						"role_rate": 0.980622,
+						"play": 12297,
+						"win": 6089
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.6,
-						"role_rate": 0.0118577,
-						"play": 45,
-						"win": 27
+						"win_rate": 0.586592,
+						"role_rate": 0.0142743,
+						"play": 179,
+						"win": 105
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 110,
-			"kda": 4.851228
+			"rank": 118,
+			"kda": 4.810193
 		},
 		{
 			"id": 77,
 			"slot": "udyr",
 			"name": "乌迪尔",
 			"title": "兽灵行者",
-			"rateWin": 0.425869,
-			"ratePick": 0.0591216,
+			"rateWin": 0.470551,
+			"ratePick": 0.0360036,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.444554,
-						"role_rate": 0.874192,
-						"play": 2029,
-						"win": 902
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.352941,
-						"role_rate": 0.051271,
-						"play": 119,
-						"win": 42
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.27193,
-						"role_rate": 0.0491168,
-						"play": 114,
-						"win": 31
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.40625,
-						"role_rate": 0.0137872,
-						"play": 32,
-						"win": 13
-					}
-				}
-			],
-			"tier": 5,
-			"rank": 159,
-			"kda": 2.600557
-		},
-		{
-			"id": 34,
-			"slot": "anivia",
-			"name": "艾尼维亚",
-			"title": "冰晶凤凰",
-			"rateWin": 0.474233,
-			"ratePick": 0.0449199,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.47967,
-						"role_rate": 0.958757,
-						"play": 1697,
-						"win": 814
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.509804,
-						"role_rate": 0.0288136,
-						"play": 51,
-						"win": 26
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 127,
-			"kda": 3.617695
-		},
-		{
-			"id": 127,
-			"slot": "lissandra",
-			"name": "丽桑卓",
-			"title": "冰霜女巫",
-			"rateWin": 0.482282,
-			"ratePick": 0.0433073,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.479017,
-						"role_rate": 0.972595,
-						"play": 1668,
-						"win": 799
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.565217,
-						"role_rate": 0.0134111,
-						"play": 23,
-						"win": 13
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.681818,
-						"role_rate": 0.012828,
-						"play": 22,
-						"win": 15
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 121,
-			"kda": 2.834995
-		},
-		{
-			"id": 91,
-			"slot": "talon",
-			"name": "泰隆",
-			"title": "刀锋之影",
-			"rateWin": 0.45773,
-			"ratePick": 0.0341516,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.455796,
-						"role_rate": 0.75744,
-						"play": 1018,
-						"win": 464
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.484177,
-						"role_rate": 0.235119,
-						"play": 316,
-						"win": 153
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 133,
-			"kda": 2.76937
-		},
-		{
-			"id": 39,
-			"slot": "irelia",
-			"name": "艾瑞莉娅",
-			"title": "刀锋舞者",
-			"rateWin": 0.554767,
-			"ratePick": 0.102585,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.574268,
-						"role_rate": 0.68541,
-						"play": 2767,
-						"win": 1589
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.527905,
-						"role_rate": 0.270746,
-						"play": 1093,
-						"win": 577
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.378788,
-						"role_rate": 0.0163488,
-						"play": 66,
-						"win": 25
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.508475,
-						"role_rate": 0.0146148,
-						"play": 59,
-						"win": 30
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 7,
-			"kda": 2.658635
-		},
-		{
-			"id": 113,
-			"slot": "sejuani",
-			"name": "瑟庄妮",
-			"title": "北地之怒",
-			"rateWin": 0.506173,
-			"ratePick": 0.0231752,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.517084,
-						"role_rate": 0.952278,
-						"play": 878,
-						"win": 454
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.384615,
-						"role_rate": 0.0422993,
-						"play": 39,
-						"win": 15
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 90,
-			"kda": 3.35041
-		},
-		{
-			"id": 4,
-			"slot": "twistedfate",
-			"name": "崔斯特",
-			"title": "卡牌大师",
-			"rateWin": 0.475739,
-			"ratePick": 0.0712944,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.497378,
-						"role_rate": 0.811635,
-						"play": 2288,
-						"win": 1138
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.38326,
-						"role_rate": 0.16105,
-						"play": 454,
-						"win": 174
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.468085,
-						"role_rate": 0.0166726,
-						"play": 47,
-						"win": 22
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 137,
-			"kda": 2.988008
-		},
-		{
-			"id": 61,
-			"slot": "orianna",
-			"name": "奥莉安娜",
-			"title": "发条魔灵",
-			"rateWin": 0.527429,
-			"ratePick": 0.0663785,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.524641,
-						"role_rate": 0.980967,
-						"play": 2577,
-						"win": 1352
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.666667,
-						"role_rate": 0.0148458,
-						"play": 39,
-						"win": 26
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 39,
-			"kda": 4.318404
-		},
-		{
-			"id": 876,
-			"slot": "lillia",
-			"name": "莉莉娅",
-			"title": "含羞蓓蕾",
-			"rateWin": 0.526464,
-			"ratePick": 0.0555321,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.530592,
-						"role_rate": 0.933303,
-						"play": 2043,
-						"win": 1084
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.484848,
-						"role_rate": 0.0452261,
-						"play": 99,
-						"win": 48
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.454545,
-						"role_rate": 0.0201005,
-						"play": 44,
-						"win": 20
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 44,
-			"kda": 3.252588
-		},
-		{
-			"id": 267,
-			"slot": "nami",
-			"name": "娜美",
-			"title": "唤潮鲛姬",
-			"rateWin": 0.536327,
-			"ratePick": 0.0318627,
-			"roles": [
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.556213,
-						"role_rate": 0.804124,
-						"play": 1014,
-						"win": 564
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.479821,
-						"role_rate": 0.176844,
-						"play": 223,
-						"win": 107
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.384615,
-						"role_rate": 0.0103093,
-						"play": 13,
-						"win": 5
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 54,
-			"kda": 6.086558
-		},
-		{
-			"id": 236,
-			"slot": "lucian",
-			"name": "卢锡安",
-			"title": "圣枪游侠",
-			"rateWin": 0.465911,
-			"ratePick": 0.135436,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.475174,
-						"role_rate": 0.778234,
-						"play": 4169,
-						"win": 1981
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.446961,
-						"role_rate": 0.156618,
-						"play": 839,
-						"win": 375
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.408805,
-						"role_rate": 0.0593616,
-						"play": 318,
-						"win": 130
-					}
-				}
-			],
-			"tier": 5,
-			"rank": 160,
-			"kda": 3.157274
-		},
-		{
-			"id": 78,
-			"slot": "poppy",
-			"name": "波比",
-			"title": "圣锤之毅",
-			"rateWin": 0.486216,
-			"ratePick": 0.0311344,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.490987,
-						"role_rate": 0.948697,
-						"play": 1165,
-						"win": 572
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.029316,
-						"play": 36,
-						"win": 18
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.3,
-						"role_rate": 0.0162866,
-						"play": 20,
-						"win": 6
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 112,
-			"kda": 3.174408
-		},
-		{
-			"id": 25,
-			"slot": "morgana",
-			"name": "莫甘娜",
-			"title": "堕落天使",
-			"rateWin": 0.530699,
-			"ratePick": 0.0796438,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.529621,
-						"role_rate": 0.980635,
-						"play": 3089,
-						"win": 1636
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.590909,
-						"role_rate": 0.0139683,
-						"play": 44,
-						"win": 26
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 30,
-			"kda": 4.285005
-		},
-		{
-			"id": 429,
-			"slot": "kalista",
-			"name": "卡莉丝塔",
-			"title": "复仇之矛",
-			"rateWin": 0.462955,
-			"ratePick": 0.0635433,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.467676,
-						"role_rate": 0.971769,
-						"play": 2444,
-						"win": 1143
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.298246,
-						"role_rate": 0.022664,
-						"play": 57,
-						"win": 17
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 150,
-			"kda": 3.049989
-		},
-		{
-			"id": 63,
-			"slot": "brand",
-			"name": "布兰德",
-			"title": "复仇焰魂",
-			"rateWin": 0.526776,
-			"ratePick": 0.0743116,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.528988,
-						"role_rate": 0.99522,
-						"play": 2915,
-						"win": 1542
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 37,
-			"kda": 3.319885
-		},
-		{
-			"id": 74,
-			"slot": "heimerdinger",
-			"name": "黑默丁格",
-			"title": "大发明家",
-			"rateWin": 0.505057,
-			"ratePick": 0.0411484,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.505276,
-						"role_rate": 0.994444,
-						"play": 1611,
-						"win": 814
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 86,
-			"kda": 3.416754
-		},
-		{
-			"id": 43,
-			"slot": "karma",
-			"name": "卡尔玛",
-			"title": "天启者",
-			"rateWin": 0.509811,
-			"ratePick": 0.0715805,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.515686,
-						"role_rate": 0.720339,
-						"play": 2040,
-						"win": 1052
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.513126,
-						"role_rate": 0.147952,
-						"play": 419,
-						"win": 215
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.468927,
-						"role_rate": 0.125,
-						"play": 354,
-						"win": 166
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 65,
-			"kda": 4.529098
-		},
-		{
-			"id": 22,
-			"slot": "ashe",
-			"name": "艾希",
-			"title": "寒冰射手",
-			"rateWin": 0.554854,
-			"ratePick": 0.123523,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.582765,
-						"role_rate": 0.720787,
-						"play": 3516,
-						"win": 2049
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.461399,
-						"role_rate": 0.225707,
-						"play": 1101,
-						"win": 508
+						"win_rate": 0.483804,
+						"role_rate": 0.80631,
+						"play": 3859,
+						"win": 1867
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
 						"win_rate": 0.444444,
-						"role_rate": 0.0184502,
-						"play": 90,
-						"win": 40
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.735632,
-						"role_rate": 0.0178352,
-						"play": 87,
-						"win": 64
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.571429,
-						"role_rate": 0.0143501,
-						"play": 70,
-						"win": 40
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 4,
-			"kda": 4.098494
-		},
-		{
-			"id": 777,
-			"slot": "yone",
-			"name": "永恩",
-			"title": "封魔剑魂",
-			"rateWin": 0.481242,
-			"ratePick": 0.0963684,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.489415,
-						"role_rate": 0.728627,
-						"play": 2787,
-						"win": 1364
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.46347,
-						"role_rate": 0.22902,
-						"play": 876,
-						"win": 406
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.439252,
-						"role_rate": 0.0279739,
-						"play": 107,
-						"win": 47
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.32,
-						"role_rate": 0.0130719,
-						"play": 50,
-						"win": 16
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 139,
-			"kda": 2.627926
-		},
-		{
-			"id": 516,
-			"slot": "ornn",
-			"name": "奥恩",
-			"title": "山隐之焰",
-			"rateWin": 0.498798,
-			"ratePick": 0.0432813,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.501174,
-						"role_rate": 0.995909,
-						"play": 1704,
-						"win": 854
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 100,
-			"kda": 3.353838
-		},
-		{
-			"id": 163,
-			"slot": "taliyah",
-			"name": "塔莉垭",
-			"title": "岩雀",
-			"rateWin": 0.552842,
-			"ratePick": 0.0681732,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.554185,
-						"role_rate": 0.99295,
-						"play": 2676,
-						"win": 1483
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 14,
-			"kda": 3.406101
-		},
-		{
-			"id": 48,
-			"slot": "trundle",
-			"name": "特朗德尔",
-			"title": "巨魔之王",
-			"rateWin": 0.481569,
-			"ratePick": 0.0331632,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.475325,
-						"role_rate": 0.590038,
-						"play": 770,
-						"win": 366
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.530864,
-						"role_rate": 0.248276,
-						"play": 324,
-						"win": 172
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.456989,
-						"role_rate": 0.142529,
-						"play": 186,
-						"win": 85
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 115,
-			"kda": 3.758263
-		},
-		{
-			"id": 497,
-			"slot": "rakan",
-			"name": "洛",
-			"title": "幻翎",
-			"rateWin": 0.483384,
-			"ratePick": 0.0258283,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.455115,
-						"role_rate": 0.472387,
-						"play": 479,
-						"win": 218
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.525,
-						"role_rate": 0.394477,
-						"play": 400,
-						"win": 210
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.480916,
-						"role_rate": 0.129191,
-						"play": 131,
-						"win": 63
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 111,
-			"kda": 3.878948
-		},
-		{
-			"id": 201,
-			"slot": "braum",
-			"name": "布隆",
-			"title": "弗雷尔卓德之心",
-			"rateWin": 0.501285,
-			"ratePick": 0.0303541,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.505146,
-						"role_rate": 0.979832,
-						"play": 1166,
-						"win": 589
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 93,
-			"kda": 4.230727
-		},
-		{
-			"id": 166,
-			"slot": "akshan",
-			"name": "阿克尚",
-			"title": "影哨",
-			"rateWin": 0.461496,
-			"ratePick": 0.0469487,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.459608,
-						"role_rate": 0.890463,
-						"play": 1634,
-						"win": 751
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.102452,
-						"play": 188,
-						"win": 94
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 140,
-			"kda": 2.938249
-		},
-		{
-			"id": 238,
-			"slot": "zed",
-			"name": "劫",
-			"title": "影流之主",
-			"rateWin": 0.553521,
-			"ratePick": 0.120766,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.555461,
-						"role_rate": 0.982983,
-						"play": 4679,
-						"win": 2599
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.534483,
-						"role_rate": 0.0121849,
-						"play": 58,
-						"win": 31
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 6,
-			"kda": 3.436645
-		},
-		{
-			"id": 141,
-			"slot": "kayn",
-			"name": "凯隐",
-			"title": "影流之镰",
-			"rateWin": 0.537434,
-			"ratePick": 0.0545438,
-			"roles": [
-				{
-					"name": "FIGHTER|SLAYER",
-					"stats": {
-						"win_rate": 0.566972,
-						"role_rate": 0.505097,
-						"play": 1090,
-						"win": 618
-					}
-				},
-				{
-					"name": "SLAYER|ASSASSIN",
-					"stats": {
-						"win_rate": 0.440217,
-						"role_rate": 0.255792,
-						"play": 552,
-						"win": 243
-					}
-				},
-				{
-					"name": "SLAYER|SLAYER",
-					"stats": {
-						"win_rate": 0.613839,
-						"role_rate": 0.2076,
-						"play": 448,
-						"win": 275
-					}
-				},
-				{
-					"name": "FIGHTER|ASSASSIN",
-					"stats": {
-						"win_rate": 0.233333,
-						"role_rate": 0.0139018,
-						"play": 30,
-						"win": 7
-					}
-				},
-				{
-					"name": "TANK|SLAYER",
-					"stats": {
-						"win_rate": 0.375,
-						"role_rate": 0.0111214,
-						"play": 24,
-						"win": 9
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 35,
-			"kda": 2.487042
-		},
-		{
-			"id": 86,
-			"slot": "garen",
-			"name": "盖伦",
-			"title": "德玛西亚之力",
-			"rateWin": 0.465483,
-			"ratePick": 0.0395618,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.482986,
-						"role_rate": 0.585852,
-						"play": 911,
-						"win": 440
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.442379,
-						"role_rate": 0.345981,
-						"play": 538,
-						"win": 238
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.383333,
-						"role_rate": 0.0385852,
-						"play": 60,
-						"win": 23
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.452381,
-						"role_rate": 0.0270096,
-						"play": 42,
-						"win": 19
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 131,
-			"kda": 3.085556
-		},
-		{
-			"id": 133,
-			"slot": "quinn",
-			"name": "奎因",
-			"title": "德玛西亚之翼",
-			"rateWin": 0.457642,
-			"ratePick": 0.0297819,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.465138,
-						"role_rate": 0.92766,
-						"play": 1090,
-						"win": 507
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.351351,
-						"role_rate": 0.0629787,
-						"play": 74,
-						"win": 26
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 129,
-			"kda": 2.898153
-		},
-		{
-			"id": 59,
-			"slot": "jarvaniv",
-			"name": "嘉文四世",
-			"title": "德玛西亚皇子",
-			"rateWin": 0.469464,
-			"ratePick": 0.062607,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.49854,
-						"role_rate": 0.553088,
-						"play": 1370,
-						"win": 683
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.402802,
-						"role_rate": 0.230521,
-						"play": 571,
-						"win": 230
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.525886,
-						"role_rate": 0.148163,
-						"play": 367,
-						"win": 193
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.367188,
-						"role_rate": 0.0516754,
-						"play": 128,
-						"win": 47
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 143,
-			"kda": 3.352812
-		},
-		{
-			"id": 5,
-			"slot": "xinzhao",
-			"name": "赵信",
-			"title": "德邦总管",
-			"rateWin": 0.505912,
-			"ratePick": 0.0307963,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.52581,
-						"role_rate": 0.682228,
-						"play": 833,
-						"win": 438
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.503906,
-						"role_rate": 0.209664,
-						"play": 256,
-						"win": 129
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.455882,
-						"role_rate": 0.0556921,
-						"play": 68,
-						"win": 31
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.396226,
-						"role_rate": 0.043407,
-						"play": 53,
-						"win": 21
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 87,
-			"kda": 2.502392
-		},
-		{
-			"id": 35,
-			"slot": "shaco",
-			"name": "萨科",
-			"title": "恶魔小丑",
-			"rateWin": 0.460428,
-			"ratePick": 0.0522548,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.488825,
-						"role_rate": 0.841775,
-						"play": 1745,
-						"win": 853
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.300518,
-						"role_rate": 0.0931018,
-						"play": 193,
-						"win": 58
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.373494,
-						"role_rate": 0.0400386,
-						"play": 83,
-						"win": 31
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.481481,
-						"role_rate": 0.0130246,
-						"play": 27,
-						"win": 13
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 145,
-			"kda": 3.553969
-		},
-		{
-			"id": 110,
-			"slot": "varus",
-			"name": "韦鲁斯",
-			"title": "惩戒之箭",
-			"rateWin": 0.542527,
-			"ratePick": 0.11468,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.557516,
-						"role_rate": 0.627546,
-						"play": 2834,
-						"win": 1580
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.540876,
-						"role_rate": 0.303366,
-						"play": 1370,
-						"win": 741
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.417219,
-						"role_rate": 0.0668733,
-						"play": 302,
-						"win": 126
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 9,
-			"kda": 4.090029
-		},
-		{
-			"id": 711,
-			"slot": "vex",
-			"name": "薇古丝",
-			"title": "愁云使者",
-			"rateWin": 0.506735,
-			"ratePick": 0.0656502,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.506961,
-						"role_rate": 0.993088,
-						"play": 2586,
-						"win": 1311
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 76,
-			"kda": 3.372461
-		},
-		{
-			"id": 202,
-			"slot": "jhin",
-			"name": "烬",
-			"title": "戏命师",
-			"rateWin": 0.524352,
-			"ratePick": 0.13939,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.517622,
-						"role_rate": 0.855897,
-						"play": 4710,
-						"win": 2438
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.589147,
-						"role_rate": 0.140651,
-						"play": 774,
-						"win": 456
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 19,
-			"kda": 4.523785
-		},
-		{
-			"id": 120,
-			"slot": "hecarim",
-			"name": "赫卡里姆",
-			"title": "战争之影",
-			"rateWin": 0.539243,
-			"ratePick": 0.0281692,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.568336,
-						"role_rate": 0.661594,
-						"play": 739,
-						"win": 420
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.450593,
-						"role_rate": 0.2265,
-						"play": 253,
-						"win": 114
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.521368,
-						"role_rate": 0.104745,
-						"play": 117,
-						"win": 61
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 56,
-			"kda": 3.018021
-		},
-		{
-			"id": 15,
-			"slot": "sivir",
-			"name": "希维尔",
-			"title": "战争女神",
-			"rateWin": 0.55438,
-			"ratePick": 0.122925,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.554139,
-						"role_rate": 0.918997,
-						"play": 4470,
-						"win": 2477
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.545932,
-						"role_rate": 0.0783306,
-						"play": 381,
-						"win": 208
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 5,
-			"kda": 3.953
-		},
-		{
-			"id": 57,
-			"slot": "maokai",
-			"name": "茂凯",
-			"title": "扭曲树精",
-			"rateWin": 0.533333,
-			"ratePick": 0.0604741,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.550434,
-						"role_rate": 0.628992,
-						"play": 1497,
-						"win": 824
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.503016,
-						"role_rate": 0.348319,
-						"play": 829,
-						"win": 417
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.510204,
-						"role_rate": 0.0205882,
-						"play": 49,
-						"win": 25
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 36,
-			"kda": 3.282923
-		},
-		{
-			"id": 33,
-			"slot": "rammus",
-			"name": "拉莫斯",
-			"title": "披甲龙龟",
-			"rateWin": 0.505747,
-			"ratePick": 0.0294177,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.51015,
-						"role_rate": 0.975883,
-						"play": 1133,
-						"win": 578
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.166667,
-						"role_rate": 0.0206718,
-						"play": 24,
-						"win": 4
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 88,
-			"kda": 2.813271
-		},
-		{
-			"id": 81,
-			"slot": "ezreal",
-			"name": "伊泽瑞尔",
-			"title": "探险家",
-			"rateWin": 0.551206,
-			"ratePick": 0.148831,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.553711,
-						"role_rate": 0.913147,
-						"play": 5362,
-						"win": 2969
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.606918,
-						"role_rate": 0.0541553,
-						"play": 318,
-						"win": 193
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.386503,
-						"role_rate": 0.0277589,
-						"play": 163,
-						"win": 63
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 1,
-			"kda": 3.960424
-		},
-		{
-			"id": 92,
-			"slot": "riven",
-			"name": "锐雯",
-			"title": "放逐之刃",
-			"rateWin": 0.562769,
-			"ratePick": 0.0544917,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.569408,
-						"role_rate": 0.889977,
-						"play": 1909,
-						"win": 1087
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.487562,
-						"role_rate": 0.0937063,
-						"play": 201,
-						"win": 98
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.580645,
-						"role_rate": 0.0144522,
-						"play": 31,
-						"win": 18
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 18,
-			"kda": 2.964842
-		},
-		{
-			"id": 114,
-			"slot": "fiora",
-			"name": "菲奥娜",
-			"title": "无双剑姬",
-			"rateWin": 0.560987,
-			"ratePick": 0.0569367,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.563544,
-						"role_rate": 0.96336,
-						"play": 2156,
-						"win": 1215
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.603448,
-						"role_rate": 0.025916,
-						"play": 58,
-						"win": 35
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 17,
-			"kda": 2.78644
-		},
-		{
-			"id": 11,
-			"slot": "masteryi",
-			"name": "易",
-			"title": "无极剑圣",
-			"rateWin": 0.52003,
-			"ratePick": 0.0681732,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.477002,
-						"role_rate": 0.435783,
-						"play": 1174,
-						"win": 560
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.551724,
-						"role_rate": 0.387528,
-						"play": 1044,
-						"win": 576
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.584906,
-						"role_rate": 0.11804,
-						"play": 318,
-						"win": 186
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.483221,
-						"role_rate": 0.0553081,
-						"play": 149,
-						"win": 72
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 47,
-			"kda": 2.648276
-		},
-		{
-			"id": 6,
-			"slot": "urgot",
-			"name": "厄加特",
-			"title": "无畏战车",
-			"rateWin": 0.451841,
-			"ratePick": 0.0183633,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.487179,
-						"role_rate": 0.486824,
-						"play": 351,
-						"win": 171
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.428571,
-						"role_rate": 0.456311,
-						"play": 329,
-						"win": 141
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.371429,
-						"role_rate": 0.0485437,
-						"play": 35,
-						"win": 13
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 123,
-			"kda": 2.7679
-		},
-		{
-			"id": 26,
-			"slot": "zilean",
-			"name": "基兰",
-			"title": "时光守护者",
-			"rateWin": 0.500545,
-			"ratePick": 0.047703,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.509756,
-						"role_rate": 0.871413,
-						"play": 1640,
-						"win": 836
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.453704,
-						"role_rate": 0.114772,
-						"play": 216,
-						"win": 98
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 95,
-			"kda": 4.900056
-		},
-		{
-			"id": 245,
-			"slot": "ekko",
-			"name": "艾克",
-			"title": "时间刺客",
-			"rateWin": 0.474756,
-			"ratePick": 0.0587314,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.471483,
-						"role_rate": 0.904946,
-						"play": 2104,
-						"win": 992
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.510204,
-						"role_rate": 0.0843011,
-						"play": 196,
-						"win": 100
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 135,
-			"kda": 2.974215
-		},
-		{
-			"id": 432,
-			"slot": "bard",
-			"name": "巴德",
-			"title": "星界游神",
-			"rateWin": 0.541129,
-			"ratePick": 0.0322529,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.548173,
-						"role_rate": 0.717236,
-						"play": 903,
-						"win": 495
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.464481,
-						"role_rate": 0.145353,
-						"play": 183,
-						"win": 85
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.590476,
-						"role_rate": 0.0833995,
-						"play": 105,
-						"win": 62
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.630769,
-						"role_rate": 0.0516283,
-						"play": 65,
-						"win": 41
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 51,
-			"kda": 4.787196
-		},
-		{
-			"id": 147,
-			"slot": "seraphine",
-			"name": "萨勒芬妮",
-			"title": "星籁歌姬",
-			"rateWin": 0.551195,
-			"ratePick": 0.057665,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.540202,
-						"role_rate": 0.738022,
-						"play": 1679,
-						"win": 907
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.589744,
-						"role_rate": 0.257143,
-						"play": 585,
-						"win": 345
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 26,
-			"kda": 4.606573
-		},
-		{
-			"id": 67,
-			"slot": "vayne",
-			"name": "薇恩",
-			"title": "暗夜猎手",
-			"rateWin": 0.531107,
-			"ratePick": 0.113717,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.53318,
-						"role_rate": 0.972967,
-						"play": 4355,
-						"win": 2322
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.526316,
-						"role_rate": 0.0127346,
-						"play": 57,
-						"win": 30
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 16,
-			"kda": 2.759342
-		},
-		{
-			"id": 266,
-			"slot": "aatrox",
-			"name": "亚托克斯",
-			"title": "暗裔剑魔",
-			"rateWin": 0.564284,
-			"ratePick": 0.110258,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.552104,
-						"role_rate": 0.689385,
-						"play": 2994,
-						"win": 1653
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.59339,
-						"role_rate": 0.299563,
-						"play": 1301,
-						"win": 772
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 3,
-			"kda": 3.09667
-		},
-		{
-			"id": 134,
-			"slot": "syndra",
-			"name": "辛德拉",
-			"title": "暗黑元首",
-			"rateWin": 0.504452,
-			"ratePick": 0.0584193,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.505007,
-						"role_rate": 0.993942,
-						"play": 2297,
-						"win": 1160
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 83,
-			"kda": 3.441774
-		},
-		{
-			"id": 98,
-			"slot": "shen",
-			"name": "慎",
-			"title": "暮光之眼",
-			"rateWin": 0.491192,
-			"ratePick": 0.0251,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.49375,
-						"role_rate": 0.977597,
-						"play": 960,
-						"win": 474
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 106,
-			"kda": 3.689594
-		},
-		{
-			"id": 142,
-			"slot": "zoe",
-			"name": "佐伊",
-			"title": "暮光星灵",
-			"rateWin": 0.491096,
-			"ratePick": 0.0759503,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.49209,
-						"role_rate": 0.990333,
-						"play": 2971,
-						"win": 1462
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 117,
-			"kda": 3.544743
-		},
-		{
-			"id": 240,
-			"slot": "kled",
-			"name": "克烈",
-			"title": "暴怒骑士",
-			"rateWin": 0.536264,
-			"ratePick": 0.0118347,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.531532,
-						"role_rate": 0.717672,
-						"play": 333,
-						"win": 177
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.566667,
-						"role_rate": 0.258621,
-						"play": 120,
-						"win": 68
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.428571,
-						"role_rate": 0.0150862,
-						"play": 7,
-						"win": 3
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 77,
-			"kda": 3.678562
-		},
-		{
-			"id": 222,
-			"slot": "jinx",
-			"name": "金克丝",
-			"title": "暴走萝莉",
-			"rateWin": 0.539177,
-			"ratePick": 0.137101,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.543215,
-						"role_rate": 0.956898,
-						"play": 5195,
-						"win": 2822
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.493088,
-						"role_rate": 0.0399705,
-						"play": 217,
-						"win": 107
-					}
-				}
-			],
-			"tier": 1,
-			"rank": 8,
-			"kda": 3.464473
-		},
-		{
-			"id": 89,
-			"slot": "leona",
-			"name": "蕾欧娜",
-			"title": "曙光女神",
-			"rateWin": 0.521373,
-			"ratePick": 0.04016,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.531169,
-						"role_rate": 0.973451,
-						"play": 1540,
-						"win": 818
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 61,
-			"kda": 3.014316
-		},
-		{
-			"id": 126,
-			"slot": "jayce",
-			"name": "杰斯",
-			"title": "未来守护者",
-			"rateWin": 0.536914,
-			"ratePick": 0.113795,
-			"roles": [
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.539633,
-						"role_rate": 0.997098,
-						"play": 4466,
-						"win": 2410
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 13,
-			"kda": 3.941156
-		},
-		{
-			"id": 112,
-			"slot": "viktor",
-			"name": "维克托",
-			"title": "机械先驱",
-			"rateWin": 0.554937,
-			"ratePick": 0.0840395,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.555691,
-						"role_rate": 0.994839,
-						"play": 3277,
-						"win": 1821
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 10,
-			"kda": 3.66656
-		},
-		{
-			"id": 68,
-			"slot": "rumble",
-			"name": "兰博",
-			"title": "机械公敌",
-			"rateWin": 0.505684,
-			"ratePick": 0.0846638,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.505879,
-						"role_rate": 0.994603,
-						"play": 3317,
-						"win": 1678
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 74,
-			"kda": 3.269425
-		},
-		{
-			"id": 10,
-			"slot": "kayle",
-			"name": "凯尔",
-			"title": "正义天使",
-			"rateWin": 0.5463,
-			"ratePick": 0.0671328,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.562454,
-						"role_rate": 0.509605,
-						"play": 1353,
-						"win": 761
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.529313,
-						"role_rate": 0.449718,
-						"play": 1194,
-						"win": 632
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.446809,
-						"role_rate": 0.0177024,
-						"play": 47,
-						"win": 21
-					}
-				},
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.742857,
-						"role_rate": 0.0131827,
-						"play": 35,
-						"win": 26
-					}
-				}
-			],
-			"tier": 2,
-			"rank": 22,
-			"kda": 3.645182
-		},
-		{
-			"id": 3,
-			"slot": "galio",
-			"name": "加里奥",
-			"title": "正义巨像",
-			"rateWin": 0.47224,
-			"ratePick": 0.0416946,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.47262,
-						"role_rate": 0.717221,
-						"play": 1187,
-						"win": 561
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.466454,
-						"role_rate": 0.189124,
-						"play": 313,
-						"win": 146
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.473333,
-						"role_rate": 0.0906344,
-						"play": 150,
-						"win": 71
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 128,
-			"kda": 3.099358
-		},
-		{
-			"id": 24,
-			"slot": "jax",
-			"name": "贾克斯",
-			"title": "武器大师",
-			"rateWin": 0.473988,
-			"ratePick": 0.0404982,
-			"roles": [
-				{
-					"name": "FIGHTER",
-					"stats": {
-						"win_rate": 0.48954,
-						"role_rate": 0.906448,
-						"play": 1434,
-						"win": 702
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.376344,
-						"role_rate": 0.0587863,
-						"play": 93,
-						"win": 35
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.315789,
-						"role_rate": 0.0120101,
-						"play": 19,
-						"win": 6
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.166667,
-						"role_rate": 0.011378,
-						"play": 18,
-						"win": 3
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 125,
-			"kda": 2.31987
-		},
-		{
-			"id": 30,
-			"slot": "karthus",
-			"name": "卡尔萨斯",
-			"title": "死亡颂唱者",
-			"rateWin": 0.509181,
-			"ratePick": 0.0679911,
-			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.510381,
-						"role_rate": 0.993623,
-						"play": 2649,
-						"win": 1352
-					}
-				}
-			],
-			"tier": 3,
-			"rank": 68,
-			"kda": 2.69234
-		},
-		{
-			"id": 32,
-			"slot": "amumu",
-			"name": "阿木木",
-			"title": "殇之木乃伊",
-			"rateWin": 0.45545,
-			"ratePick": 0.0548819,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.473144,
-						"role_rate": 0.763594,
-						"play": 1657,
-						"win": 784
-					}
-				},
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.39375,
-						"role_rate": 0.221198,
-						"play": 480,
-						"win": 189
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.521739,
-						"role_rate": 0.0105991,
-						"play": 23,
-						"win": 12
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 152,
-			"kda": 2.605158
-		},
-		{
-			"id": 523,
-			"slot": "aphelios",
-			"name": "厄斐琉斯",
-			"title": "残月之肃",
-			"rateWin": 0.473914,
-			"ratePick": 0.0832592,
-			"roles": [
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.477542,
-						"role_rate": 0.982833,
-						"play": 3206,
-						"win": 1531
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.468085,
-						"role_rate": 0.0144083,
-						"play": 47,
-						"win": 22
-					}
-				}
-			],
-			"tier": 4,
-			"rank": 147,
-			"kda": 3.135946
-		},
-		{
-			"id": 72,
-			"slot": "skarner",
-			"name": "斯卡纳",
-			"title": "水晶先锋",
-			"rateWin": 0.47379,
-			"ratePick": 0.0129011,
-			"roles": [
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.474576,
-						"role_rate": 0.930966,
-						"play": 472,
+						"role_rate": 0.105307,
+						"play": 504,
 						"win": 224
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
+						"win_rate": 0.392157,
+						"role_rate": 0.0426243,
+						"play": 204,
+						"win": 80
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.290541,
+						"role_rate": 0.0309235,
+						"play": 148,
+						"win": 43
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 138,
+			"kda": 2.797841
+		},
+		{
+			"id": 34,
+			"slot": "anivia",
+			"name": "艾尼维亚",
+			"title": "冰晶凤凰",
+			"rateWin": 0.474302,
+			"ratePick": 0.0578804,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.472047,
+						"role_rate": 0.91023,
+						"play": 6976,
+						"win": 3293
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.502404,
+						"role_rate": 0.0542797,
+						"play": 416,
+						"win": 209
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.538462,
+						"role_rate": 0.0305324,
+						"play": 234,
+						"win": 126
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 147,
+			"kda": 3.665556
+		},
+		{
+			"id": 127,
+			"slot": "lissandra",
+			"name": "丽桑卓",
+			"title": "冰霜女巫",
+			"rateWin": 0.464646,
+			"ratePick": 0.0415338,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.463727,
+						"role_rate": 0.964033,
+						"play": 5307,
+						"win": 2461
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.510638,
+						"role_rate": 0.0170754,
+						"play": 94,
+						"win": 48
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.471264,
+						"role_rate": 0.0158038,
+						"play": 87,
+						"win": 41
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 146,
+			"kda": 2.842866
+		},
+		{
+			"id": 91,
+			"slot": "talon",
+			"name": "泰隆",
+			"title": "刀锋之影",
+			"rateWin": 0.485051,
+			"ratePick": 0.0387802,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.474871,
+						"role_rate": 0.71573,
+						"play": 3681,
+						"win": 1748
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.516491,
+						"role_rate": 0.277076,
+						"play": 1425,
+						"win": 736
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 121,
+			"kda": 2.834977
+		},
+		{
+			"id": 39,
+			"slot": "irelia",
+			"name": "艾瑞莉娅",
+			"title": "刀锋舞者",
+			"rateWin": 0.548335,
+			"ratePick": 0.108102,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.559661,
+						"role_rate": 0.675876,
+						"play": 9663,
+						"win": 5408
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.535306,
+						"role_rate": 0.281318,
+						"play": 4022,
+						"win": 2153
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.390909,
+						"role_rate": 0.0153878,
+						"play": 220,
+						"win": 86
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.528497,
+						"role_rate": 0.0134993,
+						"play": 193,
+						"win": 102
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.481013,
+						"role_rate": 0.0110513,
+						"play": 158,
+						"win": 76
+					}
+				}
+			],
+			"tier": 1,
+			"rank": 7,
+			"kda": 2.664586
+		},
+		{
+			"id": 113,
+			"slot": "sejuani",
+			"name": "瑟庄妮",
+			"title": "北地之怒",
+			"rateWin": 0.498937,
+			"ratePick": 0.0215259,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.505174,
+						"role_rate": 0.946485,
+						"play": 2706,
+						"win": 1367
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.394161,
+						"role_rate": 0.0479189,
+						"play": 137,
+						"win": 54
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 99,
+			"kda": 3.369132
+		},
+		{
+			"id": 4,
+			"slot": "twistedfate",
+			"name": "崔斯特",
+			"title": "卡牌大师",
+			"rateWin": 0.496742,
+			"ratePick": 0.0760882,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.517612,
+						"role_rate": 0.801883,
+						"play": 8091,
+						"win": 4188
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.412042,
+						"role_rate": 0.167889,
+						"play": 1694,
+						"win": 698
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.415493,
+						"role_rate": 0.0140733,
+						"play": 142,
+						"win": 59
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 107,
+			"kda": 3.00315
+		},
+		{
+			"id": 61,
+			"slot": "orianna",
+			"name": "奥莉安娜",
+			"title": "发条魔灵",
+			"rateWin": 0.529752,
+			"ratePick": 0.0620452,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.528617,
+						"role_rate": 0.980445,
+						"play": 8072,
+						"win": 4267
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.598131,
+						"role_rate": 0.0129965,
+						"play": 107,
+						"win": 64
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 40,
+			"kda": 4.333897
+		},
+		{
+			"id": 876,
+			"slot": "lillia",
+			"name": "莉莉娅",
+			"title": "含羞蓓蕾",
+			"rateWin": 0.533666,
+			"ratePick": 0.0595891,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.535437,
+						"role_rate": 0.915473,
+						"play": 7224,
+						"win": 3868
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.504587,
+						"role_rate": 0.0552528,
+						"play": 436,
+						"win": 220
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.534884,
+						"role_rate": 0.0272462,
+						"play": 215,
+						"win": 115
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 38,
+			"kda": 3.279685
+		},
+		{
+			"id": 267,
+			"slot": "nami",
+			"name": "娜美",
+			"title": "唤潮鲛姬",
+			"rateWin": 0.56912,
+			"ratePick": 0.0349281,
+			"roles": [
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.590133,
+						"role_rate": 0.807146,
+						"play": 3750,
+						"win": 2213
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.485785,
+						"role_rate": 0.174128,
+						"play": 809,
+						"win": 393
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.37037,
+						"role_rate": 0.0116229,
+						"play": 54,
+						"win": 20
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 33,
+			"kda": 6.135835
+		},
+		{
+			"id": 236,
+			"slot": "lucian",
+			"name": "卢锡安",
+			"title": "圣枪游侠",
+			"rateWin": 0.474882,
+			"ratePick": 0.13377,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.478882,
+						"role_rate": 0.7854,
+						"play": 13922,
+						"win": 6667
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.478544,
+						"role_rate": 0.147241,
+						"play": 2610,
+						"win": 1249
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.416896,
+						"role_rate": 0.0614352,
+						"play": 1089,
+						"win": 454
+					}
+				}
+			],
+			"tier": 5,
+			"rank": 160,
+			"kda": 3.169668
+		},
+		{
+			"id": 78,
+			"slot": "poppy",
+			"name": "波比",
+			"title": "圣锤之毅",
+			"rateWin": 0.501015,
+			"ratePick": 0.0300691,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.505199,
+						"role_rate": 0.94128,
+						"play": 3751,
+						"win": 1895
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.455285,
+						"role_rate": 0.0308657,
+						"play": 123,
+						"win": 56
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.390244,
+						"role_rate": 0.0205772,
+						"play": 82,
+						"win": 32
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 96,
+			"kda": 3.151552
+		},
+		{
+			"id": 25,
+			"slot": "morgana",
+			"name": "莫甘娜",
+			"title": "堕落天使",
+			"rateWin": 0.535532,
+			"ratePick": 0.0779265,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.536634,
+						"role_rate": 0.974709,
+						"play": 10059,
+						"win": 5398
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.49711,
+						"role_rate": 0.0167636,
+						"play": 173,
+						"win": 86
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 25,
+			"kda": 4.332788
+		},
+		{
+			"id": 429,
+			"slot": "kalista",
+			"name": "卡莉丝塔",
+			"title": "复仇之矛",
+			"rateWin": 0.466917,
+			"ratePick": 0.0589102,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.470899,
+						"role_rate": 0.970166,
+						"play": 7577,
+						"win": 3568
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.335227,
+						"role_rate": 0.0225352,
+						"play": 176,
+						"win": 59
+					}
+				}
+			],
+			"tier": 5,
+			"rank": 153,
+			"kda": 2.995542
+		},
+		{
+			"id": 63,
+			"slot": "brand",
+			"name": "布兰德",
+			"title": "复仇焰魂",
+			"rateWin": 0.5346,
+			"ratePick": 0.0774917,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.535473,
+						"role_rate": 0.9931,
+						"play": 10219,
+						"win": 5472
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 27,
+			"kda": 3.285089
+		},
+		{
+			"id": 74,
+			"slot": "heimerdinger",
+			"name": "黑默丁格",
+			"title": "大发明家",
+			"rateWin": 0.481912,
+			"ratePick": 0.0347908,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.480874,
+						"role_rate": 0.992408,
+						"play": 4575,
+						"win": 2200
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 124,
+			"kda": 3.418138
+		},
+		{
+			"id": 43,
+			"slot": "karma",
+			"name": "卡尔玛",
+			"title": "天启者",
+			"rateWin": 0.496776,
+			"ratePick": 0.0721522,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.492972,
+						"role_rate": 0.713465,
+						"play": 6830,
+						"win": 3367
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.512245,
+						"role_rate": 0.153557,
+						"play": 1470,
+						"win": 753
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.498757,
+						"role_rate": 0.126084,
+						"play": 1207,
+						"win": 602
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 106,
+			"kda": 4.440922
+		},
+		{
+			"id": 22,
+			"slot": "ashe",
+			"name": "艾希",
+			"title": "寒冰射手",
+			"rateWin": 0.563957,
+			"ratePick": 0.122367,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.587251,
+						"role_rate": 0.692137,
+						"play": 11232,
+						"win": 6596
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.496384,
+						"role_rate": 0.255608,
+						"play": 4148,
+						"win": 2059
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.654485,
+						"role_rate": 0.0185482,
+						"play": 301,
+						"win": 197
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.557093,
+						"role_rate": 0.0178087,
+						"play": 289,
+						"win": 161
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.599099,
+						"role_rate": 0.0136801,
+						"play": 222,
+						"win": 133
+					}
+				}
+			],
+			"tier": 1,
+			"rank": 2,
+			"kda": 4.079771
+		},
+		{
+			"id": 777,
+			"slot": "yone",
+			"name": "永恩",
+			"title": "封魔剑魂",
+			"rateWin": 0.480092,
+			"ratePick": 0.0963631,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.48797,
+						"role_rate": 0.741703,
+						"play": 9476,
+						"win": 4624
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.464376,
+						"role_rate": 0.216421,
+						"play": 2765,
+						"win": 1284
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.469274,
+						"role_rate": 0.0280213,
+						"play": 358,
+						"win": 168
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.356164,
+						"role_rate": 0.0114277,
+						"play": 146,
+						"win": 52
+					}
+				}
+			],
+			"tier": 5,
+			"rank": 152,
+			"kda": 2.608795
+		},
+		{
+			"id": 516,
+			"slot": "ornn",
+			"name": "奥恩",
+			"title": "山隐之焰",
+			"rateWin": 0.506535,
+			"ratePick": 0.0571939,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.51036,
+						"role_rate": 0.988766,
+						"play": 7481,
+						"win": 3818
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 78,
+			"kda": 3.30852
+		},
+		{
+			"id": 163,
+			"slot": "taliyah",
+			"name": "塔莉垭",
+			"title": "岩雀",
+			"rateWin": 0.567269,
+			"ratePick": 0.0594746,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.566342,
+						"role_rate": 0.990989,
+						"play": 7808,
+						"win": 4422
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 12,
+			"kda": 3.419719
+		},
+		{
+			"id": 48,
+			"slot": "trundle",
+			"name": "特朗德尔",
+			"title": "巨魔之王",
+			"rateWin": 0.476375,
+			"ratePick": 0.0393904,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.492125,
+						"role_rate": 0.597236,
+						"play": 3111,
+						"win": 1531
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.458882,
+						"role_rate": 0.233442,
+						"play": 1216,
+						"win": 558
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.457286,
+						"role_rate": 0.152812,
+						"play": 796,
+						"win": 364
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 136,
+			"kda": 3.769162
+		},
+		{
+			"id": 497,
+			"slot": "rakan",
+			"name": "洛",
+			"title": "幻翎",
+			"rateWin": 0.474609,
+			"ratePick": 0.0277884,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.491795,
+						"role_rate": 0.513874,
+						"play": 1889,
+						"win": 929
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.45938,
+						"role_rate": 0.368335,
+						"play": 1354,
+						"win": 622
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.453202,
+						"role_rate": 0.110446,
+						"play": 406,
+						"win": 184
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 129,
+			"kda": 3.894865
+		},
+		{
+			"id": 201,
+			"slot": "braum",
+			"name": "布隆",
+			"title": "弗雷尔卓德之心",
+			"rateWin": 0.513401,
+			"ratePick": 0.029314,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.517843,
+						"role_rate": 0.972494,
+						"play": 3783,
+						"win": 1959
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 77,
+			"kda": 3.80442
+		},
+		{
+			"id": 166,
+			"slot": "akshan",
+			"name": "阿克尚",
+			"title": "影哨",
+			"rateWin": 0.48575,
+			"ratePick": 0.0487117,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.486858,
+						"role_rate": 0.87769,
+						"play": 5669,
+						"win": 2760
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.479945,
+						"role_rate": 0.111937,
+						"play": 723,
+						"win": 347
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 126,
+			"kda": 2.970944
+		},
+		{
+			"id": 238,
+			"slot": "zed",
+			"name": "劫",
+			"title": "影流之主",
+			"rateWin": 0.495279,
+			"ratePick": 0.126844,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.495643,
+						"role_rate": 0.982519,
+						"play": 16524,
+						"win": 8190
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.513661,
+						"role_rate": 0.0108812,
+						"play": 183,
+						"win": 94
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 122,
+			"kda": 3.170972
+		},
+		{
+			"id": 141,
+			"slot": "kayn",
+			"name": "凯隐",
+			"title": "影流之镰",
+			"rateWin": 0.535667,
+			"ratePick": 0.0573159,
+			"roles": [
+				{
+					"name": "FIGHTER|SLAYER",
+					"stats": {
+						"win_rate": 0.56555,
+						"role_rate": 0.534158,
+						"play": 4058,
+						"win": 2295
+					}
+				},
+				{
+					"name": "SLAYER|ASSASSIN",
+					"stats": {
+						"win_rate": 0.454545,
+						"role_rate": 0.24615,
+						"play": 1870,
+						"win": 850
+					}
+				},
+				{
+					"name": "SLAYER|SLAYER",
+					"stats": {
+						"win_rate": 0.570939,
+						"role_rate": 0.192049,
+						"play": 1459,
+						"win": 833
+					}
+				},
+				{
+					"name": "FIGHTER|ASSASSIN",
+					"stats": {
+						"win_rate": 0.414894,
+						"role_rate": 0.0123733,
+						"play": 94,
+						"win": 39
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 37,
+			"kda": 2.462621
+		},
+		{
+			"id": 86,
+			"slot": "garen",
+			"name": "盖伦",
+			"title": "德玛西亚之力",
+			"rateWin": 0.477641,
+			"ratePick": 0.0428153,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.493298,
+						"role_rate": 0.539697,
+						"play": 3059,
+						"win": 1509
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.476324,
+						"role_rate": 0.376323,
+						"play": 2133,
+						"win": 1016
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.413534,
+						"role_rate": 0.0469301,
+						"play": 266,
+						"win": 110
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.368132,
+						"role_rate": 0.0321101,
+						"play": 182,
+						"win": 67
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 137,
+			"kda": 3.045439
+		},
+		{
+			"id": 133,
+			"slot": "quinn",
+			"name": "奎因",
+			"title": "德玛西亚之翼",
+			"rateWin": 0.48178,
+			"ratePick": 0.0311904,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.486975,
+						"role_rate": 0.910896,
+						"play": 3762,
+						"win": 1832
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.47351,
+						"role_rate": 0.0731235,
+						"play": 302,
+						"win": 143
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 120,
+			"kda": 2.978936
+		},
+		{
+			"id": 59,
+			"slot": "jarvaniv",
+			"name": "嘉文四世",
+			"title": "德玛西亚皇子",
+			"rateWin": 0.477261,
+			"ratePick": 0.0613892,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.513096,
+						"role_rate": 0.525501,
+						"play": 4276,
+						"win": 2194
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.397939,
+						"role_rate": 0.250461,
+						"play": 2038,
+						"win": 811
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.539335,
+						"role_rate": 0.15153,
+						"play": 1233,
+						"win": 665
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.359307,
+						"role_rate": 0.0567777,
+						"play": 462,
+						"win": 166
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 145,
+			"kda": 3.401289
+		},
+		{
+			"id": 5,
+			"slot": "xinzhao",
+			"name": "赵信",
+			"title": "德邦总管",
+			"rateWin": 0.503871,
+			"ratePick": 0.0236464,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.509039,
+						"role_rate": 0.670494,
+						"play": 2102,
+						"win": 1070
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.513193,
+						"role_rate": 0.241786,
+						"play": 758,
+						"win": 389
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.521739,
+						"role_rate": 0.0440191,
+						"play": 138,
+						"win": 72
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.459184,
+						"role_rate": 0.03126,
+						"play": 98,
+						"win": 45
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 91,
+			"kda": 2.483107
+		},
+		{
+			"id": 35,
+			"slot": "shaco",
+			"name": "萨科",
+			"title": "恶魔小丑",
+			"rateWin": 0.476138,
+			"ratePick": 0.055142,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.501153,
+						"role_rate": 0.829802,
+						"play": 6070,
+						"win": 3042
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.344043,
+						"role_rate": 0.102119,
+						"play": 747,
+						"win": 257
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.340625,
+						"role_rate": 0.0437457,
+						"play": 320,
+						"win": 109
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.427273,
+						"role_rate": 0.0150376,
+						"play": 110,
+						"win": 47
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 142,
+			"kda": 3.520155
+		},
+		{
+			"id": 110,
+			"slot": "varus",
+			"name": "韦鲁斯",
+			"title": "惩戒之箭",
+			"rateWin": 0.523536,
+			"ratePick": 0.127531,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.564446,
+						"role_rate": 0.449743,
+						"play": 7611,
+						"win": 4296
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.464251,
+						"role_rate": 0.303315,
+						"play": 5133,
+						"win": 2383
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.523636,
+						"role_rate": 0.24251,
+						"play": 4104,
+						"win": 2149
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 22,
+			"kda": 3.879264
+		},
+		{
+			"id": 711,
+			"slot": "vex",
+			"name": "薇古丝",
+			"title": "愁云使者",
+			"rateWin": 0.534811,
+			"ratePick": 0.0660651,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.535276,
+						"role_rate": 0.988566,
+						"play": 8646,
+						"win": 4628
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 34,
+			"kda": 3.432608
+		},
+		{
+			"id": 202,
+			"slot": "jhin",
+			"name": "烬",
+			"title": "戏命师",
+			"rateWin": 0.531231,
+			"ratePick": 0.139583,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.524487,
+						"role_rate": 0.854178,
+						"play": 15804,
+						"win": 8289
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.572627,
+						"role_rate": 0.141768,
+						"play": 2623,
+						"win": 1502
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 11,
+			"kda": 4.529655
+		},
+		{
+			"id": 120,
+			"slot": "hecarim",
+			"name": "赫卡里姆",
+			"title": "战争之影",
+			"rateWin": 0.549239,
+			"ratePick": 0.0450808,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.567466,
+						"role_rate": 0.760335,
+						"play": 4543,
+						"win": 2578
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.506403,
+						"role_rate": 0.143766,
+						"play": 859,
+						"win": 435
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.470363,
+						"role_rate": 0.0875314,
+						"play": 523,
+						"win": 246
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 35,
+			"kda": 2.895344
+		},
+		{
+			"id": 15,
+			"slot": "sivir",
+			"name": "希维尔",
+			"title": "战争女神",
+			"rateWin": 0.543105,
+			"ratePick": 0.114495,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.548044,
+						"role_rate": 0.915701,
+						"play": 13904,
+						"win": 7620
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.490017,
+						"role_rate": 0.0791623,
+						"play": 1202,
+						"win": 589
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 8,
+			"kda": 3.888929
+		},
+		{
+			"id": 57,
+			"slot": "maokai",
+			"name": "茂凯",
+			"title": "扭曲树精",
+			"rateWin": 0.536452,
+			"ratePick": 0.0727166,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.556838,
+						"role_rate": 0.593092,
+						"play": 5718,
+						"win": 3184
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.50741,
+						"role_rate": 0.384919,
+						"play": 3711,
+						"win": 1883
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.531429,
+						"role_rate": 0.0181516,
+						"play": 175,
+						"win": 93
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 29,
+			"kda": 3.283859
+		},
+		{
+			"id": 33,
+			"slot": "rammus",
+			"name": "拉莫斯",
+			"title": "披甲龙龟",
+			"rateWin": 0.525961,
+			"ratePick": 0.0226243,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.532113,
+						"role_rate": 0.965977,
+						"play": 2896,
+						"win": 1541
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.302632,
+						"role_rate": 0.0253502,
+						"play": 76,
+						"win": 23
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 71,
+			"kda": 2.844985
+		},
+		{
+			"id": 81,
+			"slot": "ezreal",
+			"name": "伊泽瑞尔",
+			"title": "探险家",
+			"rateWin": 0.558238,
+			"ratePick": 0.151345,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.559676,
+						"role_rate": 0.904731,
+						"play": 18148,
+						"win": 10157
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.654255,
+						"role_rate": 0.0562341,
+						"play": 1128,
+						"win": 738
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.383704,
+						"role_rate": 0.0336507,
+						"play": 675,
+						"win": 259
+					}
+				}
+			],
+			"tier": 1,
+			"rank": 1,
+			"kda": 3.947486
+		},
+		{
+			"id": 92,
+			"slot": "riven",
+			"name": "锐雯",
+			"title": "放逐之刃",
+			"rateWin": 0.557259,
+			"ratePick": 0.0562175,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.555046,
+						"role_rate": 0.877852,
+						"play": 6540,
+						"win": 3630
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.580263,
+						"role_rate": 0.102013,
+						"play": 760,
+						"win": 441
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.616822,
+						"role_rate": 0.0143624,
+						"play": 107,
+						"win": 66
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 20,
+			"kda": 2.975599
+		},
+		{
+			"id": 114,
+			"slot": "fiora",
+			"name": "菲奥娜",
+			"title": "无双剑姬",
+			"rateWin": 0.550811,
+			"ratePick": 0.0573465,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.552485,
+						"role_rate": 0.966193,
+						"play": 7345,
+						"win": 4058
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.559211,
+						"role_rate": 0.0199947,
+						"play": 152,
+						"win": 85
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 24,
+			"kda": 2.778433
+		},
+		{
+			"id": 11,
+			"slot": "masteryi",
+			"name": "易",
+			"title": "无极剑圣",
+			"rateWin": 0.526939,
+			"ratePick": 0.0669652,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.522804,
+						"role_rate": 0.501691,
+						"play": 4451,
+						"win": 2327
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.540007,
+						"role_rate": 0.342313,
+						"play": 3037,
+						"win": 1640
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.534483,
+						"role_rate": 0.111136,
+						"play": 986,
+						"win": 527
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.469444,
+						"role_rate": 0.0405771,
+						"play": 360,
+						"win": 169
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 41,
+			"kda": 2.647455
+		},
+		{
+			"id": 6,
+			"slot": "urgot",
+			"name": "厄加特",
+			"title": "无畏战车",
+			"rateWin": 0.457295,
+			"ratePick": 0.0214344,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.469403,
+						"role_rate": 0.469023,
+						"play": 1340,
+						"win": 629
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.448145,
+						"role_rate": 0.462373,
+						"play": 1321,
+						"win": 592
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.450292,
+						"role_rate": 0.059853,
+						"play": 171,
+						"win": 77
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 134,
+			"kda": 2.73217
+		},
+		{
+			"id": 26,
+			"slot": "zilean",
+			"name": "基兰",
+			"title": "时光守护者",
+			"rateWin": 0.495073,
+			"ratePick": 0.0510916,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.499476,
+						"role_rate": 0.846279,
+						"play": 5720,
+						"win": 2857
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.47677,
+						"role_rate": 0.133748,
+						"play": 904,
+						"win": 431
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.478261,
+						"role_rate": 0.0102086,
+						"play": 69,
+						"win": 33
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 108,
+			"kda": 4.899613
+		},
+		{
+			"id": 245,
+			"slot": "ekko",
+			"name": "艾克",
+			"title": "时间刺客",
+			"rateWin": 0.4786,
+			"ratePick": 0.0616638,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.478543,
+						"role_rate": 0.923096,
+						"play": 7550,
+						"win": 3613
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.506591,
+						"role_rate": 0.0649224,
+						"play": 531,
+						"win": 269
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 143,
+			"kda": 2.944053
+		},
+		{
+			"id": 432,
+			"slot": "bard",
+			"name": "巴德",
+			"title": "星界游神",
+			"rateWin": 0.519975,
+			"ratePick": 0.0358968,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.533408,
+						"role_rate": 0.751471,
+						"play": 3577,
+						"win": 1908
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.468085,
+						"role_rate": 0.138235,
+						"play": 658,
+						"win": 308
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.476364,
+						"role_rate": 0.0577731,
+						"play": 275,
+						"win": 131
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.545024,
+						"role_rate": 0.0443277,
+						"play": 211,
+						"win": 115
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 66,
+			"kda": 4.8307
+		},
+		{
+			"id": 147,
+			"slot": "seraphine",
+			"name": "萨勒芬妮",
+			"title": "星籁歌姬",
+			"rateWin": 0.553094,
+			"ratePick": 0.0564616,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.548659,
+						"role_rate": 0.698141,
+						"play": 5220,
+						"win": 2864
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.567164,
+						"role_rate": 0.295707,
+						"play": 2211,
+						"win": 1254
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 23,
+			"kda": 4.610891
+		},
+		{
+			"id": 67,
+			"slot": "vayne",
+			"name": "薇恩",
+			"title": "暗夜猎手",
+			"rateWin": 0.534711,
+			"ratePick": 0.111085,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.537626,
+						"role_rate": 0.973964,
+						"play": 14365,
+						"win": 7723
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 14,
+			"kda": 2.749068
+		},
+		{
+			"id": 266,
+			"slot": "aatrox",
+			"name": "亚托克斯",
+			"title": "暗裔剑魔",
+			"rateWin": 0.559058,
+			"ratePick": 0.127027,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.586312,
+						"role_rate": 0.52873,
+						"play": 8898,
+						"win": 5217
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.530139,
+						"role_rate": 0.461346,
+						"play": 7764,
+						"win": 4116
+					}
+				}
+			],
+			"tier": 1,
+			"rank": 3,
+			"kda": 3.128475
+		},
+		{
+			"id": 134,
+			"slot": "syndra",
+			"name": "辛德拉",
+			"title": "暗黑元首",
+			"rateWin": 0.499346,
+			"ratePick": 0.0583533,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.49987,
+						"role_rate": 0.994815,
+						"play": 7674,
+						"win": 3836
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 100,
+			"kda": 3.440407
+		},
+		{
+			"id": 98,
+			"slot": "shen",
+			"name": "慎",
+			"title": "暮光之眼",
+			"rateWin": 0.509014,
+			"ratePick": 0.0287724,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.514155,
+						"role_rate": 0.969673,
+						"play": 3709,
+						"win": 1907
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.511111,
+						"role_rate": 0.0117647,
+						"play": 45,
+						"win": 23
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 85,
+			"kda": 3.778322
+		},
+		{
+			"id": 142,
+			"slot": "zoe",
+			"name": "佐伊",
+			"title": "暮光星灵",
+			"rateWin": 0.494013,
+			"ratePick": 0.0719844,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.493459,
+						"role_rate": 0.991941,
+						"play": 9478,
+						"win": 4677
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 114,
+			"kda": 3.563997
+		},
+		{
+			"id": 240,
+			"slot": "kled",
+			"name": "克烈",
+			"title": "暴怒骑士",
+			"rateWin": 0.508475,
+			"ratePick": 0.0121512,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.503785,
+						"role_rate": 0.738968,
+						"play": 1189,
+						"win": 599
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.527132,
+						"role_rate": 0.240522,
+						"play": 387,
+						"win": 204
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.636364,
+						"role_rate": 0.0136731,
+						"play": 22,
+						"win": 14
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 90,
+			"kda": 3.567303
+		},
+		{
+			"id": 222,
+			"slot": "jinx",
+			"name": "金克丝",
+			"title": "暴走萝莉",
+			"rateWin": 0.532837,
+			"ratePick": 0.134152,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.535621,
+						"role_rate": 0.951172,
+						"play": 16928,
+						"win": 9067
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.469716,
+						"role_rate": 0.0454571,
+						"play": 809,
+						"win": 380
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 10,
+			"kda": 3.434877
+		},
+		{
+			"id": 89,
+			"slot": "leona",
+			"name": "蕾欧娜",
+			"title": "曙光女神",
+			"rateWin": 0.525916,
+			"ratePick": 0.0401761,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.531443,
+						"role_rate": 0.97279,
+						"play": 5184,
+						"win": 2755
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.305085,
+						"role_rate": 0.0110715,
+						"play": 59,
+						"win": 18
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 55,
+			"kda": 3.021905
+		},
+		{
+			"id": 126,
+			"slot": "jayce",
+			"name": "杰斯",
+			"title": "未来守护者",
+			"rateWin": 0.551995,
+			"ratePick": 0.125212,
+			"roles": [
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.552275,
+						"role_rate": 0.994943,
+						"play": 16528,
+						"win": 9128
+					}
+				}
+			],
+			"tier": 1,
+			"rank": 4,
+			"kda": 3.965899
+		},
+		{
+			"id": 112,
+			"slot": "viktor",
+			"name": "维克托",
+			"title": "机械先驱",
+			"rateWin": 0.558643,
+			"ratePick": 0.0831821,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.559396,
+						"role_rate": 0.992107,
+						"play": 10935,
+						"win": 6117
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 9,
+			"kda": 3.670527
+		},
+		{
+			"id": 68,
+			"slot": "rumble",
+			"name": "兰博",
+			"title": "机械公敌",
+			"rateWin": 0.509063,
+			"ratePick": 0.0656456,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.509724,
+						"role_rate": 0.993787,
+						"play": 8638,
+						"win": 4403
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 70,
+			"kda": 3.287131
+		},
+		{
+			"id": 10,
+			"slot": "kayle",
+			"name": "凯尔",
+			"title": "正义天使",
+			"rateWin": 0.555331,
+			"ratePick": 0.0640361,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.558916,
+						"role_rate": 0.5253,
+						"play": 4464,
+						"win": 2495
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.552883,
+						"role_rate": 0.430572,
+						"play": 3659,
+						"win": 2023
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.581699,
+						"role_rate": 0.0180042,
+						"play": 153,
+						"win": 89
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.556452,
+						"role_rate": 0.0145917,
+						"play": 124,
+						"win": 69
+					}
+				}
+			],
+			"tier": 2,
+			"rank": 17,
+			"kda": 3.644123
+		},
+		{
+			"id": 3,
+			"slot": "galio",
+			"name": "加里奥",
+			"title": "正义巨像",
+			"rateWin": 0.500497,
+			"ratePick": 0.0384064,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.51147,
+						"role_rate": 0.754376,
+						"play": 3836,
+						"win": 1962
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.46875,
+						"role_rate": 0.169912,
+						"play": 864,
+						"win": 405
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
+						"win_rate": 0.460916,
+						"role_rate": 0.0729597,
+						"play": 371,
+						"win": 171
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 97,
+			"kda": 3.174782
+		},
+		{
+			"id": 24,
+			"slot": "jax",
+			"name": "贾克斯",
+			"title": "武器大师",
+			"rateWin": 0.488158,
+			"ratePick": 0.0389709,
+			"roles": [
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.491529,
+						"role_rate": 0.91423,
+						"play": 4722,
+						"win": 2321
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.466667,
+						"role_rate": 0.0609874,
+						"play": 315,
+						"win": 147
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.333333,
+						"role_rate": 0.0116167,
+						"play": 60,
+						"win": 20
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 116,
+			"kda": 2.302084
+		},
+		{
+			"id": 30,
+			"slot": "karthus",
+			"name": "卡尔萨斯",
+			"title": "死亡颂唱者",
+			"rateWin": 0.501242,
+			"ratePick": 0.0675526,
+			"roles": [
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.501911,
+						"role_rate": 0.994412,
+						"play": 8898,
+						"win": 4466
+					}
+				}
+			],
+			"tier": 3,
+			"rank": 92,
+			"kda": 2.71523
+		},
+		{
+			"id": 32,
+			"slot": "amumu",
+			"name": "阿木木",
+			"title": "殇之木乃伊",
+			"rateWin": 0.466332,
+			"ratePick": 0.056187,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.486901,
+						"role_rate": 0.779524,
+						"play": 5802,
+						"win": 2825
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.401948,
+						"role_rate": 0.206906,
+						"play": 1540,
+						"win": 619
+					}
+				}
+			],
+			"tier": 5,
+			"rank": 151,
+			"kda": 2.599856
+		},
+		{
+			"id": 523,
+			"slot": "aphelios",
+			"name": "厄斐琉斯",
+			"title": "残月之肃",
+			"rateWin": 0.488678,
+			"ratePick": 0.0811836,
+			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.491508,
+						"role_rate": 0.981011,
+						"play": 10539,
+						"win": 5180
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.346667,
+						"role_rate": 0.0139626,
+						"play": 150,
+						"win": 52
+					}
+				}
+			],
+			"tier": 4,
+			"rank": 135,
+			"kda": 3.196566
+		},
+		{
+			"id": 72,
+			"slot": "skarner",
+			"name": "斯卡纳",
+			"title": "水晶先锋",
+			"rateWin": 0.513089,
+			"ratePick": 0.0145693,
+			"roles": [
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.518994,
+						"role_rate": 0.923156,
+						"play": 1790,
+						"win": 929
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.45098,
+						"role_rate": 0.0526044,
+						"play": 102,
+						"win": 46
+					}
+				},
+				{
+					"name": "CONTROLLER",
+					"stats": {
 						"win_rate": 0.583333,
-						"role_rate": 0.0473373,
+						"role_rate": 0.0123775,
 						"play": 24,
 						"win": 14
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 109,
-			"kda": 3.140146
+			"rank": 87,
+			"kda": 3.158423
 		},
 		{
 			"id": 56,
 			"slot": "nocturne",
 			"name": "魔腾",
 			"title": "永恒梦魇",
-			"rateWin": 0.485816,
-			"ratePick": 0.0146699,
+			"rateWin": 0.470048,
+			"ratePick": 0.0157897,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.480198,
-						"role_rate": 0.697755,
-						"play": 404,
-						"win": 194
+						"win_rate": 0.438696,
+						"role_rate": 0.67512,
+						"play": 1411,
+						"win": 619
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.510204,
-						"role_rate": 0.253886,
-						"play": 147,
-						"win": 75
+						"win_rate": 0.539162,
+						"role_rate": 0.262679,
+						"play": 549,
+						"win": 296
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.52381,
-						"role_rate": 0.0362694,
-						"play": 21,
-						"win": 11
+						"win_rate": 0.53125,
+						"role_rate": 0.045933,
+						"play": 96,
+						"win": 51
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.142857,
-						"role_rate": 0.0120898,
-						"play": 7,
-						"win": 1
+						"win_rate": 0.5,
+						"role_rate": 0.0105263,
+						"play": 22,
+						"win": 11
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 104,
-			"kda": 2.683961
+			"rank": 117,
+			"kda": 2.629923
 		},
 		{
 			"id": 203,
 			"slot": "kindred",
 			"name": "千珏",
 			"title": "永猎双子",
-			"rateWin": 0.517672,
-			"ratePick": 0.050044,
+			"rateWin": 0.52023,
+			"ratePick": 0.0529757,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.518023,
-						"role_rate": 0.982794,
-						"play": 1942,
-						"win": 1006
+						"win_rate": 0.520052,
+						"role_rate": 0.980482,
+						"play": 6882,
+						"win": 3579
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 59,
-			"kda": 3.121853
+			"rank": 53,
+			"kda": 3.126878
 		},
 		{
 			"id": 75,
 			"slot": "nasus",
 			"name": "内瑟斯",
 			"title": "沙漠死神",
-			"rateWin": 0.514571,
-			"ratePick": 0.0312385,
+			"rateWin": 0.514144,
+			"ratePick": 0.0323575,
 			"roles": [
-				{
-					"name": "MAGE",
-					"stats": {
-						"win_rate": 0.452206,
-						"role_rate": 0.442997,
-						"play": 544,
-						"win": 246
-					}
-				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.570866,
-						"role_rate": 0.413681,
-						"play": 508,
-						"win": 290
+						"win_rate": 0.553488,
+						"role_rate": 0.449791,
+						"play": 1935,
+						"win": 1071
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.485965,
+						"role_rate": 0.39749,
+						"play": 1710,
+						"win": 831
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.586777,
-						"role_rate": 0.0985342,
-						"play": 121,
-						"win": 71
+						"win_rate": 0.508163,
+						"role_rate": 0.113901,
+						"play": 490,
+						"win": 249
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.394737,
-						"role_rate": 0.0309446,
-						"play": 38,
-						"win": 15
+						"win_rate": 0.346535,
+						"role_rate": 0.0234775,
+						"play": 101,
+						"win": 35
 					}
 				}
 			],
 			"tier": 3,
 			"rank": 75,
-			"kda": 3.276963
+			"kda": 3.182781
 		},
 		{
 			"id": 360,
 			"slot": "samira",
 			"name": "莎弥拉",
 			"title": "沙漠玫瑰",
-			"rateWin": 0.523492,
-			"ratePick": 0.112937,
+			"rateWin": 0.519556,
+			"ratePick": 0.11136,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.529342,
-						"role_rate": 0.950517,
-						"play": 4226,
-						"win": 2237
+						"win_rate": 0.524456,
+						"role_rate": 0.949556,
+						"play": 14005,
+						"win": 7345
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.427136,
-						"role_rate": 0.0447593,
-						"play": 199,
-						"win": 85
+						"win_rate": 0.417445,
+						"role_rate": 0.0435284,
+						"play": 642,
+						"win": 268
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 28,
-			"kda": 2.847952
+			"rank": 36,
+			"kda": 2.839053
 		},
 		{
 			"id": 268,
 			"slot": "azir",
 			"name": "阿兹尔",
 			"title": "沙漠皇帝",
-			"rateWin": 0.499867,
-			"ratePick": 0.0976169,
+			"rateWin": 0.488823,
+			"ratePick": 0.0590322,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.50405,
-						"role_rate": 0.994284,
-						"play": 3827,
-						"win": 1929
+						"win_rate": 0.490602,
+						"role_rate": 0.993732,
+						"play": 7768,
+						"win": 3811
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 98,
-			"kda": 3.150008
+			"tier": 4,
+			"rank": 125,
+			"kda": 3.085576
 		},
 		{
 			"id": 223,
 			"slot": "tahmkench",
 			"name": "塔姆",
 			"title": "河流之王",
-			"rateWin": 0.478577,
-			"ratePick": 0.0321748,
+			"rateWin": 0.517644,
+			"ratePick": 0.0306946,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.485692,
-						"role_rate": 0.989772,
-						"play": 1258,
-						"win": 611
+						"win_rate": 0.519016,
+						"role_rate": 0.990643,
+						"play": 4023,
+						"win": 2088
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 119,
-			"kda": 3.587645
+			"rank": 72,
+			"kda": 3.602318
 		},
 		{
 			"id": 104,
 			"slot": "graves",
 			"name": "格雷福斯",
 			"title": "法外狂徒",
-			"rateWin": 0.523699,
-			"ratePick": 0.100426,
+			"rateWin": 0.537168,
+			"ratePick": 0.105692,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.537202,
-						"role_rate": 0.538966,
-						"play": 2137,
-						"win": 1148
+						"win_rate": 0.552044,
+						"role_rate": 0.553469,
+						"play": 7753,
+						"win": 4280
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.521093,
-						"role_rate": 0.424464,
-						"play": 1683,
-						"win": 877
+						"win_rate": 0.521538,
+						"role_rate": 0.415977,
+						"play": 5827,
+						"win": 3039
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.454545,
-						"role_rate": 0.0221942,
-						"play": 88,
-						"win": 40
+						"win_rate": 0.601852,
+						"role_rate": 0.0154198,
+						"play": 216,
+						"win": 130
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.317073,
-						"role_rate": 0.0103405,
-						"play": 41,
-						"win": 13
+						"win_rate": 0.381579,
+						"role_rate": 0.0108509,
+						"play": 152,
+						"win": 58
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 32,
-			"kda": 3.38235
+			"rank": 13,
+			"kda": 3.364466
 		},
 		{
 			"id": 420,
 			"slot": "illaoi",
 			"name": "俄洛伊",
 			"title": "海兽祭司",
-			"rateWin": 0.508653,
-			"ratePick": 0.0345678,
+			"rateWin": 0.481614,
+			"ratePick": 0.0234405,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.524157,
-						"role_rate": 0.806618,
-						"play": 1097,
-						"win": 575
+						"win_rate": 0.493842,
+						"role_rate": 0.808545,
+						"play": 2517,
+						"win": 1243
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.465347,
-						"role_rate": 0.148529,
-						"play": 202,
-						"win": 94
+						"win_rate": 0.434043,
+						"role_rate": 0.15098,
+						"play": 470,
+						"win": 204
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.442308,
-						"role_rate": 0.0382353,
-						"play": 52,
-						"win": 23
+						"win_rate": 0.40367,
+						"role_rate": 0.0350145,
+						"play": 109,
+						"win": 44
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 82,
-			"kda": 2.461674
+			"rank": 115,
+			"kda": 2.415887
 		},
 		{
 			"id": 41,
 			"slot": "gangplank",
 			"name": "普朗克",
 			"title": "海洋之灾",
-			"rateWin": 0.47798,
-			"ratePick": 0.0885913,
+			"rateWin": 0.475774,
+			"ratePick": 0.0862714,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.477823,
-						"role_rate": 0.567831,
-						"play": 1984,
-						"win": 948
+						"win_rate": 0.469664,
+						"role_rate": 0.562626,
+						"play": 6428,
+						"win": 3019
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.481618,
-						"role_rate": 0.389239,
-						"play": 1360,
-						"win": 655
+						"win_rate": 0.48576,
+						"role_rate": 0.384158,
+						"play": 4389,
+						"win": 2132
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.419753,
-						"role_rate": 0.0231826,
-						"play": 81,
-						"win": 34
+						"win_rate": 0.420749,
+						"role_rate": 0.030372,
+						"play": 347,
+						"win": 146
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.47541,
-						"role_rate": 0.0174585,
-						"play": 61,
-						"win": 29
+						"win_rate": 0.524038,
+						"role_rate": 0.0182057,
+						"play": 208,
+						"win": 109
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 144,
-			"kda": 3.503227
+			"tier": 5,
+			"rank": 155,
+			"kda": 3.480623
 		},
 		{
 			"id": 235,
 			"slot": "senna",
 			"name": "赛娜",
 			"title": "涤魂圣枪",
-			"rateWin": 0.535033,
-			"ratePick": 0.125474,
+			"rateWin": 0.551026,
+			"ratePick": 0.107782,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.525521,
-						"role_rate": 0.670243,
-						"play": 3311,
-						"win": 1740
+						"win_rate": 0.540651,
+						"role_rate": 0.667555,
+						"play": 9520,
+						"win": 5147
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.554693,
-						"role_rate": 0.312753,
-						"play": 1545,
-						"win": 857
+						"win_rate": 0.573378,
+						"role_rate": 0.313442,
+						"play": 4470,
+						"win": 2563
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.588235,
+						"role_rate": 0.0107286,
+						"play": 153,
+						"win": 90
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 11,
-			"kda": 4.711867
+			"tier": 1,
+			"rank": 6,
+			"kda": 4.673539
 		},
 		{
 			"id": 111,
 			"slot": "nautilus",
 			"name": "诺提勒斯",
 			"title": "深海泰坦",
-			"rateWin": 0.527104,
-			"ratePick": 0.0503821,
+			"rateWin": 0.526553,
+			"ratePick": 0.0507026,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.533158,
-						"role_rate": 0.956697,
-						"play": 1900,
-						"win": 1013
+						"win_rate": 0.531704,
+						"role_rate": 0.962632,
+						"play": 6466,
+						"win": 3438
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.372549,
-						"role_rate": 0.0256798,
-						"play": 51,
-						"win": 19
+						"win_rate": 0.382514,
+						"role_rate": 0.0272443,
+						"play": 183,
+						"win": 70
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 46,
-			"kda": 3.247204
+			"rank": 49,
+			"kda": 3.261006
 		},
 		{
 			"id": 96,
 			"slot": "kogmaw",
 			"name": "克格莫",
 			"title": "深渊巨口",
-			"rateWin": 0.533773,
-			"ratePick": 0.0789415,
+			"rateWin": 0.543434,
+			"ratePick": 0.0755161,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.526605,
-						"role_rate": 0.698942,
-						"play": 2180,
-						"win": 1148
+						"win_rate": 0.538243,
+						"role_rate": 0.702417,
+						"play": 7034,
+						"win": 3786
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.54324,
-						"role_rate": 0.263225,
-						"play": 821,
-						"win": 446
+						"win_rate": 0.556952,
+						"role_rate": 0.262133,
+						"play": 2625,
+						"win": 1462
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.582278,
-						"role_rate": 0.0253286,
-						"play": 79,
-						"win": 46
+						"win_rate": 0.599034,
+						"role_rate": 0.0206711,
+						"play": 207,
+						"win": 124
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 27,
-			"kda": 3.422408
+			"rank": 19,
+			"kda": 3.443495
 		},
 		{
 			"id": 105,
 			"slot": "fizz",
 			"name": "菲兹",
 			"title": "潮汐海灵",
-			"rateWin": 0.47266,
-			"ratePick": 0.0494717,
+			"rateWin": 0.472507,
+			"ratePick": 0.0491083,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.474706,
-						"role_rate": 0.875837,
-						"play": 1700,
-						"win": 807
+						"win_rate": 0.476207,
+						"role_rate": 0.889381,
+						"play": 5821,
+						"win": 2772
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.447619,
-						"role_rate": 0.108192,
-						"play": 210,
-						"win": 94
+						"win_rate": 0.467241,
+						"role_rate": 0.0886173,
+						"play": 580,
+						"win": 271
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.394737,
+						"role_rate": 0.0116119,
+						"play": 76,
+						"win": 30
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 130,
-			"kda": 2.679187
+			"rank": 144,
+			"kda": 2.665461
 		},
 		{
 			"id": 887,
 			"slot": "gwen",
 			"name": "格温",
 			"title": "灵罗娃娃",
-			"rateWin": 0.45685,
-			"ratePick": 0.0482232,
+			"rateWin": 0.516416,
+			"ratePick": 0.0436773,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.461836,
-						"role_rate": 0.955098,
-						"play": 1808,
-						"win": 835
+						"win_rate": 0.521383,
+						"role_rate": 0.952175,
+						"play": 5495,
+						"win": 2865
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.345455,
-						"role_rate": 0.0290544,
-						"play": 55,
-						"win": 19
+						"win_rate": 0.415663,
+						"role_rate": 0.0287645,
+						"play": 166,
+						"win": 69
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.407407,
-						"role_rate": 0.0142631,
-						"play": 27,
-						"win": 11
+						"win_rate": 0.516484,
+						"role_rate": 0.0157685,
+						"play": 91,
+						"win": 47
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 146,
-			"kda": 2.596799
+			"tier": 3,
+			"rank": 65,
+			"kda": 2.800274
 		},
 		{
 			"id": 27,
 			"slot": "singed",
 			"name": "辛吉德",
 			"title": "炼金术士",
-			"rateWin": 0.523056,
-			"ratePick": 0.0575349,
+			"rateWin": 0.510107,
+			"ratePick": 0.0498101,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.510295,
-						"role_rate": 0.492287,
-						"play": 1117,
-						"win": 570
+						"win_rate": 0.487042,
+						"role_rate": 0.536984,
+						"play": 3550,
+						"win": 1729
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.529723,
-						"role_rate": 0.333627,
-						"play": 757,
-						"win": 401
+						"win_rate": 0.537741,
+						"role_rate": 0.290576,
+						"play": 1921,
+						"win": 1033
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.546632,
-						"role_rate": 0.170119,
-						"play": 386,
-						"win": 211
+						"win_rate": 0.540395,
+						"role_rate": 0.168507,
+						"play": 1114,
+						"win": 602
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 49,
-			"kda": 2.875129
+			"rank": 73,
+			"kda": 2.867769
 		},
 		{
 			"id": 888,
 			"slot": "renata",
 			"name": "烈娜塔·戈拉斯克",
 			"title": "炼金男爵",
-			"rateWin": 0.526061,
-			"ratePick": 0.0484053,
+			"rateWin": 0.510851,
+			"ratePick": 0.045691,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.5249,
-						"role_rate": 0.912748,
-						"play": 1747,
-						"win": 917
+						"win_rate": 0.516011,
+						"role_rate": 0.902262,
+						"play": 5465,
+						"win": 2820
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.514286,
-						"role_rate": 0.0548589,
-						"play": 105,
-						"win": 54
+						"win_rate": 0.464286,
+						"role_rate": 0.055473,
+						"play": 336,
+						"win": 156
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.6,
-						"role_rate": 0.0261233,
-						"play": 50,
-						"win": 30
+						"win_rate": 0.5,
+						"role_rate": 0.0274063,
+						"play": 166,
+						"win": 83
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 52,
-			"kda": 4.46327
+			"rank": 74,
+			"kda": 4.426665
 		},
 		{
 			"id": 54,
 			"slot": "malphite",
 			"name": "墨菲特",
 			"title": "熔岩巨兽",
-			"rateWin": 0.46697,
-			"ratePick": 0.0799299,
+			"rateWin": 0.46683,
+			"ratePick": 0.0808327,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.4583,
-						"role_rate": 0.799365,
-						"play": 2518,
-						"win": 1154
+						"win_rate": 0.454364,
+						"role_rate": 0.796398,
+						"play": 8535,
+						"win": 3878
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.523891,
-						"role_rate": 0.186032,
-						"play": 586,
-						"win": 307
-					}
-				},
-				{
-					"name": "CONTROLLER",
-					"stats": {
-						"win_rate": 0.444444,
-						"role_rate": 0.0114286,
-						"play": 36,
-						"win": 16
+						"win_rate": 0.525134,
+						"role_rate": 0.191192,
+						"play": 2049,
+						"win": 1076
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 154,
-			"kda": 2.761076
+			"tier": 5,
+			"rank": 159,
+			"kda": 2.736772
 		},
 		{
 			"id": 53,
 			"slot": "blitzcrank",
 			"name": "布里茨",
 			"title": "蒸汽机器人",
-			"rateWin": 0.48357,
-			"ratePick": 0.10607,
+			"rateWin": 0.502986,
+			"ratePick": 0.104731,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.516934,
-						"role_rate": 0.402535,
-						"play": 1683,
-						"win": 870
+						"win_rate": 0.551104,
+						"role_rate": 0.440086,
+						"play": 6115,
+						"win": 3370
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.429804,
-						"role_rate": 0.304951,
-						"play": 1275,
-						"win": 548
+						"win_rate": 0.434647,
+						"role_rate": 0.299532,
+						"play": 4162,
+						"win": 1809
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.505093,
-						"role_rate": 0.281751,
-						"play": 1178,
-						"win": 595
+						"win_rate": 0.504096,
+						"role_rate": 0.245988,
+						"play": 3418,
+						"win": 1723
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 138,
-			"kda": 3.394396
+			"tier": 3,
+			"rank": 80,
+			"kda": 3.400332
 		},
 		{
 			"id": 115,
 			"slot": "ziggs",
 			"name": "吉格斯",
 			"title": "爆破鬼才",
-			"rateWin": 0.527473,
-			"ratePick": 0.0615405,
+			"rateWin": 0.522776,
+			"ratePick": 0.060451,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.529266,
-						"role_rate": 0.995895,
-						"play": 2426,
-						"win": 1284
+						"win_rate": 0.524138,
+						"role_rate": 0.994389,
+						"play": 7975,
+						"win": 4180
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 40,
-			"kda": 4.09346
+			"tier": 3,
+			"rank": 45,
+			"kda": 4.083741
 		},
 		{
 			"id": 12,
 			"slot": "alistar",
 			"name": "阿利斯塔",
 			"title": "牛头酋长",
-			"rateWin": 0.506582,
-			"ratePick": 0.0493937,
+			"rateWin": 0.503025,
+			"ratePick": 0.0479031,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.516269,
-						"role_rate": 0.952972,
-						"play": 1844,
-						"win": 952
+						"win_rate": 0.511501,
+						"role_rate": 0.952854,
+						"play": 6043,
+						"win": 3091
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.341463,
-						"role_rate": 0.0423773,
-						"play": 82,
-						"win": 28
+						"win_rate": 0.331839,
+						"role_rate": 0.0351624,
+						"play": 223,
+						"win": 74
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 80,
-			"kda": 3.472213
+			"rank": 89,
+			"kda": 3.475655
 		},
 		{
 			"id": 83,
 			"slot": "yorick",
 			"name": "约里克",
 			"title": "牧魂人",
-			"rateWin": 0.491803,
-			"ratePick": 0.00634653,
+			"rateWin": 0.463394,
+			"ratePick": 0.00885598,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.512,
-						"play": 128,
-						"win": 64
+						"win_rate": 0.455314,
+						"role_rate": 0.703483,
+						"play": 828,
+						"win": 377
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.537313,
-						"role_rate": 0.268,
-						"play": 67,
-						"win": 36
-					}
-				},
-				{
-					"name": "TANK",
-					"stats": {
-						"win_rate": 0.481481,
-						"role_rate": 0.108,
-						"play": 27,
-						"win": 13
+						"win_rate": 0.448485,
+						"role_rate": 0.140187,
+						"play": 165,
+						"win": 74
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.421053,
-						"role_rate": 0.076,
-						"play": 19,
-						"win": 8
+						"win_rate": 0.490196,
+						"role_rate": 0.086661,
+						"play": 102,
+						"win": 50
 					}
 				},
 				{
-					"name": "CONTROLLER",
+					"name": "TANK",
 					"stats": {
-						"win_rate": 0.444444,
-						"role_rate": 0.036,
-						"play": 9,
-						"win": 4
+						"win_rate": 0.522388,
+						"role_rate": 0.0569244,
+						"play": 67,
+						"win": 35
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 99,
-			"kda": 3.172452
+			"rank": 110,
+			"kda": 3.132952
 		},
 		{
 			"id": 2,
 			"slot": "olaf",
 			"name": "奥拉夫",
 			"title": "狂战士",
-			"rateWin": 0.455008,
-			"ratePick": 0.0153201,
+			"rateWin": 0.486639,
+			"ratePick": 0.0148439,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.467043,
-						"role_rate": 0.886477,
-						"play": 531,
-						"win": 248
+						"win_rate": 0.50197,
+						"role_rate": 0.901116,
+						"play": 1777,
+						"win": 892
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.454545,
-						"role_rate": 0.0734558,
-						"play": 44,
-						"win": 20
+						"win_rate": 0.381679,
+						"role_rate": 0.06643,
+						"play": 131,
+						"win": 50
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.0769231,
-						"role_rate": 0.0217028,
-						"play": 13,
-						"win": 1
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.333333,
-						"role_rate": 0.015025,
-						"play": 9,
-						"win": 3
+						"win_rate": 0.25,
+						"role_rate": 0.0162272,
+						"play": 32,
+						"win": 8
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 118,
-			"kda": 2.520947
+			"rank": 104,
+			"kda": 2.609021
 		},
 		{
 			"id": 85,
 			"slot": "kennen",
 			"name": "凯南",
 			"title": "狂暴之心",
-			"rateWin": 0.486223,
-			"ratePick": 0.0453101,
+			"rateWin": 0.462628,
+			"ratePick": 0.0501076,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.487579,
-						"role_rate": 0.973019,
-						"play": 1731,
-						"win": 844
+						"win_rate": 0.469754,
+						"role_rate": 0.963497,
+						"play": 6414,
+						"win": 3013
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.486486,
-						"role_rate": 0.0207982,
-						"play": 37,
-						"win": 18
+						"win_rate": 0.286486,
+						"role_rate": 0.0277903,
+						"play": 185,
+						"win": 53
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 116,
-			"kda": 2.987425
+			"tier": 5,
+			"rank": 150,
+			"kda": 2.956497
 		},
 		{
 			"id": 76,
 			"slot": "nidalee",
 			"name": "奈德丽",
 			"title": "狂野女猎手",
-			"rateWin": 0.50221,
-			"ratePick": 0.111819,
+			"rateWin": 0.505582,
+			"ratePick": 0.114784,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.505515,
-						"role_rate": 0.985507,
-						"play": 4352,
-						"win": 2200
+						"win_rate": 0.507669,
+						"role_rate": 0.985865,
+						"play": 14996,
+						"win": 7613
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 84,
-			"kda": 4.600478
+			"rank": 68,
+			"kda": 4.60296
 		},
 		{
 			"id": 8,
 			"slot": "vladimir",
 			"name": "弗拉基米尔",
 			"title": "猩红收割者",
-			"rateWin": 0.542712,
-			"ratePick": 0.0715545,
+			"rateWin": 0.540502,
+			"ratePick": 0.0742041,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.549691,
-						"role_rate": 0.973078,
-						"play": 2747,
-						"win": 1510
+						"win_rate": 0.542396,
+						"role_rate": 0.97561,
+						"play": 9600,
+						"win": 5207
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.0191286,
-						"play": 54,
-						"win": 27
+						"win_rate": 0.434483,
+						"role_rate": 0.0147358,
+						"play": 145,
+						"win": 63
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 24,
-			"kda": 3.404986
+			"rank": 21,
+			"kda": 3.404562
 		},
 		{
 			"id": 37,
 			"slot": "sona",
 			"name": "娑娜",
 			"title": "琴瑟仙女",
-			"rateWin": 0.676848,
-			"ratePick": 0.042579,
+			"rateWin": 0.575052,
+			"ratePick": 0.0475141,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.703819,
-						"role_rate": 0.759172,
-						"play": 1283,
-						"win": 903
+						"win_rate": 0.5976,
+						"role_rate": 0.74339,
+						"play": 4667,
+						"win": 2789
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.591584,
-						"role_rate": 0.239053,
-						"play": 404,
-						"win": 239
+						"win_rate": 0.52,
+						"role_rate": 0.246894,
+						"play": 1550,
+						"win": 806
 					}
 				}
 			],
-			"tier": 1,
-			"rank": 2,
-			"kda": 5.879683
+			"tier": 2,
+			"rank": 16,
+			"kda": 5.248683
 		},
 		{
 			"id": 44,
 			"slot": "taric",
 			"name": "塔里克",
 			"title": "瓦洛兰之盾",
-			"rateWin": 0.52251,
-			"ratePick": 0.0190656,
+			"rateWin": 0.512709,
+			"ratePick": 0.0228074,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.523944,
-						"role_rate": 0.944149,
-						"play": 710,
-						"win": 372
+						"win_rate": 0.514215,
+						"role_rate": 0.933333,
+						"play": 2814,
+						"win": 1447
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.461538,
-						"role_rate": 0.0518617,
-						"play": 39,
-						"win": 18
+						"win_rate": 0.518987,
+						"role_rate": 0.0524046,
+						"play": 158,
+						"win": 82
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 78,
-			"kda": 4.003881
+			"rank": 83,
+			"kda": 4.077872
 		},
 		{
 			"id": 154,
 			"slot": "zac",
 			"name": "扎克",
 			"title": "生化魔人",
-			"rateWin": 0.478349,
-			"ratePick": 0.0642716,
+			"rateWin": 0.517934,
+			"ratePick": 0.0444477,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.49216,
-						"role_rate": 0.906435,
-						"play": 2296,
-						"win": 1130
+						"win_rate": 0.533484,
+						"role_rate": 0.90117,
+						"play": 5316,
+						"win": 2836
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.358491,
-						"role_rate": 0.0836952,
-						"play": 212,
-						"win": 76
+						"win_rate": 0.371058,
+						"role_rate": 0.0913714,
+						"play": 539,
+						"win": 200
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 132,
-			"kda": 3.037662
+			"tier": 3,
+			"rank": 60,
+			"kda": 3.232992
 		},
 		{
 			"id": 157,
 			"slot": "yasuo",
 			"name": "亚索",
 			"title": "疾风剑豪",
-			"rateWin": 0.473247,
-			"ratePick": 0.10014,
+			"rateWin": 0.475018,
+			"ratePick": 0.0975531,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.472655,
-						"role_rate": 0.833036,
-						"play": 3273,
-						"win": 1547
+						"win_rate": 0.477979,
+						"role_rate": 0.799613,
+						"play": 10331,
+						"win": 4938
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.478723,
-						"role_rate": 0.119623,
-						"play": 470,
-						"win": 225
+						"win_rate": 0.475013,
+						"role_rate": 0.150232,
+						"play": 1941,
+						"win": 922
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.571429,
-						"role_rate": 0.0338509,
-						"play": 133,
-						"win": 76
+						"win_rate": 0.481735,
+						"role_rate": 0.0339009,
+						"play": 438,
+						"win": 211
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.295455,
-						"role_rate": 0.0111988,
-						"play": 44,
-						"win": 13
+						"win_rate": 0.300613,
+						"role_rate": 0.0126161,
+						"play": 163,
+						"win": 49
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 155,
-			"kda": 2.364016
+			"tier": 5,
+			"rank": 157,
+			"kda": 2.384396
 		},
 		{
 			"id": 28,
 			"slot": "evelynn",
 			"name": "伊芙琳",
 			"title": "痛苦之拥",
-			"rateWin": 0.511673,
-			"ratePick": 0.0133693,
+			"rateWin": 0.503118,
+			"ratePick": 0.0159041,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.510638,
-						"role_rate": 0.981025,
-						"play": 517,
-						"win": 264
+						"win_rate": 0.501197,
+						"role_rate": 0.990047,
+						"play": 2089,
+						"win": 1047
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 89,
-			"kda": 3.508712
+			"rank": 94,
+			"kda": 3.410683
 		},
 		{
 			"id": 29,
 			"slot": "twitch",
 			"name": "图奇",
 			"title": "瘟疫之源",
-			"rateWin": 0.52853,
-			"ratePick": 0.107579,
+			"rateWin": 0.526216,
+			"ratePick": 0.100963,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.533647,
-						"role_rate": 0.950165,
-						"play": 4042,
-						"win": 2157
+						"win_rate": 0.531455,
+						"role_rate": 0.936663,
+						"play": 12526,
+						"win": 6657
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.483871,
-						"role_rate": 0.0364363,
-						"play": 155,
-						"win": 75
+						"win_rate": 0.469789,
+						"role_rate": 0.0495027,
+						"play": 662,
+						"win": 311
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 23,
-			"kda": 3.312983
+			"rank": 30,
+			"kda": 3.358809
 		},
 		{
 			"id": 131,
 			"slot": "diana",
 			"name": "黛安娜",
 			"title": "皎月女神",
-			"rateWin": 0.483412,
-			"ratePick": 0.0493937,
+			"rateWin": 0.482855,
+			"ratePick": 0.0462708,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.481829,
-						"role_rate": 0.870408,
-						"play": 1706,
-						"win": 822
+						"win_rate": 0.479541,
+						"role_rate": 0.853738,
+						"play": 5230,
+						"win": 2508
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.508264,
-						"role_rate": 0.123469,
-						"play": 242,
-						"win": 123
+						"win_rate": 0.508876,
+						"role_rate": 0.137937,
+						"play": 845,
+						"win": 430
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 122,
-			"kda": 2.811158
+			"tier": 4,
+			"rank": 130,
+			"kda": 2.820161
 		},
 		{
 			"id": 51,
 			"slot": "caitlyn",
 			"name": "凯特琳",
 			"title": "皮城女警",
-			"rateWin": 0.519071,
-			"ratePick": 0.125474,
+			"rateWin": 0.520738,
+			"ratePick": 0.12451,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.526124,
-						"role_rate": 0.888934,
-						"play": 4402,
-						"win": 2316
+						"win_rate": 0.525544,
+						"role_rate": 0.884862,
+						"play": 14602,
+						"win": 7674
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.476809,
-						"role_rate": 0.108845,
-						"play": 539,
-						"win": 257
+						"win_rate": 0.488245,
+						"role_rate": 0.110835,
+						"play": 1829,
+						"win": 893
 					}
 				}
 			],
 			"tier": 2,
 			"rank": 31,
-			"kda": 3.430812
+			"kda": 3.425366
 		},
 		{
 			"id": 254,
 			"slot": "vi",
 			"name": "蔚",
 			"title": "皮城执法官",
-			"rateWin": 0.500494,
-			"ratePick": 0.0263485,
+			"rateWin": 0.481868,
+			"ratePick": 0.0292377,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.487965,
-						"role_rate": 0.441546,
-						"play": 457,
-						"win": 223
+						"win_rate": 0.470528,
+						"role_rate": 0.507478,
+						"play": 1968,
+						"win": 926
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.502732,
-						"role_rate": 0.353623,
-						"play": 366,
-						"win": 184
+						"win_rate": 0.494068,
+						"role_rate": 0.304281,
+						"play": 1180,
+						"win": 583
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.511628,
-						"role_rate": 0.166184,
-						"play": 172,
-						"win": 88
+						"win_rate": 0.507589,
+						"role_rate": 0.152914,
+						"play": 593,
+						"win": 301
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.473684,
-						"role_rate": 0.036715,
-						"play": 38,
-						"win": 18
+						"win_rate": 0.445378,
+						"role_rate": 0.0306859,
+						"play": 119,
+						"win": 53
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 97,
-			"kda": 2.457068
+			"rank": 119,
+			"kda": 2.407416
 		},
 		{
 			"id": 64,
 			"slot": "leesin",
 			"name": "李青",
 			"title": "盲僧",
-			"rateWin": 0.437279,
-			"ratePick": 0.125032,
+			"rateWin": 0.464428,
+			"ratePick": 0.121047,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.451039,
-						"role_rate": 0.67528,
-						"play": 3319,
-						"win": 1497
+						"win_rate": 0.480096,
+						"role_rate": 0.649452,
+						"play": 10425,
+						"win": 5005
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.411924,
-						"role_rate": 0.300305,
-						"play": 1476,
-						"win": 608
+						"win_rate": 0.436609,
+						"role_rate": 0.323324,
+						"play": 5190,
+						"win": 2266
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.42623,
-						"role_rate": 0.012411,
-						"play": 61,
-						"win": 26
+						"win_rate": 0.449495,
+						"role_rate": 0.0123349,
+						"play": 198,
+						"win": 89
 					}
 				}
 			],
 			"tier": 5,
 			"rank": 161,
-			"kda": 3.161132
+			"kda": 3.287441
 		},
 		{
 			"id": 234,
 			"slot": "viego",
 			"name": "佛耶戈",
 			"title": "破败之王",
-			"rateWin": 0.52781,
-			"ratePick": 0.0907242,
+			"rateWin": 0.513289,
+			"ratePick": 0.0892539,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.526248,
-						"role_rate": 0.870923,
-						"play": 3124,
-						"win": 1644
+						"win_rate": 0.51422,
+						"role_rate": 0.879648,
+						"play": 10408,
+						"win": 5352
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.501805,
-						"role_rate": 0.0772233,
-						"play": 277,
-						"win": 139
+						"win_rate": 0.534794,
+						"role_rate": 0.0655849,
+						"play": 776,
+						"win": 415
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.555556,
-						"role_rate": 0.0275997,
-						"play": 99,
-						"win": 55
+						"win_rate": 0.512465,
+						"role_rate": 0.0305105,
+						"play": 361,
+						"win": 185
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.532468,
-						"role_rate": 0.0214664,
-						"play": 77,
-						"win": 41
+						"win_rate": 0.486957,
+						"role_rate": 0.0194388,
+						"play": 230,
+						"win": 112
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 29,
-			"kda": 3.024681
+			"tier": 3,
+			"rank": 51,
+			"kda": 2.993011
 		},
 		{
 			"id": 19,
 			"slot": "warwick",
 			"name": "沃里克",
 			"title": "祖安怒兽",
-			"rateWin": 0.482168,
-			"ratePick": 0.0182333,
+			"rateWin": 0.482453,
+			"ratePick": 0.0189095,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.462617,
-						"role_rate": 0.59116,
-						"play": 428,
-						"win": 198
+						"win_rate": 0.485754,
+						"role_rate": 0.572622,
+						"play": 1439,
+						"win": 699
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.513308,
-						"role_rate": 0.36326,
-						"play": 263,
-						"win": 135
+						"win_rate": 0.496241,
+						"role_rate": 0.370474,
+						"play": 931,
+						"win": 462
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.461538,
-						"role_rate": 0.0359116,
+						"win_rate": 0.356322,
+						"role_rate": 0.03462,
+						"play": 87,
+						"win": 31
+					}
+				},
+				{
+					"name": "SLAYER",
+					"stats": {
+						"win_rate": 0.384615,
+						"role_rate": 0.0103462,
 						"play": 26,
-						"win": 12
+						"win": 10
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 108,
-			"kda": 2.479915
+			"rank": 111,
+			"kda": 2.503334
 		},
 		{
 			"id": 36,
 			"slot": "drmundo",
 			"name": "蒙多医生",
 			"title": "祖安狂人",
-			"rateWin": 0.48976,
-			"ratePick": 0.0292096,
+			"rateWin": 0.496488,
+			"ratePick": 0.0282384,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.489991,
-						"role_rate": 0.987962,
-						"play": 1149,
-						"win": 563
+						"win_rate": 0.499593,
+						"role_rate": 0.982911,
+						"play": 3681,
+						"win": 1839
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 107,
-			"kda": 3.266045
+			"rank": 102,
+			"kda": 3.287462
 		},
 		{
 			"id": 221,
 			"slot": "zeri",
 			"name": "泽丽",
 			"title": "祖安花火",
-			"rateWin": 0.471395,
-			"ratePick": 0.0986573,
+			"rateWin": 0.486248,
+			"ratePick": 0.0848679,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.480764,
-						"role_rate": 0.903217,
-						"play": 3509,
-						"win": 1687
+						"win_rate": 0.496673,
+						"role_rate": 0.895102,
+						"play": 10069,
+						"win": 5001
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.362791,
-						"role_rate": 0.0553411,
-						"play": 215,
-						"win": 78
+						"win_rate": 0.366716,
+						"role_rate": 0.0603609,
+						"play": 679,
+						"win": 249
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.362832,
-						"role_rate": 0.0290862,
-						"play": 113,
-						"win": 41
+						"win_rate": 0.441176,
+						"role_rate": 0.0302249,
+						"play": 340,
+						"win": 150
+					}
+				},
+				{
+					"name": "FIGHTER",
+					"stats": {
+						"win_rate": 0.543103,
+						"role_rate": 0.010312,
+						"play": 116,
+						"win": 63
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 156,
-			"kda": 3.395014
+			"rank": 140,
+			"kda": 3.38197
 		},
 		{
 			"id": 84,
 			"slot": "akali",
 			"name": "阿卡丽",
 			"title": "离群之刺",
-			"rateWin": 0.492634,
-			"ratePick": 0.104172,
+			"rateWin": 0.491838,
+			"ratePick": 0.107477,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.488677,
-						"role_rate": 0.946189,
-						"play": 3886,
-						"win": 1899
+						"win_rate": 0.489165,
+						"role_rate": 0.954227,
+						"play": 13613,
+						"win": 6659
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.571429,
-						"role_rate": 0.0392014,
-						"play": 161,
-						"win": 92
+						"win_rate": 0.609524,
+						"role_rate": 0.0294406,
+						"play": 420,
+						"win": 256
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 120,
-			"kda": 2.950437
+			"tier": 4,
+			"rank": 132,
+			"kda": 2.90586
 		},
 		{
 			"id": 13,
 			"slot": "ryze",
 			"name": "瑞兹",
 			"title": "符文法师",
-			"rateWin": 0.506547,
-			"ratePick": 0.0754821,
+			"rateWin": 0.508424,
+			"ratePick": 0.0719844,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.515978,
-						"role_rate": 0.787056,
-						"play": 2347,
-						"win": 1211
+						"win_rate": 0.506975,
+						"role_rate": 0.78949,
+						"play": 7527,
+						"win": 3816
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.48474,
-						"role_rate": 0.186787,
-						"play": 557,
-						"win": 270
+						"win_rate": 0.509884,
+						"role_rate": 0.180407,
+						"play": 1720,
+						"win": 877
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.507463,
-						"role_rate": 0.0224681,
-						"play": 67,
-						"win": 34
+						"win_rate": 0.545817,
+						"role_rate": 0.0263268,
+						"play": 251,
+						"win": 137
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 73,
-			"kda": 3.502095
+			"rank": 69,
+			"kda": 3.516527
 		},
 		{
 			"id": 427,
 			"slot": "ivern",
 			"name": "艾翁",
 			"title": "翠神",
-			"rateWin": 0.532138,
-			"ratePick": 0.0174009,
+			"rateWin": 0.545086,
+			"ratePick": 0.0169187,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.536545,
-						"role_rate": 0.880117,
-						"play": 602,
-						"win": 323
+						"win_rate": 0.562814,
+						"role_rate": 0.887996,
+						"play": 1990,
+						"win": 1120
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.548387,
-						"role_rate": 0.0906433,
-						"play": 62,
-						"win": 34
+						"win_rate": 0.490566,
+						"role_rate": 0.0709505,
+						"play": 159,
+						"win": 78
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.454545,
-						"role_rate": 0.0160819,
-						"play": 11,
-						"win": 5
+						"win_rate": 0.361702,
+						"role_rate": 0.0209728,
+						"play": 47,
+						"win": 17
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.444444,
-						"role_rate": 0.0131579,
-						"play": 9,
-						"win": 4
+						"win_rate": 0.175,
+						"role_rate": 0.0178492,
+						"play": 40,
+						"win": 7
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 72,
-			"kda": 5.130191
+			"rank": 63,
+			"kda": 5.205274
 		},
 		{
 			"id": 875,
 			"slot": "sett",
 			"name": "瑟提",
 			"title": "腕豪",
-			"rateWin": 0.512456,
-			"ratePick": 0.0657802,
+			"rateWin": 0.549867,
+			"ratePick": 0.0743414,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.508137,
-						"role_rate": 0.732129,
-						"play": 1905,
-						"win": 968
+						"win_rate": 0.544797,
+						"role_rate": 0.729672,
+						"play": 7188,
+						"win": 3916
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.53605,
-						"role_rate": 0.245196,
-						"play": 638,
-						"win": 342
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.464286,
-						"role_rate": 0.010761,
-						"play": 28,
-						"win": 13
+						"win_rate": 0.576969,
+						"role_rate": 0.253883,
+						"play": 2501,
+						"win": 1443
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 62,
-			"kda": 2.778813
+			"tier": 2,
+			"rank": 15,
+			"kda": 2.867401
 		},
 		{
 			"id": 42,
 			"slot": "corki",
 			"name": "库奇",
 			"title": "英勇投弹手",
-			"rateWin": 0.463155,
-			"ratePick": 0.0829471,
+			"rateWin": 0.468032,
+			"ratePick": 0.0770722,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.43932,
-						"role_rate": 0.504438,
-						"play": 1648,
-						"win": 724
+						"win_rate": 0.433837,
+						"role_rate": 0.517309,
+						"play": 5290,
+						"win": 2295
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.506775,
-						"role_rate": 0.451791,
-						"play": 1476,
-						"win": 748
+						"win_rate": 0.512346,
+						"role_rate": 0.443575,
+						"play": 4536,
+						"win": 2324
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.296296,
-						"role_rate": 0.0247934,
-						"play": 81,
-						"win": 24
+						"win_rate": 0.45614,
+						"role_rate": 0.0222961,
+						"play": 228,
+						"win": 104
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.395833,
-						"role_rate": 0.0146924,
-						"play": 48,
-						"win": 19
+						"win_rate": 0.409722,
+						"role_rate": 0.0140818,
+						"play": 144,
+						"win": 59
 					}
 				}
 			],
-			"tier": 4,
+			"tier": 5,
 			"rank": 158,
-			"kda": 3.221762
+			"kda": 3.204098
 		},
 		{
 			"id": 143,
 			"slot": "zyra",
 			"name": "婕拉",
 			"title": "荆棘之兴",
-			"rateWin": 0.510479,
-			"ratePick": 0.0347499,
+			"rateWin": 0.504309,
+			"ratePick": 0.0345162,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.512427,
-						"role_rate": 0.994909,
-						"play": 1368,
-						"win": 701
+						"win_rate": 0.505831,
+						"role_rate": 0.992358,
+						"play": 4545,
+						"win": 2299
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 79,
-			"kda": 3.636823
+			"rank": 88,
+			"kda": 3.63986
 		},
 		{
 			"id": 58,
 			"slot": "renekton",
 			"name": "雷克顿",
 			"title": "荒漠屠夫",
-			"rateWin": 0.497407,
-			"ratePick": 0.050148,
+			"rateWin": 0.497345,
+			"ratePick": 0.048849,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.514118,
-						"role_rate": 0.857719,
-						"play": 1700,
-						"win": 874
+						"win_rate": 0.511534,
+						"role_rate": 0.841992,
+						"play": 5462,
+						"win": 2794
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.388889,
-						"role_rate": 0.0908174,
-						"play": 180,
-						"win": 70
+						"win_rate": 0.433239,
+						"role_rate": 0.108525,
+						"play": 704,
+						"win": 305
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.43956,
-						"role_rate": 0.0459132,
-						"play": 91,
-						"win": 40
+						"win_rate": 0.443262,
+						"role_rate": 0.0434716,
+						"play": 282,
+						"win": 125
 					}
 				}
 			],
 			"tier": 3,
 			"rank": 103,
-			"kda": 2.723265
+			"kda": 2.726109
 		},
 		{
 			"id": 119,
 			"slot": "draven",
 			"name": "德莱文",
 			"title": "荣耀行刑官",
-			"rateWin": 0.478511,
-			"ratePick": 0.067783,
+			"rateWin": 0.496174,
+			"ratePick": 0.0697799,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.478509,
-						"role_rate": 0.72268,
-						"play": 1931,
-						"win": 924
+						"win_rate": 0.500726,
+						"role_rate": 0.745965,
+						"play": 6886,
+						"win": 3448
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.478796,
-						"role_rate": 0.273578,
-						"play": 731,
-						"win": 350
+						"win_rate": 0.489751,
+						"role_rate": 0.248402,
+						"play": 2293,
+						"win": 1123
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 134,
-			"kda": 3.074607
+			"tier": 3,
+			"rank": 109,
+			"kda": 3.122262
 		},
 		{
 			"id": 145,
 			"slot": "kaisa",
 			"name": "卡莎",
 			"title": "虚空之女",
-			"rateWin": 0.50616,
-			"ratePick": 0.128777,
+			"rateWin": 0.490091,
+			"ratePick": 0.130101,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.53207,
-						"role_rate": 0.593023,
-						"play": 3009,
-						"win": 1601
+						"win_rate": 0.510782,
+						"role_rate": 0.610509,
+						"play": 10527,
+						"win": 5377
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.462726,
-						"role_rate": 0.370122,
-						"play": 1878,
-						"win": 869
+						"win_rate": 0.460868,
+						"role_rate": 0.352723,
+						"play": 6082,
+						"win": 2803
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.535294,
-						"role_rate": 0.0335041,
-						"play": 170,
-						"win": 91
+						"win_rate": 0.414035,
+						"role_rate": 0.0330569,
+						"play": 570,
+						"win": 236
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 63,
-			"kda": 3.990329
+			"tier": 4,
+			"rank": 141,
+			"kda": 3.963847
 		},
 		{
 			"id": 161,
 			"slot": "velkoz",
 			"name": "维克兹",
 			"title": "虚空之眼",
-			"rateWin": 0.517892,
-			"ratePick": 0.0537895,
+			"rateWin": 0.525353,
+			"ratePick": 0.0534028,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.520418,
-						"role_rate": 0.993865,
-						"play": 2106,
-						"win": 1096
+						"win_rate": 0.526765,
+						"role_rate": 0.99153,
+						"play": 7024,
+						"win": 3700
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 57,
-			"kda": 3.892133
+			"rank": 47,
+			"kda": 3.92085
 		},
 		{
 			"id": 90,
 			"slot": "malzahar",
 			"name": "玛尔扎哈",
 			"title": "虚空先知",
-			"rateWin": 0.532819,
-			"ratePick": 0.0336834,
+			"rateWin": 0.5231,
+			"ratePick": 0.045569,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.534743,
-						"role_rate": 0.993248,
-						"play": 1324,
-						"win": 708
+						"win_rate": 0.523435,
+						"role_rate": 0.991535,
+						"play": 5974,
+						"win": 3127
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 55,
-			"kda": 3.526125
+			"rank": 54,
+			"kda": 3.469005
 		},
 		{
 			"id": 200,
 			"slot": "belveth",
 			"name": "卑尔维斯",
 			"title": "虚空女皇",
-			"rateWin": 0.547909,
-			"ratePick": 0.0298599,
+			"rateWin": 0.522706,
+			"ratePick": 0.032922,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.546174,
-						"role_rate": 0.641286,
-						"play": 758,
-						"win": 414
+						"win_rate": 0.514453,
+						"role_rate": 0.584475,
+						"play": 2560,
+						"win": 1317
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.560694,
-						"role_rate": 0.292724,
-						"play": 346,
-						"win": 194
+						"win_rate": 0.549867,
+						"role_rate": 0.343379,
+						"play": 1504,
+						"win": 827
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.587302,
-						"role_rate": 0.0532995,
-						"play": 63,
-						"win": 37
+						"win_rate": 0.491667,
+						"role_rate": 0.0547945,
+						"play": 240,
+						"win": 118
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.461538,
-						"role_rate": 0.0109983,
-						"play": 13,
-						"win": 6
+						"win_rate": 0.438596,
+						"role_rate": 0.0130137,
+						"play": 57,
+						"win": 25
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 45,
-			"kda": 2.88849
+			"rank": 64,
+			"kda": 2.775891
 		},
 		{
 			"id": 31,
 			"slot": "chogath",
 			"name": "科加斯",
 			"title": "虚空恐惧",
-			"rateWin": 0.504269,
-			"ratePick": 0.0548299,
+			"rateWin": 0.513763,
+			"ratePick": 0.0554242,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.519759,
-						"role_rate": 0.839631,
-						"play": 1822,
-						"win": 947
+						"win_rate": 0.525277,
+						"role_rate": 0.834399,
+						"play": 6132,
+						"win": 3221
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.409091,
-						"role_rate": 0.121659,
-						"play": 264,
-						"win": 108
+						"win_rate": 0.458286,
+						"role_rate": 0.119064,
+						"play": 875,
+						"win": 401
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.439024,
-						"role_rate": 0.037788,
-						"play": 82,
-						"win": 36
+						"win_rate": 0.459119,
+						"role_rate": 0.0432712,
+						"play": 318,
+						"win": 146
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 85,
-			"kda": 3.54558
+			"rank": 62,
+			"kda": 3.501298
 		},
 		{
 			"id": 121,
 			"slot": "khazix",
 			"name": "卡兹克",
 			"title": "虚空掠夺者",
-			"rateWin": 0.558003,
-			"ratePick": 0.0755601,
+			"rateWin": 0.569495,
+			"ratePick": 0.0856688,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.559063,
-						"role_rate": 0.988259,
-						"play": 2946,
-						"win": 1647
+						"win_rate": 0.569746,
+						"role_rate": 0.986182,
+						"play": 11205,
+						"win": 6384
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 12,
-			"kda": 3.466592
+			"tier": 1,
+			"rank": 5,
+			"kda": 3.452885
 		},
 		{
 			"id": 38,
 			"slot": "kassadin",
 			"name": "卡萨丁",
 			"title": "虚空行者",
-			"rateWin": 0.558537,
-			"ratePick": 0.0533213,
+			"rateWin": 0.546974,
+			"ratePick": 0.0529375,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.553691,
-						"role_rate": 0.851023,
-						"play": 1788,
-						"win": 990
+						"win_rate": 0.54804,
+						"role_rate": 0.84622,
+						"play": 5943,
+						"win": 3257
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.55814,
-						"role_rate": 0.102332,
-						"play": 215,
-						"win": 120
+						"win_rate": 0.533602,
+						"role_rate": 0.105938,
+						"play": 744,
+						"win": 397
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.651163,
-						"role_rate": 0.0409329,
-						"play": 86,
-						"win": 56
+						"win_rate": 0.570922,
+						"role_rate": 0.0401538,
+						"play": 282,
+						"win": 161
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 21,
-			"kda": 3.03589
+			"rank": 32,
+			"kda": 3.047153
 		},
 		{
 			"id": 421,
 			"slot": "reksai",
 			"name": "雷克塞",
 			"title": "虚空遁地兽",
-			"rateWin": 0.48855,
-			"ratePick": 0.0102221,
+			"rateWin": 0.504942,
+			"ratePick": 0.00848984,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.514768,
-						"role_rate": 0.586634,
-						"play": 237,
-						"win": 122
+						"win_rate": 0.532544,
+						"role_rate": 0.603033,
+						"play": 676,
+						"win": 360
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.515789,
-						"role_rate": 0.235149,
-						"play": 95,
-						"win": 49
+						"win_rate": 0.542125,
+						"role_rate": 0.243533,
+						"play": 273,
+						"win": 148
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.302326,
-						"role_rate": 0.106436,
-						"play": 43,
-						"win": 13
+						"win_rate": 0.278261,
+						"role_rate": 0.102587,
+						"play": 115,
+						"win": 32
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.52381,
-						"role_rate": 0.0519802,
-						"play": 21,
-						"win": 11
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.4,
-						"role_rate": 0.0123762,
-						"play": 5,
-						"win": 2
+						"win_rate": 0.564103,
+						"role_rate": 0.0347904,
+						"play": 39,
+						"win": 22
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 102,
-			"kda": 2.989526
+			"rank": 95,
+			"kda": 3.045538
 		},
 		{
 			"id": 23,
 			"slot": "tryndamere",
 			"name": "泰达米尔",
 			"title": "蛮族之王",
-			"rateWin": 0.493019,
-			"ratePick": 0.0298079,
+			"rateWin": 0.473843,
+			"ratePick": 0.0303285,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.474374,
-						"role_rate": 0.714651,
-						"play": 839,
-						"win": 398
+						"win_rate": 0.450018,
+						"role_rate": 0.693416,
+						"play": 2791,
+						"win": 1256
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.533333,
-						"role_rate": 0.114991,
-						"play": 135,
-						"win": 72
+						"win_rate": 0.575368,
+						"role_rate": 0.135155,
+						"play": 544,
+						"win": 313
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.520833,
-						"role_rate": 0.0817717,
-						"play": 96,
-						"win": 50
+						"win_rate": 0.462185,
+						"role_rate": 0.0886957,
+						"play": 357,
+						"win": 165
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.602151,
-						"role_rate": 0.0792164,
-						"play": 93,
-						"win": 56
+						"win_rate": 0.57554,
+						"role_rate": 0.0690683,
+						"play": 278,
+						"win": 160
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 105,
-			"kda": 2.902275
+			"tier": 4,
+			"rank": 131,
+			"kda": 2.886054
 		},
 		{
 			"id": 60,
 			"slot": "elise",
 			"name": "伊莉丝",
 			"title": "蜘蛛女皇",
-			"rateWin": 0.536585,
-			"ratePick": 0.0181292,
+			"rateWin": 0.520623,
+			"ratePick": 0.0196037,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.54298,
-						"role_rate": 0.972145,
-						"play": 698,
-						"win": 379
+						"win_rate": 0.52253,
+						"role_rate": 0.968977,
+						"play": 2530,
+						"win": 1322
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.529412,
-						"role_rate": 0.0236769,
-						"play": 17,
-						"win": 9
+						"win_rate": 0.482143,
+						"role_rate": 0.0214477,
+						"play": 56,
+						"win": 27
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 66,
-			"kda": 3.30515
+			"rank": 76,
+			"kda": 3.314867
 		},
 		{
 			"id": 555,
 			"slot": "pyke",
 			"name": "派克",
 			"title": "血港鬼影",
-			"rateWin": 0.481473,
-			"ratePick": 0.117229,
+			"rateWin": 0.494241,
+			"ratePick": 0.122527,
 			"roles": [
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.481846,
-						"role_rate": 0.986834,
-						"play": 4572,
-						"win": 2203
+						"win_rate": 0.494703,
+						"role_rate": 0.982388,
+						"play": 15953,
+						"win": 7892
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 148,
-			"kda": 3.599107
+			"rank": 128,
+			"kda": 3.600876
 		},
 		{
 			"id": 517,
 			"slot": "sylas",
 			"name": "塞拉斯",
 			"title": "解脱者",
-			"rateWin": 0.478466,
-			"ratePick": 0.110518,
+			"rateWin": 0.498012,
+			"ratePick": 0.11509,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.4789,
-						"role_rate": 0.841852,
-						"play": 3673,
-						"win": 1759
+						"win_rate": 0.494127,
+						"role_rate": 0.846083,
+						"play": 12940,
+						"win": 6394
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.4714,
-						"role_rate": 0.116204,
-						"play": 507,
-						"win": 239
+						"win_rate": 0.504383,
+						"role_rate": 0.111874,
+						"play": 1711,
+						"win": 863
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.554286,
-						"role_rate": 0.04011,
-						"play": 175,
-						"win": 97
+						"win_rate": 0.527629,
+						"role_rate": 0.0366811,
+						"play": 561,
+						"win": 296
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 151,
-			"kda": 2.745192
+			"tier": 3,
+			"rank": 105,
+			"kda": 2.786217
 		},
 		{
 			"id": 7,
 			"slot": "leblanc",
 			"name": "乐芙兰",
 			"title": "诡术妖姬",
-			"rateWin": 0.505612,
-			"ratePick": 0.101961,
+			"rateWin": 0.483402,
+			"ratePick": 0.110757,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.914555,
-						"play": 3682,
-						"win": 1841
+						"win_rate": 0.47742,
+						"role_rate": 0.86263,
+						"play": 12666,
+						"win": 6047
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.578358,
-						"role_rate": 0.0665673,
-						"play": 268,
-						"win": 155
+						"win_rate": 0.526797,
+						"role_rate": 0.11183,
+						"play": 1642,
+						"win": 865
 					}
 				}
 			],
-			"tier": 3,
-			"rank": 71,
-			"kda": 3.730723
+			"tier": 5,
+			"rank": 148,
+			"kda": 3.567466
 		},
 		{
 			"id": 122,
 			"slot": "darius",
 			"name": "德莱厄斯",
 			"title": "诺克萨斯之手",
-			"rateWin": 0.551217,
-			"ratePick": 0.0619567,
+			"rateWin": 0.552668,
+			"ratePick": 0.0654625,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.551397,
-						"role_rate": 0.821648,
-						"play": 2004,
-						"win": 1105
+						"win_rate": 0.560928,
+						"role_rate": 0.823949,
+						"play": 7156,
+						"win": 4014
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.567335,
-						"role_rate": 0.143091,
-						"play": 349,
-						"win": 198
+						"win_rate": 0.524939,
+						"role_rate": 0.140818,
+						"play": 1223,
+						"win": 642
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.490909,
-						"role_rate": 0.0225502,
-						"play": 55,
-						"win": 27
+						"win_rate": 0.489691,
+						"role_rate": 0.0223374,
+						"play": 194,
+						"win": 95
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 20,
-			"kda": 2.923205
+			"rank": 18,
+			"kda": 2.883274
 		},
 		{
 			"id": 50,
 			"slot": "swain",
 			"name": "斯维因",
 			"title": "诺克萨斯统领",
-			"rateWin": 0.526632,
-			"ratePick": 0.0693437,
+			"rateWin": 0.518813,
+			"ratePick": 0.0632504,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.525118,
-						"role_rate": 0.84969,
-						"play": 2329,
-						"win": 1223
+						"win_rate": 0.518821,
+						"role_rate": 0.861263,
+						"play": 7226,
+						"win": 3749
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.521401,
-						"role_rate": 0.0937614,
-						"play": 257,
-						"win": 134
+						"win_rate": 0.524613,
+						"role_rate": 0.0847437,
+						"play": 711,
+						"win": 373
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.506757,
-						"role_rate": 0.0539949,
-						"play": 148,
-						"win": 75
+						"win_rate": 0.533333,
+						"role_rate": 0.0500596,
+						"play": 420,
+						"win": 224
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 38,
-			"kda": 3.54886
+			"tier": 3,
+			"rank": 50,
+			"kda": 3.528583
 		},
 		{
 			"id": 21,
 			"slot": "missfortune",
 			"name": "厄运小姐",
 			"title": "赏金猎人",
-			"rateWin": 0.531616,
-			"ratePick": 0.113119,
+			"rateWin": 0.500453,
+			"ratePick": 0.117973,
 			"roles": [
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.506971,
+						"role_rate": 0.439775,
+						"play": 6886,
+						"win": 3491
+					}
+				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.547186,
-						"role_rate": 0.529346,
-						"play": 2363,
-						"win": 1293
+						"win_rate": 0.476628,
+						"role_rate": 0.333376,
+						"play": 5220,
+						"win": 2488
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.533987,
-						"role_rate": 0.365815,
-						"play": 1633,
-						"win": 872
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.443709,
-						"role_rate": 0.101478,
-						"play": 453,
-						"win": 201
+						"win_rate": 0.525087,
+						"role_rate": 0.221484,
+						"play": 3468,
+						"win": 1821
 					}
 				}
 			],
-			"tier": 2,
-			"rank": 15,
-			"kda": 3.904143
+			"tier": 3,
+			"rank": 93,
+			"kda": 3.528887
 		},
 		{
 			"id": 17,
 			"slot": "teemo",
 			"name": "提莫",
 			"title": "迅捷斥候",
-			"rateWin": 0.519841,
-			"ratePick": 0.0589915,
+			"rateWin": 0.512961,
+			"ratePick": 0.059734,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.521416,
-						"role_rate": 0.978196,
-						"play": 2288,
-						"win": 1193
+						"win_rate": 0.514502,
+						"role_rate": 0.982226,
+						"play": 7792,
+						"win": 4009
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.566667,
-						"role_rate": 0.012826,
-						"play": 30,
-						"win": 17
+						"win_rate": 0.37234,
+						"role_rate": 0.0118492,
+						"play": 94,
+						"win": 35
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 53,
-			"kda": 2.995704
+			"rank": 61,
+			"kda": 3.025535
 		},
 		{
 			"id": 101,
 			"slot": "xerath",
 			"name": "泽拉斯",
 			"title": "远古巫灵",
-			"rateWin": 0.514144,
-			"ratePick": 0.0947038,
+			"rateWin": 0.514766,
+			"ratePick": 0.0916948,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.516734,
-						"role_rate": 0.996797,
-						"play": 3735,
-						"win": 1930
+						"win_rate": 0.515772,
+						"role_rate": 0.996052,
+						"play": 12110,
+						"win": 6246
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 48,
-			"kda": 4.696638
+			"rank": 46,
+			"kda": 4.68261
 		},
 		{
 			"id": 9,
 			"slot": "fiddlesticks",
 			"name": "费德提克",
 			"title": "远古恐惧",
-			"rateWin": 0.513719,
-			"ratePick": 0.0445558,
+			"rateWin": 0.521168,
+			"ratePick": 0.0470259,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.516929,
-						"role_rate": 0.938174,
-						"play": 1654,
-						"win": 855
+						"win_rate": 0.518045,
+						"role_rate": 0.926264,
+						"play": 5791,
+						"win": 3000
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.506173,
-						"role_rate": 0.0459444,
-						"play": 81,
-						"win": 41
+						"win_rate": 0.590214,
+						"role_rate": 0.0523033,
+						"play": 327,
+						"win": 193
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.015882,
-						"play": 28,
-						"win": 14
+						"win_rate": 0.570093,
+						"role_rate": 0.0171145,
+						"play": 107,
+						"win": 61
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 70,
-			"kda": 2.958747
+			"rank": 57,
+			"kda": 2.971411
 		},
 		{
 			"id": 150,
 			"slot": "gnar",
 			"name": "纳尔",
 			"title": "迷失之牙",
-			"rateWin": 0.469863,
-			"ratePick": 0.0379751,
+			"rateWin": 0.476464,
+			"ratePick": 0.0385666,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.456201,
-						"role_rate": 0.775908,
-						"play": 1153,
-						"win": 526
+						"win_rate": 0.475035,
+						"role_rate": 0.845087,
+						"play": 4326,
+						"win": 2055
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.544521,
-						"role_rate": 0.196501,
-						"play": 292,
-						"win": 159
-					}
-				},
-				{
-					"name": "SLAYER",
-					"stats": {
-						"win_rate": 0.578947,
-						"role_rate": 0.012786,
-						"play": 19,
-						"win": 11
-					}
-				},
-				{
-					"name": "MARKSMAN",
-					"stats": {
-						"win_rate": 0.25,
-						"role_rate": 0.0107672,
-						"play": 16,
-						"win": 4
+						"win_rate": 0.500741,
+						"role_rate": 0.131862,
+						"play": 675,
+						"win": 338
 					}
 				}
 			],
 			"tier": 4,
-			"rank": 126,
-			"kda": 3.05955
+			"rank": 133,
+			"kda": 3.072181
 		},
 		{
 			"id": 498,
 			"slot": "xayah",
 			"name": "霞",
 			"title": "逆羽",
-			"rateWin": 0.49376,
-			"ratePick": 0.0958742,
+			"rateWin": 0.511144,
+			"ratePick": 0.0968513,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.477766,
-						"role_rate": 0.719461,
-						"play": 2721,
-						"win": 1300
+						"win_rate": 0.501123,
+						"role_rate": 0.729593,
+						"play": 9349,
+						"win": 4685
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.538682,
-						"role_rate": 0.276838,
-						"play": 1047,
-						"win": 564
+						"win_rate": 0.544096,
+						"role_rate": 0.266349,
+						"play": 3413,
+						"win": 1857
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 114,
-			"kda": 3.571123
+			"rank": 52,
+			"kda": 3.599805
 		},
 		{
 			"id": 45,
 			"slot": "veigar",
 			"name": "维迦",
 			"title": "邪恶小法师",
-			"rateWin": 0.492591,
-			"ratePick": 0.0719707,
+			"rateWin": 0.504122,
+			"ratePick": 0.0712521,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.485751,
-						"role_rate": 0.82957,
-						"play": 2351,
-						"win": 1142
+						"win_rate": 0.494758,
+						"role_rate": 0.827025,
+						"play": 7822,
+						"win": 3870
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.527586,
-						"role_rate": 0.102329,
-						"play": 290,
-						"win": 153
+						"win_rate": 0.544355,
+						"role_rate": 0.104885,
+						"play": 992,
+						"win": 540
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.513369,
-						"role_rate": 0.0659845,
-						"play": 187,
-						"win": 96
+						"win_rate": 0.555735,
+						"role_rate": 0.0654472,
+						"play": 619,
+						"win": 344
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 113,
-			"kda": 3.450513
+			"rank": 82,
+			"kda": 3.469298
 		},
 		{
 			"id": 79,
 			"slot": "gragas",
 			"name": "古拉加斯",
 			"title": "酒桶",
-			"rateWin": 0.5002,
-			"ratePick": 0.0649999,
+			"rateWin": 0.504725,
+			"ratePick": 0.0677967,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.506667,
-						"role_rate": 0.701754,
-						"play": 1800,
-						"win": 912
+						"win_rate": 0.502313,
+						"role_rate": 0.720267,
+						"play": 6486,
+						"win": 3258
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.490231,
-						"role_rate": 0.219493,
-						"play": 563,
-						"win": 276
+						"win_rate": 0.533035,
+						"role_rate": 0.198334,
+						"play": 1786,
+						"win": 952
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.479381,
-						"role_rate": 0.0756335,
-						"play": 194,
-						"win": 93
+						"win_rate": 0.468391,
+						"role_rate": 0.0772904,
+						"play": 696,
+						"win": 326
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 96,
-			"kda": 3.516544
+			"rank": 79,
+			"kda": 3.503084
 		},
 		{
 			"id": 82,
 			"slot": "mordekaiser",
 			"name": "莫德凯撒",
 			"title": "铁铠冥魂",
-			"rateWin": 0.51416,
-			"ratePick": 0.0532692,
+			"rateWin": 0.533379,
+			"ratePick": 0.0559887,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.508675,
-						"role_rate": 0.606119,
-						"play": 1268,
-						"win": 645
+						"win_rate": 0.509374,
+						"role_rate": 0.553131,
+						"play": 4107,
+						"win": 2092
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.52774,
-						"role_rate": 0.35325,
-						"play": 739,
-						"win": 390
+						"win_rate": 0.569519,
+						"role_rate": 0.402963,
+						"play": 2992,
+						"win": 1704
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.544118,
-						"role_rate": 0.0325048,
-						"play": 68,
-						"win": 37
+						"win_rate": 0.541096,
+						"role_rate": 0.0393266,
+						"play": 292,
+						"win": 158
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 64,
-			"kda": 2.995279
+			"rank": 39,
+			"kda": 3.005763
 		},
 		{
 			"id": 136,
 			"slot": "aurelionsol",
 			"name": "奥瑞利安·索尔",
 			"title": "铸星龙王",
-			"rateWin": 0.495385,
-			"ratePick": 0.0169067,
+			"rateWin": 0.518362,
+			"ratePick": 0.0162016,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.498428,
-						"role_rate": 0.956391,
-						"play": 636,
-						"win": 317
+						"win_rate": 0.5195,
+						"role_rate": 0.929368,
+						"play": 2000,
+						"win": 1039
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.416667,
-						"role_rate": 0.0180451,
-						"play": 12,
-						"win": 5
+						"win_rate": 0.554217,
+						"role_rate": 0.0385688,
+						"play": 83,
+						"win": 46
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.363636,
-						"role_rate": 0.0165414,
-						"play": 11,
-						"win": 4
+						"win_rate": 0.5,
+						"role_rate": 0.0232342,
+						"play": 50,
+						"win": 25
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 101,
-			"kda": 2.930128
+			"rank": 81,
+			"kda": 2.976096
 		},
 		{
 			"id": 526,
 			"slot": "rell",
 			"name": "芮尔",
 			"title": "镕铁少女",
-			"rateWin": 0.503861,
-			"ratePick": 0.0134734,
+			"rateWin": 0.500849,
+			"ratePick": 0.0179713,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.505703,
-						"role_rate": 0.988722,
-						"play": 526,
-						"win": 266
+						"win_rate": 0.507284,
+						"role_rate": 0.977387,
+						"play": 2334,
+						"win": 1184
+					}
+				},
+				{
+					"name": "MAGE",
+					"stats": {
+						"win_rate": 0.413793,
+						"role_rate": 0.0121441,
+						"play": 29,
+						"win": 12
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 92,
-			"kda": 3.43852
+			"rank": 98,
+			"kda": 3.378951
 		},
 		{
 			"id": 20,
 			"slot": "nunu",
 			"name": "努努和威朗普",
 			"title": "雪原双子",
-			"rateWin": 0.44113,
-			"ratePick": 0.0497058,
+			"rateWin": 0.453094,
+			"ratePick": 0.0506568,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.437459,
-						"role_rate": 0.788452,
-						"play": 1543,
-						"win": 675
+						"win_rate": 0.442685,
+						"role_rate": 0.781255,
+						"play": 5243,
+						"win": 2321
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.478006,
-						"role_rate": 0.174246,
-						"play": 341,
-						"win": 163
+						"win_rate": 0.504125,
+						"role_rate": 0.180599,
+						"play": 1212,
+						"win": 611
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.412698,
-						"role_rate": 0.0321921,
-						"play": 63,
-						"win": 26
+						"win_rate": 0.480349,
+						"role_rate": 0.0341231,
+						"play": 229,
+						"win": 110
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 157,
-			"kda": 3.155101
+			"tier": 5,
+			"rank": 156,
+			"kda": 3.13398
 		},
 		{
 			"id": 164,
 			"slot": "camille",
 			"name": "卡蜜尔",
 			"title": "青钢影",
-			"rateWin": 0.53758,
-			"ratePick": 0.0408363,
+			"rateWin": 0.515511,
+			"ratePick": 0.0430289,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.543338,
-						"role_rate": 0.95197,
-						"play": 1546,
-						"win": 840
+						"win_rate": 0.520378,
+						"role_rate": 0.963028,
+						"play": 5496,
+						"win": 2860
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.0221675,
-						"play": 36,
-						"win": 18
+						"win_rate": 0.465347,
+						"role_rate": 0.0176976,
+						"play": 101,
+						"win": 47
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.454545,
-						"role_rate": 0.0203202,
-						"play": 33,
-						"win": 15
+						"win_rate": 0.411765,
+						"role_rate": 0.014894,
+						"play": 85,
+						"win": 35
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 43,
-			"kda": 2.712236
+			"rank": 67,
+			"kda": 2.733955
 		},
 		{
 			"id": 40,
 			"slot": "janna",
 			"name": "迦娜",
 			"title": "风暴之怒",
-			"rateWin": 0.544404,
-			"ratePick": 0.0494977,
+			"rateWin": 0.54817,
+			"ratePick": 0.0566905,
 			"roles": [
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.565622,
-						"role_rate": 0.605331,
-						"play": 1181,
-						"win": 668
+						"win_rate": 0.573217,
+						"role_rate": 0.595051,
+						"play": 4473,
+						"win": 2564
 					}
 				},
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.52439,
-						"role_rate": 0.378268,
-						"play": 738,
-						"win": 387
+						"win_rate": 0.52147,
+						"role_rate": 0.387256,
+						"play": 2911,
+						"win": 1518
 					}
 				}
 			],
 			"tier": 2,
-			"rank": 33,
-			"kda": 5.711592
+			"rank": 26,
+			"kda": 5.650985
 		},
 		{
 			"id": 412,
 			"slot": "thresh",
 			"name": "锤石",
 			"title": "魂锁典狱长",
-			"rateWin": 0.518764,
-			"ratePick": 0.0706962,
+			"rateWin": 0.521991,
+			"ratePick": 0.0789105,
 			"roles": [
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.53719,
-						"role_rate": 0.911733,
-						"play": 2541,
-						"win": 1365
+						"win_rate": 0.537965,
+						"role_rate": 0.904188,
+						"play": 9456,
+						"win": 5087
 					}
 				},
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.322034,
-						"role_rate": 0.0635092,
-						"play": 177,
-						"win": 57
+						"win_rate": 0.34322,
+						"role_rate": 0.0676994,
+						"play": 708,
+						"win": 243
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.448276,
-						"role_rate": 0.0104055,
-						"play": 29,
-						"win": 13
+						"win_rate": 0.493056,
+						"role_rate": 0.0137694,
+						"play": 144,
+						"win": 71
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 50,
-			"kda": 4.218737
+			"rank": 42,
+			"kda": 4.197122
 		},
 		{
 			"id": 350,
 			"slot": "yuumi",
 			"name": "悠米",
 			"title": "魔法猫咪",
-			"rateWin": 0.471621,
-			"ratePick": 0.0636994,
+			"rateWin": 0.493621,
+			"ratePick": 0.0663702,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.463659,
-						"role_rate": 0.795455,
-						"play": 1995,
-						"win": 925
+						"win_rate": 0.496941,
+						"role_rate": 0.855193,
+						"play": 7518,
+						"win": 3736
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.507071,
-						"role_rate": 0.197368,
-						"play": 495,
-						"win": 251
+						"win_rate": 0.480165,
+						"role_rate": 0.137641,
+						"play": 1210,
+						"win": 581
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 141,
-			"kda": 7.40355
+			"tier": 3,
+			"rank": 113,
+			"kda": 7.570788
 		},
 		{
 			"id": 69,
 			"slot": "cassiopeia",
 			"name": "卡西奥佩娅",
 			"title": "魔蛇之拥",
-			"rateWin": 0.507788,
-			"ratePick": 0.0417466,
+			"rateWin": 0.520439,
+			"ratePick": 0.0459046,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.505025,
-						"role_rate": 0.97014,
-						"play": 1592,
-						"win": 804
+						"win_rate": 0.521455,
+						"role_rate": 0.977232,
+						"play": 5966,
+						"win": 3111
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.5,
-						"role_rate": 0.0280317,
-						"play": 46,
-						"win": 23
+						"win_rate": 0.526786,
+						"role_rate": 0.0183456,
+						"play": 112,
+						"win": 59
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 81,
-			"kda": 3.226945
+			"rank": 58,
+			"kda": 3.287081
 		},
 		{
 			"id": 18,
 			"slot": "tristana",
 			"name": "崔丝塔娜",
 			"title": "麦林炮手",
-			"rateWin": 0.471283,
-			"ratePick": 0.0638555,
+			"rateWin": 0.470535,
+			"ratePick": 0.0667898,
 			"roles": [
 				{
 					"name": "MARKSMAN",
 					"stats": {
-						"win_rate": 0.4722,
-						"role_rate": 0.98375,
-						"play": 2482,
-						"win": 1172
+						"win_rate": 0.472892,
+						"role_rate": 0.983284,
+						"play": 8706,
+						"win": 4117
 					}
 				}
 			],
-			"tier": 4,
-			"rank": 142,
-			"kda": 2.823205
+			"tier": 5,
+			"rank": 154,
+			"kda": 2.81783
 		},
 		{
 			"id": 1,
 			"slot": "annie",
 			"name": "安妮",
 			"title": "黑暗之女",
-			"rateWin": 0.503868,
-			"ratePick": 0.0268947,
+			"rateWin": 0.509439,
+			"ratePick": 0.0290928,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.506849,
-						"role_rate": 0.965061,
-						"play": 1022,
-						"win": 518
+						"win_rate": 0.514754,
+						"role_rate": 0.949663,
+						"play": 3660,
+						"win": 1884
 					}
 				},
 				{
 					"name": "CONTROLLER",
 					"stats": {
-						"win_rate": 0.444444,
-						"role_rate": 0.0169972,
-						"play": 18,
-						"win": 8
+						"win_rate": 0.468354,
+						"role_rate": 0.0204982,
+						"play": 79,
+						"win": 37
+					}
+				},
+				{
+					"name": "MARKSMAN",
+					"stats": {
+						"win_rate": 0.326923,
+						"role_rate": 0.0134925,
+						"play": 52,
+						"win": 17
+					}
+				},
+				{
+					"name": "TANK",
+					"stats": {
+						"win_rate": 0.543478,
+						"role_rate": 0.0119357,
+						"play": 46,
+						"win": 25
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 91,
-			"kda": 3.238409
+			"rank": 84,
+			"kda": 3.232264
 		},
 		{
 			"id": 62,
 			"slot": "monkeyking",
 			"name": "孙悟空",
 			"title": "齐天大圣",
-			"rateWin": 0.517188,
-			"ratePick": 0.0506942,
+			"rateWin": 0.498238,
+			"ratePick": 0.0432959,
 			"roles": [
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.526074,
-						"role_rate": 0.87998,
-						"play": 1745,
-						"win": 918
+						"win_rate": 0.504984,
+						"role_rate": 0.874172,
+						"play": 5016,
+						"win": 2533
 					}
 				},
 				{
 					"name": "SLAYER",
 					"stats": {
-						"win_rate": 0.493827,
-						"role_rate": 0.0816944,
-						"play": 162,
-						"win": 80
+						"win_rate": 0.441683,
+						"role_rate": 0.0911467,
+						"play": 523,
+						"win": 231
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.403509,
-						"role_rate": 0.0287443,
-						"play": 57,
-						"win": 23
+						"win_rate": 0.525926,
+						"role_rate": 0.0235274,
+						"play": 135,
+						"win": 71
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 60,
-			"kda": 2.952501
+			"rank": 101,
+			"kda": 2.860136
 		},
 		{
 			"id": 102,
 			"slot": "shyvana",
 			"name": "希瓦娜",
 			"title": "龙血武姬",
-			"rateWin": 0.52129,
-			"ratePick": 0.0427611,
+			"rateWin": 0.534962,
+			"ratePick": 0.0387268,
 			"roles": [
 				{
 					"name": "MAGE",
 					"stats": {
-						"win_rate": 0.524618,
-						"role_rate": 0.696629,
-						"play": 1178,
-						"win": 618
+						"win_rate": 0.531029,
+						"role_rate": 0.743285,
+						"play": 3819,
+						"win": 2028
 					}
 				},
 				{
 					"name": "TANK",
 					"stats": {
-						"win_rate": 0.518987,
-						"role_rate": 0.280308,
-						"play": 474,
-						"win": 246
+						"win_rate": 0.549703,
+						"role_rate": 0.229077,
+						"play": 1177,
+						"win": 647
 					}
 				},
 				{
 					"name": "FIGHTER",
 					"stats": {
-						"win_rate": 0.380952,
-						"role_rate": 0.0124187,
-						"play": 21,
-						"win": 8
+						"win_rate": 0.487179,
+						"role_rate": 0.015181,
+						"play": 78,
+						"win": 38
 					}
 				}
 			],
 			"tier": 3,
-			"rank": 58,
-			"kda": 3.324475
+			"rank": 48,
+			"kda": 3.343584
 		}
 	],
 	"spells": [
@@ -6200,7 +6218,7 @@
 		{
 			"id": 2419,
 			"name": "始动的秒表",
-			"description": "<mainText><stats></stats><li>在对局开始14分钟后变为一个<rarityGeneric>秒表</rarityGeneric>。你每次参与击杀后都会使这个时间点提前2分钟。该<rarityGeneric>秒表</rarityGeneric>可在合成进阶装备时贡献250金。<br><br><rules>(【秒表】一般会贡献650金)</rules></mainText><br>"
+			"description": "<mainText><stats></stats><li>在对局开始14分钟后变为一个<rarityGeneric>秒表</rarityGeneric>。你每次参与击杀后都会使这个时间点提前2分钟。该<rarityGeneric>秒表</rarityGeneric>可在合成进阶装备时贡献250金。<br><br><rules>(【秒表】一般会贡献750金)</rules></mainText><br>"
 		},
 		{
 			"id": 2420,
@@ -6270,7 +6288,7 @@
 		{
 			"id": 3026,
 			"name": "守护天使",
-			"description": "<mainText><stats><attention>40</attention>攻击力<br><attention>40</attention>护甲</stats><br><li><passive>挽救恩赐：</passive>你的英雄在受到致命伤害时，会在凝滞4秒后原地复活，恢复<healing>50%基础生命值</healing>和<scaleMana>30%最大法力值</scaleMana>(300秒冷却时间)。</mainText><br>"
+			"description": "<mainText><stats><attention>45</attention>攻击力<br><attention>40</attention>护甲</stats><br><li><passive>挽救恩赐：</passive>你的英雄在受到致命伤害时，会在凝滞4秒后原地复活，恢复<healing>50%基础生命值</healing>和<scaleMana>30%最大法力值</scaleMana>(300秒冷却时间)。</mainText><br>"
 		},
 		{
 			"id": 3031,
@@ -6595,7 +6613,7 @@
 		{
 			"id": 3157,
 			"name": "中娅沙漏",
-			"description": "<mainText><stats><attention>65</attention>法术强度<br><attention>45</attention>护甲<br><attention>10</attention>技能急速</stats><br><br><active>主动 - </active><active>凝滞：</active>在2.5秒里<status>免疫伤害</status>且<status>不可被选取</status>，但在此期间里无法采取任何其它行动。</mainText><br>"
+			"description": "<mainText><stats><attention>80</attention>法术强度<br><attention>45</attention>护甲<br><attention>15</attention>技能急速</stats><br><br><active>主动 - </active><active>凝滞：</active>在2.5秒里<status>免疫伤害</status>且<status>不可被选取</status>，但在此期间里无法采取任何其它行动。</mainText><br>"
 		},
 		{
 			"id": 3158,
@@ -6635,7 +6653,7 @@
 		{
 			"id": 3191,
 			"name": "探索者的护臂",
-			"description": "<mainText><stats><attention>20</attention>法术强度<br><attention>15</attention>护甲</stats><br><li><passive>女巫之道：</passive>击杀一个单位提供<scaleArmor>0.5护甲</scaleArmor>(最多提供<scaleArmor>15护甲</scaleArmor>)。</mainText><br>"
+			"description": "<mainText><stats><attention>30</attention>法术强度<br><attention>15</attention>护甲</stats><br><li><passive>女巫之道：</passive>击杀一个单位提供<scaleArmor>0.5护甲</scaleArmor>(最多提供<scaleArmor>15护甲</scaleArmor>)。</mainText><br>"
 		},
 		{
 			"id": 3193,
@@ -6960,7 +6978,7 @@
 		{
 			"id": 6662,
 			"name": "霜火护手",
-			"description": "<mainText><stats><attention>450</attention>生命值<br><attention>25</attention>护甲<br><attention>25</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>献祭：</passive>承受或造成伤害会使你开始每秒对附近敌人造成伤害。穿过领域的敌人会被<status>减速</status>。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得生命值和体型．</mainText><br>"
+			"description": "<mainText><stats><attention>450</attention>生命值<br><attention>25</attention>护甲<br><attention>25</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>献祭：</passive>承受或造成伤害会使你开始每秒对附近敌人造成伤害。<br><li><passive>雪缚：</passive>攻击会生成一个冰霜领域并对该领域内的所有敌人造成魔法伤害。穿过该领域的敌人会被<status>减速</status>。<br><br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得生命值和体型．</mainText><br>"
 		},
 		{
 			"id": 6664,
@@ -7060,7 +7078,7 @@
 		{
 			"id": 7005,
 			"name": "霜铸之握",
-			"description": "<mainText><stats><ornnBonus>600</ornnBonus>生命值<br><ornnBonus>40</ornnBonus>护甲<br><ornnBonus>40</ornnBonus>魔法抗性<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>献祭：</passive>承受或造成伤害会使你开始每秒对附近敌人造成伤害。穿过领域的敌人会被<status>减速</status>。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得生命值和体型．</mainText><br>"
+			"description": "<mainText><stats><ornnBonus>600</ornnBonus>生命值<br><ornnBonus>40</ornnBonus>护甲<br><ornnBonus>40</ornnBonus>魔法抗性<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>献祭：</passive>承受或造成伤害会使你开始每秒对附近敌人造成伤害。<br><li><passive>雪缚：</passive>攻击会生成一个冰霜领域并对该领域内的所有敌人造成魔法伤害。穿过该领域的敌人会被<status>减速</status>。<br><br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得生命值和体型．</mainText><br>"
 		},
 		{
 			"id": 7006,
