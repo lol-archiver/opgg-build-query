@@ -1,4 +1,18 @@
 {
 	"version": "0.2.0",
-	"configurations": []
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Update Data",
+			"console": "integratedTerminal",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"cwd": "${workspaceFolder}",
+			"runtimeExecutable": "node.exe",
+			"program": "update-data.js",
+			"args": []
+		}
+	]
 }
