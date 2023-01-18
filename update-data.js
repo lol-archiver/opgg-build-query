@@ -178,7 +178,7 @@ const ensureItem = async items => {
 
 		await fetchFile(item.image_url, file, '装备图片', item.id, item.name);
 
-		G.infoD('更新~[道具]', `更新 ~{${item.name}(${item.id})}`, '✔');
+		G.info('更新~[道具]', `更新 ~{${item.name}(${item.id})}`, '✔');
 	}
 };
 
